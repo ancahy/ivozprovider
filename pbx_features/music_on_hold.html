@@ -108,15 +108,9 @@
 <li class="toctree-l2"><a class="reference internal" href="terminals.html">Terminales</a></li>
 <li class="toctree-l2"><a class="reference internal" href="call_permissions.html">Permisos de llamada</a></li>
 <li class="toctree-l2"><a class="reference internal" href="users.html">Usuarios</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Música en espera</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#a-nivel-global">A nivel global</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#a-nivel-de-marca">A nivel de marca</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#a-nivel-de-empresa">A nivel de empresa</a></li>
-</ul>
-</li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Música en espera</a></li>
 <li class="toctree-l2"><a class="reference internal" href="sounds.html">Locuciones</a></li>
-<li class="toctree-l2"><a class="reference internal" href="timefilters.html">Filtros de horario y de calendario</a></li>
-<li class="toctree-l2"><a class="reference internal" href="external_filters.html">Filtros de entrada</a></li>
+<li class="toctree-l2"><a class="reference internal" href="external_filters.html">Filtros de entrada externo</a></li>
 <li class="toctree-l2"><a class="reference internal" href="external_ddis.html">DDIs externos</a></li>
 <li class="toctree-l2"><a class="reference internal" href="huntgroups.html">Grupos de salto</a></li>
 <li class="toctree-l2"><a class="reference internal" href="ivrs.html">Interactive Voice Response (IVR)</a></li>
@@ -184,16 +178,28 @@
            <div itemprop="articleBody">
             
   <div class="section" id="musica-en-espera">
-<h1>Música en espera<a class="headerlink" href="#musica-en-espera" title="Enlazar permanentemente con este título">¶</a></h1>
-<div class="section" id="a-nivel-global">
-<h2>A nivel global<a class="headerlink" href="#a-nivel-global" title="Enlazar permanentemente con este título">¶</a></h2>
+<span id="musiconhold"></span><h1>Música en espera<a class="headerlink" href="#musica-en-espera" title="Enlazar permanentemente con este título">¶</a></h1>
+<p>La música en espera suena cuando un usuario retiene la llamada y su interlocutor queda a la espera de seguir la conversación.</p>
+<p>IvozProvider permite definir la música que sonará en estos momentos en 2 niveles distintos:</p>
+<ul class="simple">
+<li>A nivel de operador de marca: <strong>Configuración de Marca</strong> &gt; <strong>Músicas en espera genéricas</strong></li>
+<li>A nivel de administrador de empresa: <strong>Configuración de Empresa</strong> &gt; <strong>Música en espera</strong></li>
+</ul>
+<p>Si una empresa define su música en espera, sonará. Si, por el contrario, no define ninguna, sonará la que haya definido el operador de su marca.</p>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p class="last">Se pueden definir más de una música en espera y el sistema elegirá de forma aleatoria la música en espera para cada llamada.</p>
 </div>
-<div class="section" id="a-nivel-de-marca">
-<h2>A nivel de marca<a class="headerlink" href="#a-nivel-de-marca" title="Enlazar permanentemente con este título">¶</a></h2>
+<p class="rubric">Añadir una nueva música en espera</p>
+<img alt="../_images/moh_add.png" src="../_images/moh_add.png" />
+<p>Una vez <em>encodeada</em> el campo <strong>Status</strong> muestra que está <em>ready</em> y se utilizará en las próximas llamadas:</p>
+<img alt="../_images/moh_add2.png" src="../_images/moh_add2.png" />
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last">IvozProvider reconoce archivos de audio en los formatos más comunes y los <em>encodea</em> a los formatos óptimos para la plataforma.</p>
 </div>
-<div class="section" id="a-nivel-de-empresa">
-<h2>A nivel de empresa<a class="headerlink" href="#a-nivel-de-empresa" title="Enlazar permanentemente con este título">¶</a></h2>
-</div>
+<p>Después de <em>encodear</em>, podemos descargar el archivo original y el convertido sin más que editar el ítem:</p>
+<img alt="../_images/moh_add3.png" src="../_images/moh_add3.png" />
 </div>
 
 
