@@ -106,7 +106,6 @@
 <li class="toctree-l1 current"><a class="reference internal" href="index.html">[S] Funcionalidades de PBX</a><ul class="current">
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Extensiones</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#crear-una-nueva-extension">Crear una nueva extensión</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#asociar-comportamiento-a-extension">Asociar comportamiento a extensión</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="terminals.html">Terminales</a></li>
@@ -184,11 +183,29 @@
             
   <div class="section" id="extensiones">
 <h1>Extensiones<a class="headerlink" href="#extensiones" title="Enlazar permanentemente con este título">¶</a></h1>
+<p>La configuración de partida incluía 2 extensiones (101 y 102) que apuntaban directamente a <em>Alice</em> y <em>Bob</em>, por lo que apenas dijimos nada sobre la sección <strong>Configuración de empresa</strong> &gt; <strong>Extensiones</strong>.</p>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p class="last"><strong>Una extensión es</strong>, por definición, <strong>un número interno con una lógica asignada</strong>.</p>
+</div>
 <div class="section" id="crear-una-nueva-extension">
 <h2>Crear una nueva extensión<a class="headerlink" href="#crear-una-nueva-extension" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>La ventana de creación de una nueva extensión es tal que así:</p>
+<img alt="../_images/extension_add.png" src="../_images/extension_add.png" />
+<dl class="glossary docutils">
+<dt id="term-numero">Número</dt>
+<dd>El número que al ser marcado por un usuario interno activará la lógica que sigue. Tiene que tener una longitud mínima de 2 y estar compuesto únicamente por dígitos.</dd>
+<dt id="term-enrutar">Enrutar</dt>
+<dd>Este selector nos permite indicar la lógica que seguirá esta numeración cuando sea marcada por un usuario concreto. Al seleccionar un ítem en cuestión, se nos mostrará un selector adicional para seleccionar el grupo de salto, sala de conferencias, etc.</dd>
+</dl>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p class="last">En el caso de las extensiones que apuntan a usuario, la vinculación con el usuario concreto tendrá que hacerse desde <strong>Configuración de empresa</strong> &gt; <strong>Usuarios</strong>.</p>
 </div>
-<div class="section" id="asociar-comportamiento-a-extension">
-<h2>Asociar comportamiento a extensión<a class="headerlink" href="#asociar-comportamiento-a-extension" title="Enlazar permanentemente con este título">¶</a></h2>
+<div class="admonition warning">
+<p class="first admonition-title">Advertencia</p>
+<p class="last">Si existe una extensión cuyo número conflicte con un número externo, el número externo quedará enmascarado y resultará, en la práctica, inaccesible para toda la empresa.</p>
+</div>
 </div>
 </div>
 
