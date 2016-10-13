@@ -1,6 +1,6 @@
-##################
-[P] Faxing Virtual
-##################
+##############
+Faxing Virtual
+##############
 
 ************************************
 Configuración de un fax de recepción
