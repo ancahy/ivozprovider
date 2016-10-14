@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>[P] Faxing Virtual &mdash; documentación de IvozProvider - Oasis</title>
+  <title>Faxing Virtual &mdash; documentación de IvozProvider - Oasis</title>
   
 
   
@@ -107,11 +107,10 @@
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../billing_and_invoices/index.html">Tarificación y facturación</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../provisioning/index.html">[P] Provisión de terminales</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">[P] Faxing Virtual</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#configuracion-de-un-fax-de-recepcion">Configuración de un fax de recepción</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#visualizacion-de-faxes-entrantes">Visualización de faxes entrantes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#configuracion-de-un-fax-de-emision">Configuración de un fax de emisión</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Faxing Virtual</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#creacion-de-un-fax-virtual">Creación de un fax virtual</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#emitir-un-fax">Emitir un fax</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#visualizacion-de-faxes-entrantes">Visualización de faxes entrantes</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../userportal/index.html">[P] Portal de Usuario</a></li>
@@ -150,7 +149,7 @@
   <ul class="wy-breadcrumbs">
     <li><a href="../index.html">Docs</a> &raquo;</li>
       
-    <li>[P] Faxing Virtual</li>
+    <li>Faxing Virtual</li>
       <li class="wy-breadcrumbs-aside">
         
           
@@ -164,19 +163,53 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="p-faxing-virtual">
-<span id="faxing-system"></span><h1>[P] Faxing Virtual<a class="headerlink" href="#p-faxing-virtual" title="Enlazar permanentemente con este título">¶</a></h1>
-<div class="section" id="configuracion-de-un-fax-de-recepcion">
-<h2>Configuración de un fax de recepción<a class="headerlink" href="#configuracion-de-un-fax-de-recepcion" title="Enlazar permanentemente con este título">¶</a></h2>
+  <div class="section" id="faxing-virtual">
+<span id="faxing-system"></span><h1>Faxing Virtual<a class="headerlink" href="#faxing-virtual" title="Enlazar permanentemente con este título">¶</a></h1>
+<p>La solución de <em>faxing</em> virtual incluida en IvozProvider es muy simple, pero permite:</p>
+<ul class="simple">
+<li>Enviar faxes partiendo de un PDF.</li>
+<li>Recibir faxes vía correo electrónico y visualización web.</li>
+</ul>
+<div class="admonition error">
+<p class="first admonition-title">Error</p>
+<p class="last">IvozProvider utiliza <a class="reference external" href="http://www.voip-info.org/wiki/view/T.38">T.38</a> para la emisión y recepción de faxes. Es responsabilidad de el administrador de marca disponer de Contratos de Peering con operadores que soporten dicho protocolo, así como configurar las rutas de salida para utilizar dicho operador.</p>
 </div>
-<div class="section" id="visualizacion-de-faxes-entrantes">
-<h2>Visualización de faxes entrantes<a class="headerlink" href="#visualizacion-de-faxes-entrantes" title="Enlazar permanentemente con este título">¶</a></h2>
+<div class="section" id="creacion-de-un-fax-virtual">
+<h2>Creación de un fax virtual<a class="headerlink" href="#creacion-de-un-fax-virtual" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Esta es la interfaz que nos encontramos al crear un nuevo fax en la sección <strong>Configuración de empresa</strong> &gt; <strong>Faxes Virtuales</strong>:</p>
+<img alt="../_images/fax_add.png" class="align-center" src="../_images/fax_add.png" />
+<p>Los campos son prácticamente auto-explicativos:</p>
+<dl class="glossary docutils">
+<dt id="term-nombre">Nombre</dt>
+<dd>Nombre por el que se referenciará el fax en otras secciones</dd>
+<dt id="term-email">Email</dt>
+<dd>Email donde se recibirán los mails (en caso de marcar &#8216;Enviar por email&#8217; a &#8216;Sí&#8217;)</dd>
+<dt id="term-ddi-de-salida">DDI de salida</dt>
+<dd>Número que se utilizará como origen en los faxes salientes</dd>
+</dl>
+<p>Para recibir faxes en dicha numeración, será necesario apuntarla a nuestro nuevo fax, editando el DDI en la sección <strong>DDIs</strong>:</p>
+<img alt="../_images/fax_ddi.png" class="align-center" src="../_images/fax_ddi.png" />
+<p>Para enviar faxes por una ruta concreta (que tenemos probada y sabemos que es óptima para la emisión de faxes), se puede definir una ruta exclusiva para faxes:</p>
+<img alt="../_images/fax_routes.png" class="align-center" src="../_images/fax_routes.png" />
+<p>Todos los faxes que envíe esa empresa (para todos los faxes que vaya creando), se enviará por esta ruta.</p>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p class="last">Si se definieran más rutas de faxing, se utilizarían todas siguiendo las lógicas de <em>load-balancing</em> y <em>failover</em> descritas en <a class="reference internal" href="../external_outgoing_calls/call_routing.html#routes-metrics"><span class="std std-ref">secciones anteriores</span></a>.</p>
 </div>
-<div class="section" id="configuracion-de-un-fax-de-emision">
-<h2>Configuración de un fax de emisión<a class="headerlink" href="#configuracion-de-un-fax-de-emision" title="Enlazar permanentemente con este título">¶</a></h2>
+<div class="admonition important">
+<p class="first admonition-title">Importante</p>
+<p class="last">Si una empresa no dispone de rutas de faxing, saldrá siguiendo las lógicas de rutado de las llamadas.</p>
+</div>
 </div>
 <div class="section" id="emitir-un-fax">
 <h2>Emitir un fax<a class="headerlink" href="#emitir-un-fax" title="Enlazar permanentemente con este título">¶</a></h2>
+<img alt="../_images/fax_send2.png" class="align-center" src="../_images/fax_send2.png" />
+<img alt="../_images/fax_send.png" class="align-center" src="../_images/fax_send.png" />
+</div>
+<div class="section" id="visualizacion-de-faxes-entrantes">
+<h2>Visualización de faxes entrantes<a class="headerlink" href="#visualizacion-de-faxes-entrantes" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Los faxes entrantes se pueden recibir vía correo electrónico, pero también pueden ser visualizados y descargados desde el panel web pulsando:</p>
+<img alt="../_images/fax_list.png" src="../_images/fax_list.png" />
 </div>
 </div>
 

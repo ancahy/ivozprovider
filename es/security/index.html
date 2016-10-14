@@ -107,7 +107,7 @@
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../billing_and_invoices/index.html">Tarificación y facturación</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../provisioning/index.html">[P] Provisión de terminales</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../faxing/index.html">[P] Faxing Virtual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../faxing/index.html">Faxing Virtual</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../userportal/index.html">[P] Portal de Usuario</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Seguridad y mantenimiento</span></p>
@@ -171,12 +171,23 @@
 </div>
 <div class="section" id="rangos-de-ip-autorizados-por-empresa">
 <h2>Rangos de IP autorizados por empresa<a class="headerlink" href="#rangos-de-ip-autorizados-por-empresa" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>En el proceso de creación de empresas nos saltamos deliberademente un mecanismo de seguridad que pasamos a describir:</p>
+<img alt="security/img/authorized_ips2.png" class="align-center" src="security/img/authorized_ips2.png" />
+<p>Por medio de este mecanismo especificamos qué direcciones IP o qué redes pueden utilizar las credenciales de los terminales de una empresa concreta. Todo usuario que quiera conectarse desde una red no incluida, no podrá, aunque disponga de unas credenciales válidas.</p>
+<div class="admonition error">
+<p class="first admonition-title">Error</p>
+<p class="last">Una vez activado el filtrado, <strong>es obligatorio</strong> añadir redes o direcciones válidas o, por el contrario, todas las llamadas se rechazarán:</p>
+</div>
+<img alt="security/img/authorized_ips.png" src="security/img/authorized_ips.png" />
+<p>Se pueden añadir direcciones IP y rangos de direcciones, en formato CIDR (IP/mask):</p>
+<img alt="security/img/authorized_ips3.png" src="security/img/authorized_ips3.png" />
 </div>
 <div class="section" id="anti-flooding">
 <h2>Anti-flooding<a class="headerlink" href="#anti-flooding" title="Enlazar permanentemente con este título">¶</a></h2>
 </div>
 <div class="section" id="limite-de-llamadas-concurrentes">
 <h2>Límite de llamadas concurrentes<a class="headerlink" href="#limite-de-llamadas-concurrentes" title="Enlazar permanentemente con este título">¶</a></h2>
+<img alt="security/img/call_limit.png" src="security/img/call_limit.png" />
 </div>
 </div>
 
