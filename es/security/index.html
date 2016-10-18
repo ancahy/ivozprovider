@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>[P] Elementos de seguridad &mdash; documentación de IvozProvider - Oasis</title>
+  <title>[S] Elementos de seguridad &mdash; documentación de IvozProvider - Oasis</title>
   
 
   
@@ -112,7 +112,7 @@
 </ul>
 <p class="caption"><span class="caption-text">Seguridad y mantenimiento</span></p>
 <ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">[P] Elementos de seguridad</a><ul>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">[S] Elementos de seguridad</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#firewall-con-geoip">Firewall con geoIP</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#rangos-de-ip-autorizados-por-empresa">Rangos de IP autorizados por empresa</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#anti-flooding">Anti-flooding</a></li>
@@ -150,7 +150,7 @@
   <ul class="wy-breadcrumbs">
     <li><a href="../index.html">Docs</a> &raquo;</li>
       
-    <li>[P] Elementos de seguridad</li>
+    <li>[S] Elementos de seguridad</li>
       <li class="wy-breadcrumbs-aside">
         
           
@@ -164,30 +164,57 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="p-elementos-de-seguridad">
-<h1>[P] Elementos de seguridad<a class="headerlink" href="#p-elementos-de-seguridad" title="Enlazar permanentemente con este título">¶</a></h1>
+  <div class="section" id="s-elementos-de-seguridad">
+<h1>[S] Elementos de seguridad<a class="headerlink" href="#s-elementos-de-seguridad" title="Enlazar permanentemente con este título">¶</a></h1>
 <div class="section" id="firewall-con-geoip">
 <h2>Firewall con geoIP<a class="headerlink" href="#firewall-con-geoip" title="Enlazar permanentemente con este título">¶</a></h2>
 </div>
 <div class="section" id="rangos-de-ip-autorizados-por-empresa">
 <h2>Rangos de IP autorizados por empresa<a class="headerlink" href="#rangos-de-ip-autorizados-por-empresa" title="Enlazar permanentemente con este título">¶</a></h2>
-<p>En el proceso de creación de empresas nos saltamos deliberademente un mecanismo de seguridad que pasamos a describir:</p>
-<img alt="security/img/authorized_ips2.png" class="align-center" src="security/img/authorized_ips2.png" />
-<p>Por medio de este mecanismo especificamos qué direcciones IP o qué redes pueden utilizar las credenciales de los terminales de una empresa concreta. Todo usuario que quiera conectarse desde una red no incluida, no podrá, aunque disponga de unas credenciales válidas.</p>
+<p>En el proceso de creación de empresas nos saltamos deliberademente un mecanismo de seguridad que <strong>limita las direcciones IP o rangos de red que pueden utilizar las credenciales de los terminales de una empresa concreta</strong>.</p>
+<p>Se puede activar en la sección <strong>Configuración de Marca</strong> &gt; <strong>Empresas</strong>:</p>
+<img alt="../_images/authorized_ips2.png" class="align-center" src="../_images/authorized_ips2.png" />
+<p>Todo usuario que quiera conectarse desde una red no incluida no podrá, a pesar de disponer de unas credenciales válidas.</p>
 <div class="admonition error">
 <p class="first admonition-title">Error</p>
 <p class="last">Una vez activado el filtrado, <strong>es obligatorio</strong> añadir redes o direcciones válidas o, por el contrario, todas las llamadas se rechazarán:</p>
 </div>
-<img alt="security/img/authorized_ips.png" src="security/img/authorized_ips.png" />
+<img alt="../_images/authorized_ips.png" src="../_images/authorized_ips.png" />
 <p>Se pueden añadir direcciones IP y rangos de direcciones, en formato CIDR (IP/mask):</p>
-<img alt="security/img/authorized_ips3.png" src="security/img/authorized_ips3.png" />
+<img alt="../_images/authorized_ips3.png" src="../_images/authorized_ips3.png" />
+<div class="admonition important">
+<p class="first admonition-title">Importante</p>
+<p class="last">Este mecanismo limita los orígenes de los usuarios de una empresa, no filtra en absoluto los orígenes de los <strong>Contratos de Peering</strong>.</p>
+</div>
 </div>
 <div class="section" id="anti-flooding">
 <h2>Anti-flooding<a class="headerlink" href="#anti-flooding" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>IvozProvider incorpora un mecanismo de <em>anti-flooding</em> que evita que un emisor sature nuestra plataforma enviando peticiones. Ambos <em>proxies</em> (usuarios y salida) incorporan este mecanismo, que <strong>limita el número de peticiones desde un dirección origen en un tramo concreto de tiempo</strong>.</p>
+<div class="admonition warning">
+<p class="first admonition-title">Advertencia</p>
+<p class="last">Cuando un origen llega al límite, el proxy dejará de contestarle durante un tiempo dado. Pasado ese tiempo, volverá a contestarle con normalidad.</p>
+</div>
+<p>Ciertos orígenes que están automáticamente excluidos de este mecanismo de <em>anti-flooding</em>:</p>
+<ul class="simple">
+<li>Servidores de aplicación de la plataforma.</li>
+<li>IPs o rangos autorizados de empresas (ver sección anterior).</li>
+</ul>
+<p>El operador global puede añadir otras direcciones que queden excluidas de este mecanismo por medio del apartado <strong>Configuración global</strong> &gt; <strong>IPs de confianza</strong>:</p>
+<img alt="../_images/trusted_ips.png" src="../_images/trusted_ips.png" />
 </div>
 <div class="section" id="limite-de-llamadas-concurrentes">
 <h2>Límite de llamadas concurrentes<a class="headerlink" href="#limite-de-llamadas-concurrentes" title="Enlazar permanentemente con este título">¶</a></h2>
-<img alt="security/img/call_limit.png" src="security/img/call_limit.png" />
+<p>Otro mecanismo de seguridad que puede evitar que unas credenciales comprometidas sean utilizadas para establecer cientos de llamadas en poco tiempo, es el mecanismo que <strong>limita el número de llamadas externas</strong> de cada empresa.</p>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p class="last">Este mecanismo tiene en cuenta los canales externos concurrentes, es decir, cuenta llamadas externas entrantes y llamadas externas salientes.</p>
+</div>
+<p>Se puede configurar editando una empresa y fijando el valor del siguiente campo:</p>
+<img alt="../_images/call_limit.png" class="align-center" src="../_images/call_limit.png" />
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last">Para desactivar este mecanismo, basta con fijar el valor a 0.</p>
+</div>
 </div>
 </div>
 

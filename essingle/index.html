@@ -103,7 +103,7 @@
 </ul>
 <p class="caption"><span class="caption-text">Seguridad y mantenimiento</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="index.html#document-security/index">[P] Elementos de seguridad</a></li>
+<li class="toctree-l1"><a class="reference internal" href="index.html#document-security/index">[S] Elementos de seguridad</a></li>
 <li class="toctree-l1"><a class="reference internal" href="index.html#document-maintenance/index">[P] Mantenimiento de la solución</a></li>
 </ul>
 
@@ -1320,13 +1320,48 @@
 <div class="section" id="patrones-de-permiso">
 <h4>Patrones de permiso<a class="headerlink" href="#patrones-de-permiso" title="Enlazar permanentemente con este título">¶</a></h4>
 <p>La clasificación de llamadas se realiza en las secciones indicadas a nivel de marca o a nivel de empresa.</p>
-<div class="admonition hint">
-<p class="first admonition-title">Consejo</p>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
 <p class="last">Cuando un operador de marca crea una empresa, todos los <strong>Patrones de permiso genéricos</strong> definidos en ese momento a nivel de <strong>Configuración de Marca</strong> se copian a <strong>Configuración de Empresa</strong> &gt; <strong>Patrones de permisos de llamada</strong>. De esta forma, el operador de marca puede definir los más habituales y evitar este trabajo a los administradores de empresa.</p>
 </div>
 <p>La creación de nuevos patrones es muy simple:</p>
 <img alt="_images/permissions_patterns.png" src="_images/permissions_patterns.png" />
 <p>Este nuevo patrón de permisos engloba las llamadas que comiencen por 6 o 7 y sigan con 8 dígitos del 0 al 9. Es decir, engloba todas las numeraciones móviles nacionales.</p>
+<p>Otros patrones de permisos que pueden resultar interesantes son:</p>
+<ul>
+<li><dl class="first docutils">
+<dt>Fijos nacionales (incluyendo numeraciones especiales: 902, etc.): ^[89][0-9]{8}$</dt>
+<dd><ul class="first last simple">
+<li>Un 8 o un 9 seguido de 8 dígitos.</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Fijos nacionales (excluyendo numeraciones especiales: 902, etc.): ^[89][1-9][0-9]{7}$</dt>
+<dd><ul class="first last simple">
+<li>Un 8 o un 9, seguido de 1 dígito del 1 al 9, seguido de 7 dígitos.</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Llamadas internacionales: ^00[0-9]+$</dt>
+<dd><ul class="first last simple">
+<li>00 (código internacional) seguido de 1 o más dígitos.</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Llamadas a Reino Unido: ^0044[0-9]+$</dt>
+<dd><ul class="first last simple">
+<li>00 (código internacional), 44 (código de UK), seguido de 1 o más dígitos.</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
 <p class="rubric">Formato de los números externos</p>
 <p>Las expresiones regulares de los patrones de permiso tienen que utilizar el formato que utilice un usuario del mismo país que la compañía a la hora de llamar.</p>
 <p>Es decir, un usuario (español, porque tal y como veremos los usuarios tienen también un código de país) de una empresa de española llamará a números móviles, por ejemplo, así: 676 676 676.</p>
@@ -1787,41 +1822,39 @@
 <p>A medida que la solución vaya evolucionando y surjan servicios nuevos, aparecerán en este listado para que el operador global sepa de su existencia y lo comunique a sus operadores de marca.</p>
 <div class="admonition attention">
 <p class="first admonition-title">Atención</p>
-<p class="last">Este listado no especifica el código de acceso al servicio, serán los operadores de marca los que especifiquen el código de acceso por defecto a los servicios que quieran hacer disponibles.</p>
+<p class="last">Este listado determina los servicios disponibles y los códigos por defecto de las <strong>nuevas marcas</strong>.</p>
+</div>
+<div class="admonition hint">
+<p class="first admonition-title">Consejo</p>
+<p class="last">Cambiar un código solo afecta a las marcas que se creen tras el cambio.</p>
 </div>
 </div>
 <div class="section" id="definicion-de-servicios-y-codigos-a-nivel-de-marca">
 <h4>Definición de servicios y códigos a nivel de marca<a class="headerlink" href="#definicion-de-servicios-y-codigos-a-nivel-de-marca" title="Enlazar permanentemente con este título">¶</a></h4>
 <p>La sección <strong>Configuración de Marca ** &gt; **Servicios</strong> permite al operador de marca:</p>
 <ul class="simple">
-<li>Dar de alta, de entre los servicios disponibles, los servicios que quiere hacer disponibles a sus empresas.</li>
-<li>Asignar el código de acceso por defecto a dichos servicios.</li>
+<li>Redefinir el código de acceso por defecto a dichos servicios para las empresas que a su vez no lo redefinan.</li>
+<li>Borrar servicios que no quieran que puedan utilizar sus empresas.</li>
 </ul>
-<p>Por defecto este listado aparece vacío y se pueden añadir servicios tal que:</p>
-<img alt="_images/services_brand_add.png" src="_images/services_brand_add.png" />
-<div class="admonition note">
-<p class="first admonition-title">Nota</p>
-<p class="last">Los caracteres permitidos son 0-9, * y #, un máximo de 3.</p>
-</div>
-<p>Imaginemos que añadimos los 3 disponibles:</p>
+<p>Por defecto este listado aparece con todas los servicios y los códigos configurados a nivel Global:</p>
 <img alt="_images/services_brand_list.png" src="_images/services_brand_list.png" />
-<p>Desde ese momento, las empresas podrían acceder a dichos servicios sin más que marcar los códigos elegidos.</p>
+<div class="admonition attention">
+<p class="first admonition-title">Atención</p>
+<p class="last">Este listado determina los servicios disponibles y los códigos por defecto de las <strong>nuevas empresas</strong>.</p>
+</div>
 <div class="admonition hint">
 <p class="first admonition-title">Consejo</p>
-<p class="last">El operador de marca puede elegir no dar acceso a sus empresas al servicio <em>Buzón de voz</em>, por ejemplo. Bastaría con no asignarle código.</p>
+<p class="last">Cambiar un código solo afecta a las empresas que se creen tras el cambio. Borrar un servicio hace que no esté disponible para ninguna empresa de la marca.</p>
 </div>
 </div>
 <div class="section" id="definicion-de-codigos-a-nivel-de-empresa">
 <h4>Definición de códigos a nivel de empresa<a class="headerlink" href="#definicion-de-codigos-a-nivel-de-empresa" title="Enlazar permanentemente con este título">¶</a></h4>
-<p>Puede darse el caso que una empresa concreta esté habituada a otros códigos o, simplemente, prefiera otros.</p>
-<p>Cada empresa puede <em>pisar</em> los valores por defecto asignados por su <em>operador de marca</em> accediendo a <strong>Configuración de Empresa</strong> &gt; <strong>Servicios</strong>:</p>
-<p class="rubric">Ejemplo: empresa que no quiere capturar con *7 sino con *95</p>
-<img alt="_images/services_company_add.png" src="_images/services_company_add.png" />
-<p>Quedando la sección con:</p>
-<img alt="_images/services_company_list.png" src="_images/services_company_list.png" />
-<div class="admonition note">
-<p class="first admonition-title">Nota</p>
-<p class="last">Los servicios que el <em>administrador de empresa</em> no redefina utilizarán el código por defecto asignado por el <em>operador de marca</em>.</p>
+<p>Cada empresa puede <em>pisar</em> los valores por defecto asignados por su <em>operador de marca</em> accediendo a <strong>Configuración de Empresa</strong> &gt; <strong>Servicios</strong> y cambiando el código asignado.</p>
+<p class="rubric">Empresa que quiere capturar con ** en lugar de con *95:</p>
+<img alt="_images/services_company_edit.png" src="_images/services_company_edit.png" />
+<div class="admonition hint">
+<p class="first admonition-title">Consejo</p>
+<p class="last">Los servicios que el <em>administrador de empresa</em> borre no podrán ser utilizados por sus usuarios.</p>
 </div>
 </div>
 </div>
@@ -2266,30 +2299,57 @@
 </div>
 </div>
 <div class="toctree-wrapper compound" id="security">
-<span id="document-security/index"></span><div class="section" id="p-elementos-de-seguridad">
-<h2>[P] Elementos de seguridad<a class="headerlink" href="#p-elementos-de-seguridad" title="Enlazar permanentemente con este título">¶</a></h2>
+<span id="document-security/index"></span><div class="section" id="s-elementos-de-seguridad">
+<h2>[S] Elementos de seguridad<a class="headerlink" href="#s-elementos-de-seguridad" title="Enlazar permanentemente con este título">¶</a></h2>
 <div class="section" id="firewall-con-geoip">
 <h3>Firewall con geoIP<a class="headerlink" href="#firewall-con-geoip" title="Enlazar permanentemente con este título">¶</a></h3>
 </div>
 <div class="section" id="rangos-de-ip-autorizados-por-empresa">
 <h3>Rangos de IP autorizados por empresa<a class="headerlink" href="#rangos-de-ip-autorizados-por-empresa" title="Enlazar permanentemente con este título">¶</a></h3>
-<p>En el proceso de creación de empresas nos saltamos deliberademente un mecanismo de seguridad que pasamos a describir:</p>
-<img alt="security/img/authorized_ips2.png" class="align-center" src="security/img/authorized_ips2.png" />
-<p>Por medio de este mecanismo especificamos qué direcciones IP o qué redes pueden utilizar las credenciales de los terminales de una empresa concreta. Todo usuario que quiera conectarse desde una red no incluida, no podrá, aunque disponga de unas credenciales válidas.</p>
+<p>En el proceso de creación de empresas nos saltamos deliberademente un mecanismo de seguridad que <strong>limita las direcciones IP o rangos de red que pueden utilizar las credenciales de los terminales de una empresa concreta</strong>.</p>
+<p>Se puede activar en la sección <strong>Configuración de Marca</strong> &gt; <strong>Empresas</strong>:</p>
+<img alt="_images/authorized_ips2.png" class="align-center" src="_images/authorized_ips2.png" />
+<p>Todo usuario que quiera conectarse desde una red no incluida no podrá, a pesar de disponer de unas credenciales válidas.</p>
 <div class="admonition error">
 <p class="first admonition-title">Error</p>
 <p class="last">Una vez activado el filtrado, <strong>es obligatorio</strong> añadir redes o direcciones válidas o, por el contrario, todas las llamadas se rechazarán:</p>
 </div>
-<img alt="security/img/authorized_ips.png" src="security/img/authorized_ips.png" />
+<img alt="_images/authorized_ips.png" src="_images/authorized_ips.png" />
 <p>Se pueden añadir direcciones IP y rangos de direcciones, en formato CIDR (IP/mask):</p>
-<img alt="security/img/authorized_ips3.png" src="security/img/authorized_ips3.png" />
+<img alt="_images/authorized_ips3.png" src="_images/authorized_ips3.png" />
+<div class="admonition important">
+<p class="first admonition-title">Importante</p>
+<p class="last">Este mecanismo limita los orígenes de los usuarios de una empresa, no filtra en absoluto los orígenes de los <strong>Contratos de Peering</strong>.</p>
+</div>
 </div>
 <div class="section" id="anti-flooding">
 <h3>Anti-flooding<a class="headerlink" href="#anti-flooding" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>IvozProvider incorpora un mecanismo de <em>anti-flooding</em> que evita que un emisor sature nuestra plataforma enviando peticiones. Ambos <em>proxies</em> (usuarios y salida) incorporan este mecanismo, que <strong>limita el número de peticiones desde un dirección origen en un tramo concreto de tiempo</strong>.</p>
+<div class="admonition warning">
+<p class="first admonition-title">Advertencia</p>
+<p class="last">Cuando un origen llega al límite, el proxy dejará de contestarle durante un tiempo dado. Pasado ese tiempo, volverá a contestarle con normalidad.</p>
+</div>
+<p>Ciertos orígenes que están automáticamente excluidos de este mecanismo de <em>anti-flooding</em>:</p>
+<ul class="simple">
+<li>Servidores de aplicación de la plataforma.</li>
+<li>IPs o rangos autorizados de empresas (ver sección anterior).</li>
+</ul>
+<p>El operador global puede añadir otras direcciones que queden excluidas de este mecanismo por medio del apartado <strong>Configuración global</strong> &gt; <strong>IPs de confianza</strong>:</p>
+<img alt="_images/trusted_ips.png" src="_images/trusted_ips.png" />
 </div>
 <div class="section" id="limite-de-llamadas-concurrentes">
 <h3>Límite de llamadas concurrentes<a class="headerlink" href="#limite-de-llamadas-concurrentes" title="Enlazar permanentemente con este título">¶</a></h3>
-<img alt="security/img/call_limit.png" src="security/img/call_limit.png" />
+<p>Otro mecanismo de seguridad que puede evitar que unas credenciales comprometidas sean utilizadas para establecer cientos de llamadas en poco tiempo, es el mecanismo que <strong>limita el número de llamadas externas</strong> de cada empresa.</p>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p class="last">Este mecanismo tiene en cuenta los canales externos concurrentes, es decir, cuenta llamadas externas entrantes y llamadas externas salientes.</p>
+</div>
+<p>Se puede configurar editando una empresa y fijando el valor del siguiente campo:</p>
+<img alt="_images/call_limit.png" class="align-center" src="_images/call_limit.png" />
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last">Para desactivar este mecanismo, basta con fijar el valor a 0.</p>
+</div>
 </div>
 </div>
 <span id="document-maintenance/index"></span><div class="section" id="p-mantenimiento-de-la-solucion">

@@ -133,7 +133,7 @@
 </ul>
 <p class="caption"><span class="caption-text">Seguridad y mantenimiento</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../security/index.html">[P] Elementos de seguridad</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../security/index.html">[S] Elementos de seguridad</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../maintenance/index.html">[P] Mantenimiento de la solución</a></li>
 </ul>
 
@@ -204,13 +204,48 @@
 <div class="section" id="patrones-de-permiso">
 <h2>Patrones de permiso<a class="headerlink" href="#patrones-de-permiso" title="Permalink to this headline">¶</a></h2>
 <p>La clasificación de llamadas se realiza en las secciones indicadas a nivel de marca o a nivel de empresa.</p>
-<div class="admonition hint">
-<p class="first admonition-title">Hint</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
 <p class="last">Cuando un operador de marca crea una empresa, todos los <strong>Patrones de permiso genéricos</strong> definidos en ese momento a nivel de <strong>Configuración de Marca</strong> se copian a <strong>Configuración de Empresa</strong> &gt; <strong>Patrones de permisos de llamada</strong>. De esta forma, el operador de marca puede definir los más habituales y evitar este trabajo a los administradores de empresa.</p>
 </div>
 <p>La creación de nuevos patrones es muy simple:</p>
 <img alt="../_images/permissions_patterns.png" src="../_images/permissions_patterns.png" />
 <p>Este nuevo patrón de permisos engloba las llamadas que comiencen por 6 o 7 y sigan con 8 dígitos del 0 al 9. Es decir, engloba todas las numeraciones móviles nacionales.</p>
+<p>Otros patrones de permisos que pueden resultar interesantes son:</p>
+<ul>
+<li><dl class="first docutils">
+<dt>Fijos nacionales (incluyendo numeraciones especiales: 902, etc.): ^[89][0-9]{8}$</dt>
+<dd><ul class="first last simple">
+<li>Un 8 o un 9 seguido de 8 dígitos.</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Fijos nacionales (excluyendo numeraciones especiales: 902, etc.): ^[89][1-9][0-9]{7}$</dt>
+<dd><ul class="first last simple">
+<li>Un 8 o un 9, seguido de 1 dígito del 1 al 9, seguido de 7 dígitos.</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Llamadas internacionales: ^00[0-9]+$</dt>
+<dd><ul class="first last simple">
+<li>00 (código internacional) seguido de 1 o más dígitos.</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Llamadas a Reino Unido: ^0044[0-9]+$</dt>
+<dd><ul class="first last simple">
+<li>00 (código internacional), 44 (código de UK), seguido de 1 o más dígitos.</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
 <p class="rubric">Formato de los números externos</p>
 <p>Las expresiones regulares de los patrones de permiso tienen que utilizar el formato que utilice un usuario del mismo país que la compañía a la hora de llamar.</p>
 <p>Es decir, un usuario (español, porque tal y como veremos los usuarios tienen también un código de país) de una empresa de española llamará a números móviles, por ejemplo, así: 676 676 676.</p>
