@@ -1,0 +1,174 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>‘General Configuration’ block</title>
+    
+    <link rel="stylesheet" href="../_static/epub.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" /> 
+  </head>
+  <body role="document">
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.xhtml" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="brand_portal.xhtml" title="‘Brand Configuration’ block"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="index.xhtml" title="Making internal calls"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.xhtml">IvozProvider Oasis documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.xhtml" accesskey="U">Making internal calls</a> &#187;</li> 
+      </ul>
+    </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="bloque-gestion-general">
+<h1>&#8216;General Configuration&#8217; block</h1>
+<div class="admonition important">
+<p class="first admonition-title">Important</p>
+<p class="last">Any of the 2 IP public addresses configured during the installation can be used to access the web portal. The default credentials are <em>admin / changeme</em>.</p>
+</div>
+<p>In this section we will reference everything relative to the global operator role, avaialble in the block <strong>General configuration</strong> in the web portal (only visible for God administrator):</p>
+<img alt="../_images/bloque_god.png" class="align-center" src="../_images/bloque_god.png" />
+<div class="section" id="configuracion-personalizada-en-la-instalacion">
+<h2>Customized configration of the installation</h2>
+<p>During the installation process, it will be requested two IP addresses, in order to start following 2 processes:</p>
+<div class="section" id="proxy-de-usuarios">
+<span id="proxyusers"></span><h3>Users Proxy</h3>
+<p>This is the SIP proxy exposed to the world where users&#8217; terminals are registered.</p>
+<p>The value displayed in the section <strong>Proxy user</strong> will show the IP address supplied during the installation process.</p>
+<img alt="../_images/proxyusers.png" src="../_images/proxyusers.png" />
+</div>
+<div class="section" id="proxy-de-salida">
+<h3>Trunks Proxy</h3>
+<p>This is the SIP proxy exposed to the world that IP Providers configured bythe brand operator will use.</p>
+<p>The value displayed in the section <strong>Proxy trunk</strong> will show the IP address supplied during the installation process.</p>
+<img alt="../_images/proxytrunks.png" src="../_images/proxytrunks.png" />
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Only the IP address will be displayed as the port will always be 5060 (5061 for SIP over TLS).</p>
+</div>
+<div class="admonition danger">
+<p class="first admonition-title">Danger</p>
+<p class="last">This 2 values can be edited in the portal, but it always must have the same IP address that the proxy processes are listening to.</p>
+</div>
+</div>
+</div>
+<div class="section" id="configuracion-global-estandar">
+<h2>Standard global configuratio</h2>
+<p>The installation procesis includes other global values that are static in every IvozProvider installation (standalone) and can also be checked from the web interface.</p>
+<div class="section" id="servidores-de-aplicacion">
+<h3>Application Servers</h3>
+<p>In the section <strong>Application Servers</strong> will display the IP addresses where the different Asterisk processes are listening for requests and, as mentioned, they scale horizontally to adapt the platform load.</p>
+<p>Contrary to the Proxies, this Application Servers are not expoed to the world, so only one will be required in a standalone installation listening at 127.0.0.1 address.</p>
+<img alt="../_images/app_servers.png" src="../_images/app_servers.png" />
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">The listening port will not be displayed in this field, as it always will be 6006 (UDP).</p>
+</div>
+<div class="admonition important">
+<p class="first admonition-title">Important</p>
+<p class="last">As soon as another Application Server is added, it will be used for load balancing. If it doesn&#8217;t answer to requests, it will be disabled automatically.</p>
+</div>
+</div>
+<div class="section" id="servidores-de-media">
+<h3>Media relays</h3>
+<p>Media-relays only move RTP traffic from an established call and, like Application Servers, they allow horizontal scaling to adapt the load of the platform.</p>
+<p>Media-relays are organized in groups in order to assign a single group to a company. Each element of the group have a <strong>metric</strong> that allows non-equal load balancing withing the same group (p.e. media-relay1 metric 1; media-relay2 metric 2: media-relay2 will handle twice the audio of calls compared to media-relay1).</p>
+<div class="admonition hint">
+<p class="first admonition-title">Hint</p>
+<p class="last">The assignment of media-relay groups to companies allows them to use static resources, disabling global balancing. The most common use for this kind of assignments is to place <strong>media-relay groups near the company location</strong> (and geographically far from the rest of the platform) in order to <strong>reduce latencies</strong> during the conversation.</p>
+</div>
+<p>For a standlone installation, only one media-replay group will exist:</p>
+<img alt="../_images/media_relay_groups.png" src="../_images/media_relay_groups.png" />
+<p>By default, this grup will only have one media-replay:</p>
+<img alt="../_images/media_relays.png" src="../_images/media_relays.png" />
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">The address displayed is the address of the control coscket, not the address included in the SDP payload during the session negociation.By default, this lonely media-relay will use the same IP address as the proxy that serve users.</p>
+</div>
+</div>
+<div class="section" id="dominios-sip">
+<span id="god-sipdomains"></span><h3>SIP Domains</h3>
+<p>The <strong>Domain</strong> section will display the SIP domains pointing to the  2 public IP addresses:</p>
+<ul class="simple">
+<li><p class="first">Users proxy IP address</p>
+</li>
+<li><p class="first">Trunks proxy IP address</p>
+</li>
+</ul>
+<p>After an initial installation 2 domain will exist, one for each of this 2 IP addresses:</p>
+<img alt="../_images/domain_list_local.png" src="../_images/domain_list_local.png" />
+<p>This domains will be used internally and the integrated DNS server of the solution will resolved to the configured IP addressed.</p>
+<div class="admonition attention">
+<p class="first admonition-title">Attention</p>
+<p class="last">As show in the section <a class="reference internal" href="brand_portal.xhtml#domain-per-company"><span class="std std-ref">SIP Domain of the company</span></a>, each company will need a DNS pointing to the Users proxy IP address. Once configured, the domain will be displayed in this section so the Global operator can check all the configured domains in one shot.</p>
+</div>
+</div>
+</div>
+<div class="section" id="emular-la-marca-demo">
+<h2>Emulate Demo brand</h2>
+<p>After the initial installation, the platform includes an already pre-created brand called DemoBrand, that will be used for the starting goal: to have 2 registerd phones that can call each other</p>
+<p>Before going into the next section it is important to understand the concept of <strong>Emulating brands</strong>:</p>
+<ul class="simple">
+<li><p class="first">As global operator, you have access to the <strong>General configuration</strong> block, that only <em>God</em> administator can see.</p>
+</li>
+<li><p class="first">Apart from this block, both <strong>Brand configuration</strong> and <strong>Company configuration</strong> are visible, looking more or less like this:</p>
+</li>
+</ul>
+<img alt="../_images/emular_marca_prev.png" class="align-center" src="../_images/emular_marca_prev.png" />
+<ul class="simple">
+<li><p class="first">Special caution with the following button:</p>
+</li>
+</ul>
+<img alt="../_images/emular_marca.png" class="align-center" src="../_images/emular_marca.png" />
+<ul class="simple">
+<li><p class="first">Once pressed, a modal dial will be displayed so:</p>
+</li>
+</ul>
+<img alt="../_images/emular_marca2.png" class="align-center" src="../_images/emular_marca2.png" />
+<ul class="simple">
+<li><p class="first">If we select the brand DemoBrand, the icon will change and displays the brand that is being emulated:</p>
+</li>
+</ul>
+<img alt="../_images/emular_marca3.png" class="align-center" src="../_images/emular_marca3.png" />
+<ul class="simple">
+<li><p class="first">The upper right corner of the portal will also show the brand that is being emulated:</p>
+</li>
+</ul>
+<img alt="../_images/emular_marca4.png" class="align-center" src="../_images/emular_marca4.png" />
+<div class="section" id="que-implica-esta-emulacion">
+<h3>What does this emaulation mean?</h3>
+<p>It means that <strong>everything displayed in &#8216;Brand configuration&#8217; block is related only with this brand</strong> and is <strong>exactly</strong> the same data the brand operator will see accessing through the brand portal.</p>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">Ok, maybe not <em>exactly</em>. The global administator is able to see some fields in some screens of the <strong>Brand confugration</strong> block that the brand operator can&#8217;t. For example, while editing a company, <em>God</em> administator will see &#8216;Media relay group&#8217; and &#8216;Application Server&#8217; fields, while the brand operator won&#8217;t&#8221;</p>
+</div>
+</div>
+</div>
+</div>
+
+
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2016, Irontec.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.4.6.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Instalación por paquetes Debian</title>
+    
+    <link rel="stylesheet" href="../_static/epub.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" /> 
+  </head>
+  <body role="document">
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.xhtml" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="docker_install.xhtml" title="Instalación desde DockerHub"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="requirements.xhtml" title="Requisitos mínimos"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.xhtml">IvozProvider Oasis documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.xhtml" accesskey="U">[S] Instalación inicial</a> &#187;</li> 
+      </ul>
+    </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="instalacion-por-paquetes-debian">
+<h1>Instalación por paquetes Debian</h1>
+<p>IvozProvider está diseñado para instalarse y actualizarse mediante paquetes Debian. En concreto, la release actual esta pensada para funcionar sobre <a class="reference external" href="https://www.debian.org/releases/jessie">Debian Jessie 8</a><span class="link-target"> [https://www.debian.org/releases/jessie]</span>.</p>
+<p>Se recomienda emplear las <a class="reference external" href="https://www.debian.org/releases/jessie/installmanual">guias oficiales de instalación</a><span class="link-target"> [https://www.debian.org/releases/jessie/installmanual]</span> para obtener un sistema base mínimo, ya que toda dependencia que necesite posteriormente será instalada automaticamente.</p>
+<p>Tanto si deseas realizar una <a class="reference internal" href="install_types.xhtml#instalacion-standalone"><span class="std std-ref">Instalación standalone</span></a> o una <a class="reference internal" href="install_types.xhtml#instalacion-distribuida"><span class="std std-ref">Instalación distribuida</span></a>, es preciso configurar los repositorios de paquetes debian de Irontec.</p>
+<div class="section" id="configurar-repositorios-apt">
+<h2>Configurar repositorios APT</h2>
+<p>Actualmente se emplean dos repositorios diferentes tanto para la última release de IvozProvider (oasis) como para la de Klear (chloe)</p>
+<div class="highlight-console"><div class="highlight"><pre><span class="go">cd /etc/apt/sources.list.d</span>
+<span class="go">echo deb http://packages.irontec.com/debian oasis main extra &gt; ivozprovider.list</span>
+<span class="go">echo deb http://packages.irontec.com/debian chloe main &gt; klear.list</span>
+</pre></div>
+</div>
+<p>Añadimos la clave publica del repositorio:</p>
+<div class="highlight-console"><div class="highlight"><pre><span class="go">wget http://packages.irontec.com/public.key -q -O - | apt-key add -</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="instalar-el-paquete-del-rol">
+<h2>Instalar el paquete del rol</h2>
+<p>Una vez configurados los repositorios será preciso seleccionar el paquete acorde al perfil que queramos instalar:</p>
+<ul>
+<li><dl class="first docutils">
+<dt>Para una <a class="reference internal" href="install_types.xhtml#instalacion-standalone"><span class="std std-ref">Instalación standalone</span></a>:</dt>
+<dd><ul class="first last simple">
+<li>ivozprovider</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Para una <a class="reference internal" href="install_types.xhtml#instalacion-distribuida"><span class="std std-ref">Instalación distribuida</span></a>: uno de los paquetes en función rol se desee que desempeñe la máquina</dt>
+<dd><ul class="first last simple">
+<li>ivozprovider-profile-data</li>
+<li>ivozprovider-profile-proxy</li>
+<li>ivozprovider-profile-portal</li>
+<li>ivozprovider-profile-as</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+<div class="highlight-console"><div class="highlight"><pre><span class="go">apt-get update</span>
+<span class="go">apt-get install ivozprovider</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="completar-instalacion">
+<h2>Completar instalación</h2>
+<p>Las instalaciones distribuidas requieren multiples configuraciones en funcion del rol que se haya instalado. Consulte <a class="reference external" href="http://google.com">completar la instalción de un rol</a><span class="link-target"> [http://google.com]</span> para más información.</p>
+<p>Las instalaciones standalone cuentan con un menú que ayuda a configurar los datos básicos de los servicios empleados en IvozProvider. Puesto que todos los servicios se ejecutan en la misma máquina, muchos de los procesos vienen configurados automáticamente con los valores por defecto.</p>
+<p>El menú permite, entre otros:</p>
+<ul class="simple">
+<li>Configurar las IPs públicas de los proxies SIP</li>
+<li>El lenguaje por defecto que empleará la plataforma</li>
+<li>Las contraseñas para acceder a las bases de datos</li>
+</ul>
+<p>Es posible cambiar cualquiera de estos valores una vez instalado IvozProvider volviendo a ejecutar:</p>
+<div class="highlight-console"><div class="highlight"><pre><span class="go">dpkg-reconfigure ivozprovider</span>
+</pre></div>
+</div>
+</div>
+</div>
+
+
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2016, Irontec.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.4.6.
+    </div>
+  </body>
+</html>

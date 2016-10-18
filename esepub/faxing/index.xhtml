@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Faxing Virtual</title>
+    
+    <link rel="stylesheet" href="../_static/epub.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" /> 
+  </head>
+  <body role="document">
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.xhtml" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="../userportal/index.xhtml" title="[P] Portal de Usuario"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="../provisioning/index.xhtml" title="[P] Provisión de terminales"
+             accesskey="P">anterior</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.xhtml">documentación de IvozProvider - Oasis</a> &#187;</li> 
+      </ul>
+    </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="faxing-virtual">
+<span id="faxing-system"></span><h1>Faxing Virtual</h1>
+<p>La solución de <em>faxing</em> virtual incluida en IvozProvider es muy simple, pero permite:</p>
+<ul class="simple">
+<li>Enviar faxes partiendo de un PDF.</li>
+<li>Recibir faxes vía correo electrónico y visualización web.</li>
+</ul>
+<div class="admonition error">
+<p class="first admonition-title">Error</p>
+<p class="last">IvozProvider utiliza <a class="reference external" href="http://www.voip-info.org/wiki/view/T.38">T.38</a><span class="link-target"> [http://www.voip-info.org/wiki/view/T.38]</span> para la emisión y recepción de faxes. Es responsabilidad de el administrador de marca disponer de Contratos de Peering con operadores que soporten dicho protocolo, así como configurar las rutas de salida para utilizar dicho operador.</p>
+</div>
+<div class="section" id="creacion-de-un-fax-virtual">
+<h2>Creación de un fax virtual</h2>
+<p>Esta es la interfaz que nos encontramos al crear un nuevo fax en la sección <strong>Configuración de empresa</strong> &gt; <strong>Faxes Virtuales</strong>:</p>
+<img alt="../_images/fax_add.png" class="align-center" src="../_images/fax_add.png" />
+<p>Los campos son prácticamente auto-explicativos:</p>
+<dl class="glossary docutils">
+<dt id="term-nombre">Nombre</dt>
+<dd>Nombre por el que se referenciará el fax en otras secciones</dd>
+<dt id="term-email">Email</dt>
+<dd>Email donde se recibirán los mails (en caso de marcar &#8216;Enviar por email&#8217; a &#8216;Sí&#8217;)</dd>
+<dt id="term-ddi-de-salida">DDI de salida</dt>
+<dd>Número que se utilizará como origen en los faxes salientes</dd>
+</dl>
+<p>Para recibir faxes en dicha numeración, será necesario apuntarla a nuestro nuevo fax, editando el DDI en la sección <strong>DDIs</strong>:</p>
+<img alt="../_images/fax_ddi.png" class="align-center" src="../_images/fax_ddi.png" />
+<p>Para enviar faxes por una ruta concreta (que tenemos probada y sabemos que es óptima para la emisión de faxes), se puede definir una ruta exclusiva para faxes:</p>
+<img alt="../_images/fax_routes.png" class="align-center" src="../_images/fax_routes.png" />
+<p>Todos los faxes que envíe esa empresa (para todos los faxes que vaya creando), se enviará por esta ruta.</p>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p class="last">Si se definieran más rutas de faxing, se utilizarían todas siguiendo las lógicas de <em>load-balancing</em> y <em>failover</em> descritas en <a class="reference internal" href="../external_outgoing_calls/call_routing.xhtml#routes-metrics"><span class="std std-ref">secciones anteriores</span></a>.</p>
+</div>
+<div class="admonition important">
+<p class="first admonition-title">Importante</p>
+<p class="last">Si una empresa no dispone de rutas de faxing, saldrá siguiendo las lógicas de rutado de las llamadas.</p>
+</div>
+</div>
+<div class="section" id="emitir-un-fax">
+<h2>Emitir un fax</h2>
+<img alt="../_images/fax_send2.png" class="align-center" src="../_images/fax_send2.png" />
+<img alt="../_images/fax_send.png" class="align-center" src="../_images/fax_send.png" />
+</div>
+<div class="section" id="visualizacion-de-faxes-entrantes">
+<h2>Visualización de faxes entrantes</h2>
+<p>Los faxes entrantes se pueden recibir vía correo electrónico, pero también pueden ser visualizados y descargados desde el panel web pulsando:</p>
+<img alt="../_images/fax_list.png" src="../_images/fax_list.png" />
+</div>
+</div>
+
+
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2016, Irontec.
+      Creado con <a href="http://sphinx-doc.org/">Sphinx</a> 1.4.6.
+    </div>
+  </body>
+</html>
