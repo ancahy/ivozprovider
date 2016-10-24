@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2016.10.18)  18 OCT 2016 19:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2016.10.18)  24 OCT 2016 17:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1519,1581 +1519,1585 @@ Package pdftex.def Info: numeric_transformations_section.png used on input line
 (pdftex.def)             Requested size: 310.15799pt x 265.99309pt.
  [29
 
- <./numeric_transformations_section.png>]
-! Missing number, treated as zero.
-<to be read again> 
-                   *
-l.1168 ...xtbf{expresiones regulares} \footnote[*]
-                                                  {\sphinxAtStartFootnote%
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
+ <./numeric_transformations_section.png>] [30]
+<numeric_transformations_auto.png, id=295, 804.00375pt x 396.48125pt>
+File: numeric_transformations_auto.png Graphic file (type png)
 
-[30] <numeric_transformations.png, id=297, 732.48656pt x 78.2925pt>
+<use numeric_transformations_auto.png>
+Package pdftex.def Info: numeric_transformations_auto.png used on input line 11
+78.
+(pdftex.def)             Requested size: 804.0018pt x 396.48027pt.
+File: numeric_transformations_auto.png Graphic file (type png)
+ <use numeric_transformations_auto.png>
+Package pdftex.def Info: numeric_transformations_auto.png used on input line 11
+78.
+(pdftex.def)             Requested size: 469.755pt x 231.64717pt.
+
+<numeric_transformations.png, id=296, 732.48656pt x 78.2925pt>
 File: numeric_transformations.png Graphic file (type png)
 
 <use numeric_transformations.png>
-Package pdftex.def Info: numeric_transformations.png used on input line 1190.
+Package pdftex.def Info: numeric_transformations.png used on input line 1194.
 (pdftex.def)             Requested size: 732.48476pt x 78.2923pt.
 File: numeric_transformations.png Graphic file (type png)
  <use numeric_transformations.png>
-Package pdftex.def Info: numeric_transformations.png used on input line 1190.
+Package pdftex.def Info: numeric_transformations.png used on input line 1194.
 (pdftex.def)             Requested size: 469.755pt x 50.21095pt.
 
-<numeric_transformations2.png, id=298, 973.6375pt x 114.4275pt>
+<numeric_transformations2.png, id=297, 973.6375pt x 114.4275pt>
 File: numeric_transformations2.png Graphic file (type png)
 
 <use numeric_transformations2.png>
-Package pdftex.def Info: numeric_transformations2.png used on input line 1207.
+Package pdftex.def Info: numeric_transformations2.png used on input line 1215.
 (pdftex.def)             Requested size: 973.63512pt x 114.42722pt.
 File: numeric_transformations2.png Graphic file (type png)
  <use numeric_transformations2.png>
-Package pdftex.def Info: numeric_transformations2.png used on input line 1207.
+Package pdftex.def Info: numeric_transformations2.png used on input line 1215.
 (pdftex.def)             Requested size: 469.755pt x 55.20743pt.
-
-<numeric_transformations3.png, id=299, 974.64125pt x 112.42pt>
+ [31 <./numeric_transformations_auto.png> <./numeric_transformations.png>]
+<numeric_transformations3.png, id=305, 974.64125pt x 112.42pt>
 File: numeric_transformations3.png Graphic file (type png)
 
 <use numeric_transformations3.png>
-Package pdftex.def Info: numeric_transformations3.png used on input line 1262.
+Package pdftex.def Info: numeric_transformations3.png used on input line 1270.
 (pdftex.def)             Requested size: 974.63887pt x 112.41972pt.
 File: numeric_transformations3.png Graphic file (type png)
  <use numeric_transformations3.png>
-Package pdftex.def Info: numeric_transformations3.png used on input line 1262.
+Package pdftex.def Info: numeric_transformations3.png used on input line 1270.
 (pdftex.def)             Requested size: 469.755pt x 54.18398pt.
- [31 <./numeric_transformations.png> <./numeric_transformations2.png>]
-<peeringcontract_section.png, id=308, 309.155pt x 230.8625pt>
+ [32 <./numeric_transformations2.png> <./numeric_transformations3.png>]
+<peeringcontract_section.png, id=313, 309.155pt x 230.8625pt>
 File: peeringcontract_section.png Graphic file (type png)
 
 <use peeringcontract_section.png>
-Package pdftex.def Info: peeringcontract_section.png used on input line 1285.
+Package pdftex.def Info: peeringcontract_section.png used on input line 1293.
 (pdftex.def)             Requested size: 309.15424pt x 230.86192pt.
 
-<peeringcontract.png, id=309, 973.6375pt x 82.3075pt>
+<peeringcontract.png, id=314, 973.6375pt x 82.3075pt>
 File: peeringcontract.png Graphic file (type png)
 
 <use peeringcontract.png>
-Package pdftex.def Info: peeringcontract.png used on input line 1292.
+Package pdftex.def Info: peeringcontract.png used on input line 1300.
 (pdftex.def)             Requested size: 973.63512pt x 82.30728pt.
 File: peeringcontract.png Graphic file (type png)
  <use peeringcontract.png>
-Package pdftex.def Info: peeringcontract.png used on input line 1292.
+Package pdftex.def Info: peeringcontract.png used on input line 1300.
 (pdftex.def)             Requested size: 469.755pt x 39.71059pt.
- [32 <./numeric_transformations3.png> <./peeringcontract_section.png>]
-<peeringcontract_edit.png, id=319, 818.05624pt x 375.4025pt>
+
+<peeringcontract_edit.png, id=315, 818.05624pt x 375.4025pt>
 File: peeringcontract_edit.png Graphic file (type png)
 
 <use peeringcontract_edit.png>
-Package pdftex.def Info: peeringcontract_edit.png used on input line 1296.
+Package pdftex.def Info: peeringcontract_edit.png used on input line 1304.
 (pdftex.def)             Requested size: 818.05424pt x 375.40158pt.
 File: peeringcontract_edit.png Graphic file (type png)
  <use peeringcontract_edit.png>
-Package pdftex.def Info: peeringcontract_edit.png used on input line 1296.
+Package pdftex.def Info: peeringcontract_edit.png used on input line 1304.
 (pdftex.def)             Requested size: 469.755pt x 215.57408pt.
-
+ [33 <./peeringcontract_section.png> <./peeringcontract.png>]
 
 LaTeX Warning: Hyper reference `external_incoming_calls/numeric_transformations
-:numeric-transformations' on page 33 undefined on input line 1305.
+:numeric-transformations' on page 34 undefined on input line 1313.
 
 
-LaTeX Warning: Hyper reference `intro/getting_help:getting-help' on page 33 und
-efined on input line 1308.
+LaTeX Warning: Hyper reference `intro/getting_help:getting-help' on page 34 und
+efined on input line 1316.
 
-<peerservers.png, id=320, 980.66376pt x 142.5325pt>
+<peerservers.png, id=324, 980.66376pt x 142.5325pt>
 File: peerservers.png Graphic file (type png)
  <use peerservers.png>
-Package pdftex.def Info: peerservers.png used on input line 1321.
+Package pdftex.def Info: peerservers.png used on input line 1329.
 (pdftex.def)             Requested size: 980.66136pt x 142.53214pt.
 File: peerservers.png Graphic file (type png)
 
 <use peerservers.png>
-Package pdftex.def Info: peerservers.png used on input line 1321.
+Package pdftex.def Info: peerservers.png used on input line 1329.
 (pdftex.def)             Requested size: 469.755pt x 68.27562pt.
- <peerservers_add.png, id=321, 807.015pt x 864.22874pt>
+ <peerservers_add.png, id=325, 807.015pt x 864.22874pt>
 File: peerservers_add.png Graphic file (type png)
 
 <use peerservers_add.png>
-Package pdftex.def Info: peerservers_add.png used on input line 1325.
+Package pdftex.def Info: peerservers_add.png used on input line 1333.
 (pdftex.def)             Requested size: 807.01303pt x 864.22662pt.
 File: peerservers_add.png Graphic file (type png)
  <use peerservers_add.png>
-Package pdftex.def Info: peerservers_add.png used on input line 1325.
+Package pdftex.def Info: peerservers_add.png used on input line 1333.
 (pdftex.def)             Requested size: 469.755pt x 503.05965pt.
- [33 <./peeringcontract.png> <./peeringcontract_edit.png> <./peerservers.png>] 
-[34 <./peerservers_add.png>]
+ [34 <./peeringcontract_edit.png> <./peerservers.png>] [35 <./peerservers_add.p
+ng>]
 
 LaTeX Warning: Hyper reference `external_incoming_calls/numeric_transformations
-:numeric-transformations' on page 35 undefined on input line 1352.
+:numeric-transformations' on page 36 undefined on input line 1360.
 
-<sip_registers.png, id=344, 999.735pt x 134.5025pt>
+<sip_registers.png, id=347, 999.735pt x 134.5025pt>
 File: sip_registers.png Graphic file (type png)
  <use sip_registers.png>
-Package pdftex.def Info: sip_registers.png used on input line 1378.
+Package pdftex.def Info: sip_registers.png used on input line 1386.
 (pdftex.def)             Requested size: 999.73256pt x 134.50215pt.
 File: sip_registers.png Graphic file (type png)
 
 <use sip_registers.png>
-Package pdftex.def Info: sip_registers.png used on input line 1378.
+Package pdftex.def Info: sip_registers.png used on input line 1386.
 (pdftex.def)             Requested size: 469.755pt x 63.19975pt.
 
-<sip_registers_add.png, id=345, 805.0075pt x 493.845pt>
+<sip_registers_add.png, id=348, 805.0075pt x 493.845pt>
 File: sip_registers_add.png Graphic file (type png)
 
 <use sip_registers_add.png>
-Package pdftex.def Info: sip_registers_add.png used on input line 1382.
+Package pdftex.def Info: sip_registers_add.png used on input line 1390.
 (pdftex.def)             Requested size: 805.00555pt x 493.84378pt.
 File: sip_registers_add.png Graphic file (type png)
  <use sip_registers_add.png>
-Package pdftex.def Info: sip_registers_add.png used on input line 1382.
+Package pdftex.def Info: sip_registers_add.png used on input line 1390.
 (pdftex.def)             Requested size: 469.755pt x 288.17851pt.
- [35 <./sip_registers.png>] [36 <./sip_registers_add.png>]
-<ddis_company_section.png, id=367, 316.18124pt x 211.79124pt>
+ [36 <./sip_registers.png>] [37 <./sip_registers_add.png>]
+<ddis_company_section.png, id=370, 316.18124pt x 211.79124pt>
 File: ddis_company_section.png Graphic file (type png)
 
 <use ddis_company_section.png>
-Package pdftex.def Info: ddis_company_section.png used on input line 1420.
+Package pdftex.def Info: ddis_company_section.png used on input line 1428.
 (pdftex.def)             Requested size: 316.18047pt x 211.79073pt.
 
-<ddis_brand_section.png, id=368, 314.17375pt x 303.1325pt>
+<ddis_brand_section.png, id=371, 314.17375pt x 303.1325pt>
 File: ddis_brand_section.png Graphic file (type png)
 
 <use ddis_brand_section.png>
-Package pdftex.def Info: ddis_brand_section.png used on input line 1430.
+Package pdftex.def Info: ddis_brand_section.png used on input line 1438.
 (pdftex.def)             Requested size: 314.17297pt x 303.13176pt.
- [37 <./ddis_company_section.png>]
-<ddis_add.png, id=375, 809.0225pt x 648.4225pt>
+ [38 <./ddis_company_section.png>]
+<ddis_add.png, id=379, 809.0225pt x 648.4225pt>
 File: ddis_add.png Graphic file (type png)
  <use ddis_add.png>
-Package pdftex.def Info: ddis_add.png used on input line 1434.
+Package pdftex.def Info: ddis_add.png used on input line 1442.
 (pdftex.def)             Requested size: 809.02054pt x 648.42091pt.
 File: ddis_add.png Graphic file (type png)
 
 <use ddis_add.png>
-Package pdftex.def Info: ddis_add.png used on input line 1434.
+Package pdftex.def Info: ddis_add.png used on input line 1442.
 (pdftex.def)             Requested size: 469.755pt x 376.51076pt.
 
-Overfull \hbox (1.90002pt too wide) in paragraph at lines 1434--1435
+Overfull \hbox (1.90002pt too wide) in paragraph at lines 1442--1443
 | []|  [][] 
  []
 
-[38 <./ddis_brand_section.png>]
+[39 <./ddis_brand_section.png>]
 
 LaTeX Warning: Hyper reference `external_incoming_calls/numeric_transformations
-:numeric-transformations' on page 39 undefined on input line 1443.
+:numeric-transformations' on page 40 undefined on input line 1451.
 
 
 LaTeX Warning: Hyper reference `pbx_features/external_filters:external-filters'
- on page 39 undefined on input line 1446.
+ on page 40 undefined on input line 1454.
 
 
 LaTeX Warning: Hyper reference `pbx_features/external_ddis:routing-logics' on p
-age 39 undefined on input line 1449.
+age 40 undefined on input line 1457.
 
 
 LaTeX Warning: Hyper reference `pbx_features/call_recording:call-recordings' on
- page 39 undefined on input line 1452.
+ page 40 undefined on input line 1460.
 
 
-LaTeX Warning: Hyper reference `intro/getting_help:getting-help' on page 39 und
-efined on input line 1455.
+LaTeX Warning: Hyper reference `intro/getting_help:getting-help' on page 40 und
+efined on input line 1463.
 
-[39 <./ddis_add.png>] [40]
+[40 <./ddis_add.png>] [41] [42
+
+]
 Chapter 7.
-<target_patterns_section.png, id=400, 314.17375pt x 331.2375pt>
+<target_patterns_section.png, id=407, 314.17375pt x 331.2375pt>
 File: target_patterns_section.png Graphic file (type png)
 
 <use target_patterns_section.png>
-Package pdftex.def Info: target_patterns_section.png used on input line 1487.
+Package pdftex.def Info: target_patterns_section.png used on input line 1495.
 (pdftex.def)             Requested size: 314.17297pt x 331.23668pt.
- [41
-
-]
-<target_patterns_default.png, id=409, 972.63374pt x 319.1925pt>
+ [43]
+<target_patterns_default.png, id=416, 972.63374pt x 319.1925pt>
 File: target_patterns_default.png Graphic file (type png)
 
 <use target_patterns_default.png>
-Package pdftex.def Info: target_patterns_default.png used on input line 1491.
+Package pdftex.def Info: target_patterns_default.png used on input line 1499.
 (pdftex.def)             Requested size: 972.63136pt x 319.19171pt.
 File: target_patterns_default.png Graphic file (type png)
  <use target_patterns_default.png>
-Package pdftex.def Info: target_patterns_default.png used on input line 1491.
+Package pdftex.def Info: target_patterns_default.png used on input line 1499.
 (pdftex.def)             Requested size: 469.755pt x 154.1604pt.
 
-<target_patterns_spain.png, id=410, 972.63374pt x 84.315pt>
+<target_patterns_spain.png, id=417, 972.63374pt x 84.315pt>
 File: target_patterns_spain.png Graphic file (type png)
 
 <use target_patterns_spain.png>
-Package pdftex.def Info: target_patterns_spain.png used on input line 1495.
+Package pdftex.def Info: target_patterns_spain.png used on input line 1503.
 (pdftex.def)             Requested size: 972.63136pt x 84.31477pt.
 File: target_patterns_spain.png Graphic file (type png)
  <use target_patterns_spain.png>
-Package pdftex.def Info: target_patterns_spain.png used on input line 1495.
+Package pdftex.def Info: target_patterns_spain.png used on input line 1503.
 (pdftex.def)             Requested size: 469.755pt x 40.7216pt.
- [42 <./target_patterns_section.png> <./target_patterns_default.png> <./target_
+ [44 <./target_patterns_section.png> <./target_patterns_default.png> <./target_
 patterns_spain.png>]
 
 LaTeX Warning: Hyper reference `external_outgoing_calls/call_routing:outgoing-r
-outes' on page 43 undefined on input line 1508.
+outes' on page 45 undefined on input line 1516.
 
-<target_patterngroups_section.png, id=419, 319.1925pt x 367.3725pt>
+<target_patterngroups_section.png, id=427, 319.1925pt x 367.3725pt>
 File: target_patterngroups_section.png Graphic file (type png)
 
 <use target_patterngroups_section.png>
 Package pdftex.def Info: target_patterngroups_section.png used on input line 15
-14.
+22.
 (pdftex.def)             Requested size: 319.19171pt x 367.37158pt.
 
-<target_patterngroups_default.png, id=421, 1009.7725pt x 405.515pt>
+<target_patterngroups_default.png, id=429, 1009.7725pt x 405.515pt>
 File: target_patterngroups_default.png Graphic file (type png)
 
 <use target_patterngroups_default.png>
 Package pdftex.def Info: target_patterngroups_default.png used on input line 15
-18.
+26.
 (pdftex.def)             Requested size: 1009.77003pt x 405.51399pt.
 File: target_patterngroups_default.png Graphic file (type png)
  <use target_patterngroups_default.png>
 Package pdftex.def Info: target_patterngroups_default.png used on input line 15
-18.
+26.
 (pdftex.def)             Requested size: 469.755pt x 188.64914pt.
 
-[43 <./target_patterngroups_section.png>]
-<outgoing_routes_section.png, id=428, 312.16624pt x 426.59375pt>
+[45 <./target_patterngroups_section.png>]
+<outgoing_routes_section.png, id=436, 312.16624pt x 426.59375pt>
 File: outgoing_routes_section.png Graphic file (type png)
 
 <use outgoing_routes_section.png>
-Package pdftex.def Info: outgoing_routes_section.png used on input line 1535.
+Package pdftex.def Info: outgoing_routes_section.png used on input line 1543.
 (pdftex.def)             Requested size: 312.16548pt x 426.5927pt.
- [44 <./target_patterngroups_default.png>]
-<outgoing_routes_by_pattern.png, id=437, 817.0525pt x 521.95pt>
+ [46 <./target_patterngroups_default.png>]
+<outgoing_routes_by_pattern.png, id=444, 817.0525pt x 521.95pt>
 File: outgoing_routes_by_pattern.png Graphic file (type png)
 
 <use outgoing_routes_by_pattern.png>
-Package pdftex.def Info: outgoing_routes_by_pattern.png used on input line 1539
+Package pdftex.def Info: outgoing_routes_by_pattern.png used on input line 1547
 .
 (pdftex.def)             Requested size: 817.05052pt x 521.94872pt.
 File: outgoing_routes_by_pattern.png Graphic file (type png)
  <use outgoing_routes_by_pattern.png>
-Package pdftex.def Info: outgoing_routes_by_pattern.png used on input line 1539
+Package pdftex.def Info: outgoing_routes_by_pattern.png used on input line 1547
 .
 (pdftex.def)             Requested size: 469.755pt x 300.09502pt.
 
-[45 <./outgoing_routes_section.png>]
-<outgoing_routes_by_patterngroup.png, id=443, 810.02625pt x 518.93875pt>
+[47 <./outgoing_routes_section.png>]
+<outgoing_routes_by_patterngroup.png, id=450, 810.02625pt x 518.93875pt>
 File: outgoing_routes_by_patterngroup.png Graphic file (type png)
 
 <use outgoing_routes_by_patterngroup.png>
 Package pdftex.def Info: outgoing_routes_by_patterngroup.png used on input line
- 1543.
+ 1551.
 (pdftex.def)             Requested size: 810.02426pt x 518.93748pt.
 File: outgoing_routes_by_patterngroup.png Graphic file (type png)
 
 <use outgoing_routes_by_patterngroup.png>
 Package pdftex.def Info: outgoing_routes_by_patterngroup.png used on input line
- 1543.
+ 1551.
 (pdftex.def)             Requested size: 469.755pt x 300.953pt.
 
-Overfull \hbox (1.90002pt too wide) in paragraph at lines 1543--1546
+Overfull \hbox (1.90002pt too wide) in paragraph at lines 1551--1554
 | []|  [][]
  []
 
-[46 <./outgoing_routes_by_pattern.png> <./outgoing_routes_by_patterngroup.png>]
-[47] <ddi_out.png, id=463, 807.015pt x 653.44125pt>
+[48 <./outgoing_routes_by_pattern.png> <./outgoing_routes_by_patterngroup.png>]
+[49] <ddi_out.png, id=470, 807.015pt x 653.44125pt>
 File: ddi_out.png Graphic file (type png)
  <use ddi_out.png>
-Package pdftex.def Info: ddi_out.png used on input line 1613.
+Package pdftex.def Info: ddi_out.png used on input line 1621.
 (pdftex.def)             Requested size: 807.01303pt x 653.43965pt.
 File: ddi_out.png Graphic file (type png)
 
 <use ddi_out.png>
-Package pdftex.def Info: ddi_out.png used on input line 1613.
+Package pdftex.def Info: ddi_out.png used on input line 1621.
 (pdftex.def)             Requested size: 469.755pt x 380.36217pt.
 
 
 LaTeX Warning: Hyper reference `internal_calls/brand_portal:emulate-company' on
- page 48 undefined on input line 1615.
+ page 50 undefined on input line 1623.
 
 
 LaTeX Warning: Hyper reference `operation_roles/index:brand-responsibilities' o
-n page 48 undefined on input line 1626.
+n page 50 undefined on input line 1634.
 
-[48 <./ddi_out.png>]
+[50 <./ddi_out.png>]
 
 LaTeX Warning: Hyper reference `external_outgoing_calls/call_types:target-patte
-rns' on page 49 undefined on input line 1641.
+rns' on page 51 undefined on input line 1649.
 
-<pricing_pattern_section.png, id=470, 311.1625pt x 523.9575pt>
+<pricing_pattern_section.png, id=478, 311.1625pt x 523.9575pt>
 File: pricing_pattern_section.png Graphic file (type png)
 
 <use pricing_pattern_section.png>
-Package pdftex.def Info: pricing_pattern_section.png used on input line 1643.
+Package pdftex.def Info: pricing_pattern_section.png used on input line 1651.
 (pdftex.def)             Requested size: 311.16174pt x 523.95622pt.
- [49]
-<pricing_pattern_add.png, id=477, 751.80875pt x 393.47pt>
+ [51]
+<pricing_pattern_add.png, id=485, 751.80875pt x 393.47pt>
 File: pricing_pattern_add.png Graphic file (type png)
 
 <use pricing_pattern_add.png>
-Package pdftex.def Info: pricing_pattern_add.png used on input line 1653.
+Package pdftex.def Info: pricing_pattern_add.png used on input line 1661.
 (pdftex.def)             Requested size: 751.8069pt x 393.46902pt.
 File: pricing_pattern_add.png Graphic file (type png)
  <use pricing_pattern_add.png>
-Package pdftex.def Info: pricing_pattern_add.png used on input line 1653.
+Package pdftex.def Info: pricing_pattern_add.png used on input line 1661.
 (pdftex.def)             Requested size: 469.755pt x 245.8581pt.
- [50 <./pricing_pattern_section.png>] <pricing_plans_section.png, id=484, 314.1
+ [52 <./pricing_pattern_section.png>] <pricing_plans_section.png, id=491, 314.1
 7375pt x 465.74pt>
 File: pricing_plans_section.png Graphic file (type png)
 
 <use pricing_plans_section.png>
-Package pdftex.def Info: pricing_plans_section.png used on input line 1660.
+Package pdftex.def Info: pricing_plans_section.png used on input line 1668.
 (pdftex.def)             Requested size: 314.17297pt x 465.73886pt.
- [51 <./pricing_pattern_add.png>]
-<pricing_plans_add1.png, id=491, 808.01875pt x 430.60875pt>
+ [53 <./pricing_pattern_add.png>]
+<pricing_plans_add1.png, id=498, 808.01875pt x 430.60875pt>
 File: pricing_plans_add1.png Graphic file (type png)
 
 <use pricing_plans_add1.png>
-Package pdftex.def Info: pricing_plans_add1.png used on input line 1664.
+Package pdftex.def Info: pricing_plans_add1.png used on input line 1672.
 (pdftex.def)             Requested size: 808.01678pt x 430.60768pt.
 File: pricing_plans_add1.png Graphic file (type png)
  <use pricing_plans_add1.png>
-Package pdftex.def Info: pricing_plans_add1.png used on input line 1664.
+Package pdftex.def Info: pricing_plans_add1.png used on input line 1672.
 (pdftex.def)             Requested size: 469.755pt x 250.34459pt.
- [52 <./pricing_plans_section.png>] <pricing_plans_add_price1.png, id=497, 1045
+ [54 <./pricing_plans_section.png>] <pricing_plans_add_price1.png, id=504, 1045
 .9075pt x 144.54pt>
 File: pricing_plans_add_price1.png Graphic file (type png)
 
 <use pricing_plans_add_price1.png>
-Package pdftex.def Info: pricing_plans_add_price1.png used on input line 1668.
+Package pdftex.def Info: pricing_plans_add_price1.png used on input line 1676.
 (pdftex.def)             Requested size: 1045.90495pt x 144.53963pt.
 File: pricing_plans_add_price1.png Graphic file (type png)
  <use pricing_plans_add_price1.png>
-Package pdftex.def Info: pricing_plans_add_price1.png used on input line 1668.
+Package pdftex.def Info: pricing_plans_add_price1.png used on input line 1676.
 (pdftex.def)             Requested size: 469.755pt x 64.91887pt.
 
-<pricing_plans_add_price2.png, id=498, 752.8125pt x 301.125pt>
+<pricing_plans_add_price2.png, id=505, 752.8125pt x 301.125pt>
 File: pricing_plans_add_price2.png Graphic file (type png)
 
 <use pricing_plans_add_price2.png>
-Package pdftex.def Info: pricing_plans_add_price2.png used on input line 1670.
+Package pdftex.def Info: pricing_plans_add_price2.png used on input line 1678.
 (pdftex.def)             Requested size: 752.81065pt x 301.12425pt.
 File: pricing_plans_add_price2.png Graphic file (type png)
  <use pricing_plans_add_price2.png>
-Package pdftex.def Info: pricing_plans_add_price2.png used on input line 1670.
+Package pdftex.def Info: pricing_plans_add_price2.png used on input line 1678.
 (pdftex.def)             Requested size: 469.755pt x 187.90858pt.
- [53 <./pricing_plans_add1.png> <./pricing_plans_add_price1.png> <./pricing_pla
-ns_add_price2.png>] <pricing_plans_find_plan.png, id=506, 1028.84375pt x 277.03
+ [55 <./pricing_plans_add1.png> <./pricing_plans_add_price1.png> <./pricing_pla
+ns_add_price2.png>] <pricing_plans_find_plan.png, id=513, 1028.84375pt x 277.03
 5pt>
 File: pricing_plans_find_plan.png Graphic file (type png)
 
 <use pricing_plans_find_plan.png>
-Package pdftex.def Info: pricing_plans_find_plan.png used on input line 1679.
+Package pdftex.def Info: pricing_plans_find_plan.png used on input line 1687.
 (pdftex.def)             Requested size: 1028.84125pt x 277.03432pt.
 File: pricing_plans_find_plan.png Graphic file (type png)
  <use pricing_plans_find_plan.png>
-Package pdftex.def Info: pricing_plans_find_plan.png used on input line 1679.
+Package pdftex.def Info: pricing_plans_find_plan.png used on input line 1687.
 (pdftex.def)             Requested size: 469.755pt x 126.49074pt.
 
 
 LaTeX Warning: Hyper reference `external_incoming_calls/numeric_transformations
-:e164' on page 54 undefined on input line 1681.
+:e164' on page 56 undefined on input line 1689.
 
-<pricing_plans_find_plan2.png, id=507, 455.7025pt x 165.61874pt>
+<pricing_plans_find_plan2.png, id=514, 455.7025pt x 165.61874pt>
 File: pricing_plans_find_plan2.png Graphic file (type png)
 
 <use pricing_plans_find_plan2.png>
-Package pdftex.def Info: pricing_plans_find_plan2.png used on input line 1683.
+Package pdftex.def Info: pricing_plans_find_plan2.png used on input line 1691.
 (pdftex.def)             Requested size: 455.70137pt x 165.61833pt.
 
-<pricing_plans_find_plan3.png, id=508, 885.3075pt x 210.7875pt>
+<pricing_plans_find_plan3.png, id=515, 885.3075pt x 210.7875pt>
 File: pricing_plans_find_plan3.png Graphic file (type png)
 
 <use pricing_plans_find_plan3.png>
-Package pdftex.def Info: pricing_plans_find_plan3.png used on input line 1687.
+Package pdftex.def Info: pricing_plans_find_plan3.png used on input line 1695.
 (pdftex.def)             Requested size: 885.30533pt x 210.78699pt.
 File: pricing_plans_find_plan3.png Graphic file (type png)
  <use pricing_plans_find_plan3.png>
-Package pdftex.def Info: pricing_plans_find_plan3.png used on input line 1687.
+Package pdftex.def Info: pricing_plans_find_plan3.png used on input line 1695.
 (pdftex.def)             Requested size: 469.755pt x 111.84871pt.
 
-<pricing_plans_relate_company.png, id=509, 1133.23375pt x 230.8625pt>
+<pricing_plans_relate_company.png, id=516, 1133.23375pt x 230.8625pt>
 File: pricing_plans_relate_company.png Graphic file (type png)
 
 <use pricing_plans_relate_company.png>
-Package pdftex.def Info: pricing_plans_relate_company.png used on input line 16
-96.
+Package pdftex.def Info: pricing_plans_relate_company.png used on input line 17
+04.
 (pdftex.def)             Requested size: 1133.23099pt x 230.86192pt.
 File: pricing_plans_relate_company.png Graphic file (type png)
  <use pricing_plans_relate_company.png>
-Package pdftex.def Info: pricing_plans_relate_company.png used on input line 16
-96.
+Package pdftex.def Info: pricing_plans_relate_company.png used on input line 17
+04.
 (pdftex.def)             Requested size: 469.755pt x 95.69695pt.
 
-[54 <./pricing_plans_find_plan.png> <./pricing_plans_find_plan2.png> <./pricing
+[56 <./pricing_plans_find_plan.png> <./pricing_plans_find_plan2.png> <./pricing
 _plans_find_plan3.png>]
-<pricing_plans_relate_company2.png, id=519, 811.03pt x 294.09875pt>
+<pricing_plans_relate_company2.png, id=527, 811.03pt x 294.09875pt>
 File: pricing_plans_relate_company2.png Graphic file (type png)
 
 <use pricing_plans_relate_company2.png>
 Package pdftex.def Info: pricing_plans_relate_company2.png used on input line 1
-700.
+708.
 (pdftex.def)             Requested size: 811.02802pt x 294.09802pt.
 File: pricing_plans_relate_company2.png Graphic file (type png)
 
 <use pricing_plans_relate_company2.png>
 Package pdftex.def Info: pricing_plans_relate_company2.png used on input line 1
-700.
+708.
 (pdftex.def)             Requested size: 469.755pt x 170.34851pt.
 
-<pricing_plans_simulate_companycall.png, id=520, 865.2325pt x 312.16624pt>
+<pricing_plans_simulate_companycall.png, id=528, 865.2325pt x 312.16624pt>
 File: pricing_plans_simulate_companycall.png Graphic file (type png)
 
 <use pricing_plans_simulate_companycall.png>
 Package pdftex.def Info: pricing_plans_simulate_companycall.png used on input l
-ine 1715.
+ine 1723.
 (pdftex.def)             Requested size: 865.2304pt x 312.16548pt.
 File: pricing_plans_simulate_companycall.png Graphic file (type png)
 
 <use pricing_plans_simulate_companycall.png>
 Package pdftex.def Info: pricing_plans_simulate_companycall.png used on input l
-ine 1715.
+ine 1723.
 (pdftex.def)             Requested size: 469.755pt x 169.4818pt.
- [55 <./pricing_plans_relate_company.png> <./pricing_plans_relate_company2.png>
+ [57 <./pricing_plans_relate_company.png> <./pricing_plans_relate_company2.png>
 ]
 
 LaTeX Warning: Hyper reference `external_incoming_calls/numeric_transformations
-:e164' on page 56 undefined on input line 1717.
+:e164' on page 58 undefined on input line 1725.
 
-<pricing_plans_simulate_companycall2.png, id=528, 456.70625pt x 164.615pt>
+<pricing_plans_simulate_companycall2.png, id=536, 456.70625pt x 164.615pt>
 File: pricing_plans_simulate_companycall2.png Graphic file (type png)
 
 <use pricing_plans_simulate_companycall2.png>
 Package pdftex.def Info: pricing_plans_simulate_companycall2.png used on input 
-line 1719.
+line 1727.
 (pdftex.def)             Requested size: 456.70512pt x 164.6146pt.
 
-<pricing_plans_simulate_companycall3.png, id=529, 956.57375pt x 269.005pt>
+<pricing_plans_simulate_companycall3.png, id=537, 956.57375pt x 269.005pt>
 File: pricing_plans_simulate_companycall3.png Graphic file (type png)
 
 <use pricing_plans_simulate_companycall3.png>
 Package pdftex.def Info: pricing_plans_simulate_companycall3.png used on input 
-line 1723.
+line 1731.
 (pdftex.def)             Requested size: 956.57141pt x 269.00433pt.
 File: pricing_plans_simulate_companycall3.png Graphic file (type png)
 
 <use pricing_plans_simulate_companycall3.png>
 Package pdftex.def Info: pricing_plans_simulate_companycall3.png used on input 
-line 1723.
+line 1731.
 (pdftex.def)             Requested size: 469.755pt x 132.10092pt.
- [56 <./pricing_plans_simulate_companycall.png> <./pricing_plans_simulate_compa
+ [58 <./pricing_plans_simulate_companycall.png> <./pricing_plans_simulate_compa
 nycall2.png> <./pricing_plans_simulate_companycall3.png>]
 Chapter 8.
-<extension_add.png, id=538, 841.1425pt x 546.04pt>
+<extension_add.png, id=545, 841.1425pt x 546.04pt>
 File: extension_add.png Graphic file (type png)
  <use extension_add.png>
-Package pdftex.def Info: extension_add.png used on input line 1750.
+Package pdftex.def Info: extension_add.png used on input line 1758.
 (pdftex.def)             Requested size: 841.14046pt x 546.03867pt.
 File: extension_add.png Graphic file (type png)
 
 <use extension_add.png>
-Package pdftex.def Info: extension_add.png used on input line 1750.
+Package pdftex.def Info: extension_add.png used on input line 1758.
 (pdftex.def)             Requested size: 469.755pt x 304.94713pt.
- [57
+ [59
 
 ]
-<terminals_add.png, id=546, 801.99625pt x 517.935pt>
+<terminals_add.png, id=553, 801.99625pt x 517.935pt>
 File: terminals_add.png Graphic file (type png)
  <use terminals_add.png>
-Package pdftex.def Info: terminals_add.png used on input line 1775.
+Package pdftex.def Info: terminals_add.png used on input line 1783.
 (pdftex.def)             Requested size: 801.99428pt x 517.93372pt.
 File: terminals_add.png Graphic file (type png)
 
 <use terminals_add.png>
-Package pdftex.def Info: terminals_add.png used on input line 1775.
+Package pdftex.def Info: terminals_add.png used on input line 1783.
 (pdftex.def)             Requested size: 469.755pt x 303.37404pt.
- [58 <./extension_add.png>]
+ [60 <./extension_add.png>]
 
-LaTeX Warning: Hyper reference `provisioning/index:provisioning' on page 59 und
-efined on input line 1790.
+LaTeX Warning: Hyper reference `provisioning/index:provisioning' on page 61 und
+efined on input line 1798.
 
 
-LaTeX Warning: Hyper reference `provisioning/index:provisioning' on page 59 und
-efined on input line 1793.
+LaTeX Warning: Hyper reference `provisioning/index:provisioning' on page 61 und
+efined on input line 1801.
 
 
 LaTeX Warning: Hyper reference `internal_calls/brand_portal:domain-per-company'
- on page 59 undefined on input line 1802.
+ on page 61 undefined on input line 1810.
 
-[59 <./terminals_add.png>]
+[61 <./terminals_add.png>]
 ! Missing number, treated as zero.
 <to be read again> 
                    *
-l.1817 ...xtbf{expresiones regulares} \footnote[*]
+l.1825 ...xtbf{expresiones regulares} \footnote[*]
                                                   {\sphinxAtStartFootnote%
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-<permissions_patterns.png, id=569, 804.00375pt x 212.795pt>
+<permissions_patterns.png, id=576, 804.00375pt x 212.795pt>
 File: permissions_patterns.png Graphic file (type png)
 
 <use permissions_patterns.png>
-Package pdftex.def Info: permissions_patterns.png used on input line 1845.
+Package pdftex.def Info: permissions_patterns.png used on input line 1853.
 (pdftex.def)             Requested size: 804.0018pt x 212.79446pt.
 File: permissions_patterns.png Graphic file (type png)
  <use permissions_patterns.png>
-Package pdftex.def Info: permissions_patterns.png used on input line 1845.
+Package pdftex.def Info: permissions_patterns.png used on input line 1853.
 (pdftex.def)             Requested size: 469.755pt x 124.32709pt.
- [60 <./permissions_patterns.png>]
-<permissions_patterns_list.png, id=578, 1184.425pt x 110.4125pt>
+ [62 <./permissions_patterns.png>]
+<permissions_patterns_list.png, id=586, 1184.425pt x 110.4125pt>
 File: permissions_patterns_list.png Graphic file (type png)
 
 <use permissions_patterns_list.png>
-Package pdftex.def Info: permissions_patterns_list.png used on input line 1905.
+Package pdftex.def Info: permissions_patterns_list.png used on input line 1913.
 
 (pdftex.def)             Requested size: 1184.42212pt x 110.41222pt.
 File: permissions_patterns_list.png Graphic file (type png)
  <use permissions_patterns_list.png>
-Package pdftex.def Info: permissions_patterns_list.png used on input line 1905.
+Package pdftex.def Info: permissions_patterns_list.png used on input line 1913.
 
 (pdftex.def)             Requested size: 469.755pt x 43.79019pt.
 
-<permissions_add.png, id=579, 800.9925pt x 215.80624pt>
+<permissions_add.png, id=587, 800.9925pt x 215.80624pt>
 File: permissions_add.png Graphic file (type png)
 
 <use permissions_add.png>
-Package pdftex.def Info: permissions_add.png used on input line 1909.
+Package pdftex.def Info: permissions_add.png used on input line 1917.
 (pdftex.def)             Requested size: 800.99054pt x 215.80571pt.
 File: permissions_add.png Graphic file (type png)
  <use permissions_add.png>
-Package pdftex.def Info: permissions_add.png used on input line 1909.
+Package pdftex.def Info: permissions_add.png used on input line 1917.
 (pdftex.def)             Requested size: 469.755pt x 126.5639pt.
 
-<permissions_add2.png, id=580, 805.0075pt x 498.86375pt>
+<permissions_add2.png, id=588, 805.0075pt x 498.86375pt>
 File: permissions_add2.png Graphic file (type png)
 
 <use permissions_add2.png>
-Package pdftex.def Info: permissions_add2.png used on input line 1917.
+Package pdftex.def Info: permissions_add2.png used on input line 1925.
 (pdftex.def)             Requested size: 805.00555pt x 498.86253pt.
 File: permissions_add2.png Graphic file (type png)
  <use permissions_add2.png>
-Package pdftex.def Info: permissions_add2.png used on input line 1917.
+Package pdftex.def Info: permissions_add2.png used on input line 1925.
 (pdftex.def)             Requested size: 469.755pt x 291.10716pt.
- [61 <./permissions_patterns_list.png> <./permissions_add.png>]
-<permissions_add3.png, id=589, 805.0075pt x 296.10625pt>
+ [63 <./permissions_patterns_list.png> <./permissions_add.png>]
+<permissions_add3.png, id=597, 805.0075pt x 296.10625pt>
 File: permissions_add3.png Graphic file (type png)
 
 <use permissions_add3.png>
-Package pdftex.def Info: permissions_add3.png used on input line 1921.
+Package pdftex.def Info: permissions_add3.png used on input line 1929.
 (pdftex.def)             Requested size: 805.00555pt x 296.10551pt.
 File: permissions_add3.png Graphic file (type png)
  <use permissions_add3.png>
-Package pdftex.def Info: permissions_add3.png used on input line 1921.
+Package pdftex.def Info: permissions_add3.png used on input line 1929.
 (pdftex.def)             Requested size: 469.755pt x 172.78996pt.
 
-<permissions_add4.png, id=590, 800.9925pt x 496.85625pt>
+<permissions_add4.png, id=598, 800.9925pt x 496.85625pt>
 File: permissions_add4.png Graphic file (type png)
 
 <use permissions_add4.png>
-Package pdftex.def Info: permissions_add4.png used on input line 1925.
+Package pdftex.def Info: permissions_add4.png used on input line 1933.
 (pdftex.def)             Requested size: 800.99054pt x 496.85503pt.
 File: permissions_add4.png Graphic file (type png)
  <use permissions_add4.png>
-Package pdftex.def Info: permissions_add4.png used on input line 1925.
+Package pdftex.def Info: permissions_add4.png used on input line 1933.
 (pdftex.def)             Requested size: 469.755pt x 291.39133pt.
- [62 <./permissions_add2.png> <./permissions_add3.png>]
-<permissions_add5.png, id=598, 799.98875pt x 552.0625pt>
+ [64 <./permissions_add2.png> <./permissions_add3.png>]
+<permissions_add5.png, id=605, 799.98875pt x 552.0625pt>
 File: permissions_add5.png Graphic file (type png)
 
 <use permissions_add5.png>
-Package pdftex.def Info: permissions_add5.png used on input line 1929.
+Package pdftex.def Info: permissions_add5.png used on input line 1937.
 (pdftex.def)             Requested size: 799.9868pt x 552.06114pt.
 File: permissions_add5.png Graphic file (type png)
  <use permissions_add5.png>
-Package pdftex.def Info: permissions_add5.png used on input line 1929.
+Package pdftex.def Info: permissions_add5.png used on input line 1937.
 (pdftex.def)             Requested size: 469.755pt x 324.17249pt.
- [63 <./permissions_add4.png> <./permissions_add5.png>]
-<users_edit_personal_data.png, id=605, 766.865pt x 189.70876pt>
+ [65 <./permissions_add4.png> <./permissions_add5.png>]
+<users_edit_personal_data.png, id=612, 766.865pt x 189.70876pt>
 File: users_edit_personal_data.png Graphic file (type png)
 
 <use users_edit_personal_data.png>
-Package pdftex.def Info: users_edit_personal_data.png used on input line 1945.
+Package pdftex.def Info: users_edit_personal_data.png used on input line 1953.
 (pdftex.def)             Requested size: 766.86314pt x 189.70828pt.
 File: users_edit_personal_data.png Graphic file (type png)
  <use users_edit_personal_data.png>
-Package pdftex.def Info: users_edit_personal_data.png used on input line 1945.
+Package pdftex.def Info: users_edit_personal_data.png used on input line 1953.
 (pdftex.def)             Requested size: 469.755pt x 116.21136pt.
 
-<users_edit_login.png, id=606, 764.8575pt x 123.46124pt>
+<users_edit_login.png, id=613, 764.8575pt x 123.46124pt>
 File: users_edit_login.png Graphic file (type png)
 
 <use users_edit_login.png>
-Package pdftex.def Info: users_edit_login.png used on input line 1961.
+Package pdftex.def Info: users_edit_login.png used on input line 1969.
 (pdftex.def)             Requested size: 764.85562pt x 123.46092pt.
 File: users_edit_login.png Graphic file (type png)
  <use users_edit_login.png>
-Package pdftex.def Info: users_edit_login.png used on input line 1961.
+Package pdftex.def Info: users_edit_login.png used on input line 1969.
 (pdftex.def)             Requested size: 469.755pt x 75.82741pt.
 
 
-LaTeX Warning: Hyper reference `userportal/index:userportal' on page 64 undefin
-ed on input line 1964.
+LaTeX Warning: Hyper reference `userportal/index:userportal' on page 66 undefin
+ed on input line 1972.
 
 
-LaTeX Warning: Hyper reference `userportal/index:userportal' on page 64 undefin
-ed on input line 1967.
+LaTeX Warning: Hyper reference `userportal/index:userportal' on page 66 undefin
+ed on input line 1975.
 
 
-LaTeX Warning: Hyper reference `userportal/index:userportal' on page 64 undefin
-ed on input line 1970.
+LaTeX Warning: Hyper reference `userportal/index:userportal' on page 66 undefin
+ed on input line 1978.
 
-<users_edit_basic_config.png, id=607, 763.85374pt x 197.73875pt>
+<users_edit_basic_config.png, id=614, 763.85374pt x 197.73875pt>
 File: users_edit_basic_config.png Graphic file (type png)
 
 <use users_edit_basic_config.png>
-Package pdftex.def Info: users_edit_basic_config.png used on input line 1977.
+Package pdftex.def Info: users_edit_basic_config.png used on input line 1985.
 (pdftex.def)             Requested size: 763.85187pt x 197.73827pt.
 File: users_edit_basic_config.png Graphic file (type png)
  <use users_edit_basic_config.png>
-Package pdftex.def Info: users_edit_basic_config.png used on input line 1977.
+Package pdftex.def Info: users_edit_basic_config.png used on input line 1985.
 (pdftex.def)             Requested size: 469.755pt x 121.60408pt.
- [64 <./users_edit_personal_data.png> <./users_edit_login.png>]
+ [66 <./users_edit_personal_data.png> <./users_edit_login.png>]
 
-LaTeX Warning: Hyper reference `pbx_features/terminals:terminals' on page 65 un
-defined on input line 1980.
+LaTeX Warning: Hyper reference `pbx_features/terminals:terminals' on page 67 un
+defined on input line 1988.
 
 
-LaTeX Warning: Hyper reference `pbx_features/extensions:extensions' on page 65 
-undefined on input line 1983.
+LaTeX Warning: Hyper reference `pbx_features/extensions:extensions' on page 67 
+undefined on input line 1991.
 
 
 LaTeX Warning: Hyper reference `external_outgoing_calls/external_ddi:external-d
-di' on page 65 undefined on input line 1986.
+di' on page 67 undefined on input line 1994.
 
 
 LaTeX Warning: Hyper reference `pbx_features/call_permissions:call-permissions'
- on page 65 undefined on input line 1989.
+ on page 67 undefined on input line 1997.
 
-<users_edit_vm.png, id=621, 761.84625pt x 115.43124pt>
+<users_edit_vm.png, id=628, 761.84625pt x 115.43124pt>
 File: users_edit_vm.png Graphic file (type png)
  <use users_edit_vm.png>
-Package pdftex.def Info: users_edit_vm.png used on input line 2002.
+Package pdftex.def Info: users_edit_vm.png used on input line 2010.
 (pdftex.def)             Requested size: 761.84439pt x 115.43095pt.
 File: users_edit_vm.png Graphic file (type png)
 
 <use users_edit_vm.png>
-Package pdftex.def Info: users_edit_vm.png used on input line 2002.
+Package pdftex.def Info: users_edit_vm.png used on input line 2010.
 (pdftex.def)             Requested size: 469.755pt x 71.17384pt.
 
 
-LaTeX Warning: Hyper reference `pbx_features/users:fwd-to-vm' on page 65 undefi
-ned on input line 2005.
+LaTeX Warning: Hyper reference `pbx_features/users:fwd-to-vm' on page 67 undefi
+ned on input line 2013.
 
-<users_edit_boss.png, id=622, 763.85374pt x 201.75375pt>
+<users_edit_boss.png, id=629, 763.85374pt x 201.75375pt>
 File: users_edit_boss.png Graphic file (type png)
 
 <use users_edit_boss.png>
-Package pdftex.def Info: users_edit_boss.png used on input line 2018.
+Package pdftex.def Info: users_edit_boss.png used on input line 2026.
 (pdftex.def)             Requested size: 763.85187pt x 201.75325pt.
 File: users_edit_boss.png Graphic file (type png)
  <use users_edit_boss.png>
-Package pdftex.def Info: users_edit_boss.png used on input line 2018.
+Package pdftex.def Info: users_edit_boss.png used on input line 2026.
 (pdftex.def)             Requested size: 469.755pt x 124.0732pt.
- [65 <./users_edit_basic_config.png> <./users_edit_vm.png> <./users_edit_boss.p
+ [67 <./users_edit_basic_config.png> <./users_edit_vm.png> <./users_edit_boss.p
 ng>]
-<users_edit_groups.png, id=640, 765.86125pt x 379.4175pt>
+<users_edit_groups.png, id=647, 765.86125pt x 379.4175pt>
 File: users_edit_groups.png Graphic file (type png)
 
 <use users_edit_groups.png>
-Package pdftex.def Info: users_edit_groups.png used on input line 2048.
+Package pdftex.def Info: users_edit_groups.png used on input line 2056.
 (pdftex.def)             Requested size: 765.85938pt x 379.41656pt.
 File: users_edit_groups.png Graphic file (type png)
  <use users_edit_groups.png>
-Package pdftex.def Info: users_edit_groups.png used on input line 2048.
+Package pdftex.def Info: users_edit_groups.png used on input line 2056.
 (pdftex.def)             Requested size: 469.755pt x 232.7238pt.
 
 
-LaTeX Warning: Hyper reference `pbx_features/huntgroups:huntgroups' on page 66 
-undefined on input line 2050.
+LaTeX Warning: Hyper reference `pbx_features/huntgroups:huntgroups' on page 68 
+undefined on input line 2058.
 
 
 LaTeX Warning: Hyper reference `pbx_features/call_captures:capture-groups' on p
-age 66 undefined on input line 2050.
+age 68 undefined on input line 2058.
 
 
-LaTeX Warning: Hyper reference `pbx_features/huntgroups:huntgroups' on page 66 
-undefined on input line 2052.
+LaTeX Warning: Hyper reference `pbx_features/huntgroups:huntgroups' on page 68 
+undefined on input line 2060.
 
 
 LaTeX Warning: Hyper reference `pbx_features/call_captures:capture-groups' on p
-age 66 undefined on input line 2052.
+age 68 undefined on input line 2060.
 
-<users_huntgroups.png, id=641, 732.7375pt x 220.825pt>
+<users_huntgroups.png, id=648, 732.7375pt x 220.825pt>
 File: users_huntgroups.png Graphic file (type png)
 
 <use users_huntgroups.png>
-Package pdftex.def Info: users_huntgroups.png used on input line 2056.
+Package pdftex.def Info: users_huntgroups.png used on input line 2064.
 (pdftex.def)             Requested size: 732.73572pt x 220.82445pt.
 File: users_huntgroups.png Graphic file (type png)
  <use users_huntgroups.png>
-Package pdftex.def Info: users_huntgroups.png used on input line 2056.
+Package pdftex.def Info: users_huntgroups.png used on input line 2064.
 (pdftex.def)             Requested size: 469.755pt x 141.57011pt.
- [66 <./users_edit_groups.png> <./users_huntgroups.png>]
-<users_call_fwd.png, id=651, 734.745pt x 226.8475pt>
+ [68 <./users_edit_groups.png> <./users_huntgroups.png>]
+<users_call_fwd.png, id=659, 734.745pt x 226.8475pt>
 File: users_call_fwd.png Graphic file (type png)
  <use users_call_fwd.png>
-Package pdftex.def Info: users_call_fwd.png used on input line 2063.
+Package pdftex.def Info: users_call_fwd.png used on input line 2071.
 (pdftex.def)             Requested size: 734.7432pt x 226.84694pt.
 File: users_call_fwd.png Graphic file (type png)
 
 <use users_call_fwd.png>
-Package pdftex.def Info: users_call_fwd.png used on input line 2063.
+Package pdftex.def Info: users_call_fwd.png used on input line 2071.
 (pdftex.def)             Requested size: 469.755pt x 145.03651pt.
 
-Overfull \hbox (1.90002pt too wide) in paragraph at lines 2063--2066
+Overfull \hbox (1.90002pt too wide) in paragraph at lines 2071--2074
 | []|  [][]
  []
 
-<users_call_fwd2.png, id=652, 797.98125pt x 301.125pt>
+<users_call_fwd2.png, id=660, 797.98125pt x 301.125pt>
 File: users_call_fwd2.png Graphic file (type png)
 
 <use users_call_fwd2.png>
-Package pdftex.def Info: users_call_fwd2.png used on input line 2067.
+Package pdftex.def Info: users_call_fwd2.png used on input line 2075.
 (pdftex.def)             Requested size: 797.9793pt x 301.12425pt.
 File: users_call_fwd2.png Graphic file (type png)
  <use users_call_fwd2.png>
-Package pdftex.def Info: users_call_fwd2.png used on input line 2067.
+Package pdftex.def Info: users_call_fwd2.png used on input line 2075.
 (pdftex.def)             Requested size: 469.755pt x 177.26704pt.
- [67 <./users_call_fwd.png> <./users_call_fwd2.png>] <moh_add.png, id=663, 798.
+ [69 <./users_call_fwd.png> <./users_call_fwd2.png>] <moh_add.png, id=671, 798.
 985pt x 394.47375pt>
 File: moh_add.png Graphic file (type png)
 
 <use moh_add.png>
-Package pdftex.def Info: moh_add.png used on input line 2135.
+Package pdftex.def Info: moh_add.png used on input line 2143.
 (pdftex.def)             Requested size: 798.98305pt x 394.47278pt.
 File: moh_add.png Graphic file (type png)
  <use moh_add.png>
-Package pdftex.def Info: moh_add.png used on input line 2135.
+Package pdftex.def Info: moh_add.png used on input line 2143.
 (pdftex.def)             Requested size: 469.755pt x 231.93092pt.
 
-<moh_add2.png, id=664, 773.89125pt x 88.33pt>
+<moh_add2.png, id=672, 773.89125pt x 88.33pt>
 File: moh_add2.png Graphic file (type png)
  <use moh_add2.png>
-Package pdftex.def Info: moh_add2.png used on input line 2139.
+Package pdftex.def Info: moh_add2.png used on input line 2147.
 (pdftex.def)             Requested size: 773.88936pt x 88.32977pt.
 File: moh_add2.png Graphic file (type png)
 
 <use moh_add2.png>
-Package pdftex.def Info: moh_add2.png used on input line 2139.
+Package pdftex.def Info: moh_add2.png used on input line 2147.
 (pdftex.def)             Requested size: 469.755pt x 53.61703pt.
- [68 <./moh_add.png> <./moh_add2.png>]
-<moh_add3.png, id=672, 794.97pt x 532.99126pt>
+ [70 <./moh_add.png> <./moh_add2.png>]
+<moh_add3.png, id=679, 794.97pt x 532.99126pt>
 File: moh_add3.png Graphic file (type png)
  <use moh_add3.png>
-Package pdftex.def Info: moh_add3.png used on input line 2147.
+Package pdftex.def Info: moh_add3.png used on input line 2155.
 (pdftex.def)             Requested size: 794.96806pt x 532.98996pt.
 File: moh_add3.png Graphic file (type png)
 
 <use moh_add3.png>
-Package pdftex.def Info: moh_add3.png used on input line 2147.
+Package pdftex.def Info: moh_add3.png used on input line 2155.
 (pdftex.def)             Requested size: 469.755pt x 314.95822pt.
 
 
 LaTeX Warning: Hyper reference `pbx_features/music_on_hold:musiconhold' on page
- 69 undefined on input line 2152.
+ 71 undefined on input line 2160.
 
-<sounds.png, id=673, 798.985pt x 237.88875pt>
+<sounds.png, id=680, 798.985pt x 237.88875pt>
 File: sounds.png Graphic file (type png)
  <use sounds.png>
-Package pdftex.def Info: sounds.png used on input line 2156.
+Package pdftex.def Info: sounds.png used on input line 2164.
 (pdftex.def)             Requested size: 798.98305pt x 237.88815pt.
 File: sounds.png Graphic file (type png)
 
 <use sounds.png>
-Package pdftex.def Info: sounds.png used on input line 2156.
+Package pdftex.def Info: sounds.png used on input line 2164.
 (pdftex.def)             Requested size: 469.755pt x 139.86673pt.
- [69 <./moh_add3.png> <./sounds.png>]
+ [71 <./moh_add3.png> <./sounds.png>]
 
 LaTeX Warning: Hyper reference `pbx_features/external_ddis:external-ddis' on pa
-ge 70 undefined on input line 2165.
+ge 72 undefined on input line 2173.
 
 
 LaTeX Warning: Hyper reference `pbx_features/external_ddis:external-ddis' on pa
-ge 70 undefined on input line 2170.
+ge 72 undefined on input line 2178.
 
-<timetables_add.png, id=679, 800.9925pt x 445.665pt>
+<timetables_add.png, id=686, 800.9925pt x 445.665pt>
 File: timetables_add.png Graphic file (type png)
  <use timetables_add.png>
-Package pdftex.def Info: timetables_add.png used on input line 2174.
+Package pdftex.def Info: timetables_add.png used on input line 2182.
 (pdftex.def)             Requested size: 800.99054pt x 445.66391pt.
 File: timetables_add.png Graphic file (type png)
 
 <use timetables_add.png>
-Package pdftex.def Info: timetables_add.png used on input line 2174.
+Package pdftex.def Info: timetables_add.png used on input line 2182.
 (pdftex.def)             Requested size: 469.755pt x 261.3692pt.
- <timetables_add2.png, id=680, 794.97pt x 442.65375pt>
+ <timetables_add2.png, id=687, 794.97pt x 442.65375pt>
 File: timetables_add2.png Graphic file (type png)
 
 <use timetables_add2.png>
-Package pdftex.def Info: timetables_add2.png used on input line 2180.
+Package pdftex.def Info: timetables_add2.png used on input line 2188.
 (pdftex.def)             Requested size: 794.96806pt x 442.65265pt.
 File: timetables_add2.png Graphic file (type png)
  <use timetables_add2.png>
-Package pdftex.def Info: timetables_add2.png used on input line 2180.
+Package pdftex.def Info: timetables_add2.png used on input line 2188.
 (pdftex.def)             Requested size: 469.755pt x 261.57545pt.
- [70 <./timetables_add.png>] <timetables_add3.png, id=687, 794.97pt x 448.67625
+ [72 <./timetables_add.png>] <timetables_add3.png, id=694, 794.97pt x 448.67625
 pt>
 File: timetables_add3.png Graphic file (type png)
 
 <use timetables_add3.png>
-Package pdftex.def Info: timetables_add3.png used on input line 2184.
+Package pdftex.def Info: timetables_add3.png used on input line 2192.
 (pdftex.def)             Requested size: 794.96806pt x 448.67516pt.
 File: timetables_add3.png Graphic file (type png)
  <use timetables_add3.png>
-Package pdftex.def Info: timetables_add3.png used on input line 2184.
+Package pdftex.def Info: timetables_add3.png used on input line 2192.
 (pdftex.def)             Requested size: 469.755pt x 265.13431pt.
 
-<timetables_add4.png, id=688, 771.88374pt x 135.50626pt>
+<timetables_add4.png, id=695, 771.88374pt x 135.50626pt>
 File: timetables_add4.png Graphic file (type png)
 
 <use timetables_add4.png>
-Package pdftex.def Info: timetables_add4.png used on input line 2188.
+Package pdftex.def Info: timetables_add4.png used on input line 2196.
 (pdftex.def)             Requested size: 771.88185pt x 135.5059pt.
 File: timetables_add4.png Graphic file (type png)
  <use timetables_add4.png>
-Package pdftex.def Info: timetables_add4.png used on input line 2188.
+Package pdftex.def Info: timetables_add4.png used on input line 2196.
 (pdftex.def)             Requested size: 469.755pt x 82.46638pt.
- [71 <./timetables_add2.png> <./timetables_add3.png>]
-<calendars_list.png, id=693, 771.88374pt x 141.52875pt>
+ [73 <./timetables_add2.png> <./timetables_add3.png>]
+<calendars_list.png, id=700, 771.88374pt x 141.52875pt>
 File: calendars_list.png Graphic file (type png)
 
 <use calendars_list.png>
-Package pdftex.def Info: calendars_list.png used on input line 2199.
+Package pdftex.def Info: calendars_list.png used on input line 2207.
 (pdftex.def)             Requested size: 771.88185pt x 141.5284pt.
 File: calendars_list.png Graphic file (type png)
  <use calendars_list.png>
-Package pdftex.def Info: calendars_list.png used on input line 2199.
+Package pdftex.def Info: calendars_list.png used on input line 2207.
 (pdftex.def)             Requested size: 469.755pt x 86.13156pt.
 
-<calendars_add_day.png, id=694, 741.77126pt x 343.2825pt>
+<calendars_add_day.png, id=701, 741.77126pt x 343.2825pt>
 File: calendars_add_day.png Graphic file (type png)
 
 <use calendars_add_day.png>
-Package pdftex.def Info: calendars_add_day.png used on input line 2203.
+Package pdftex.def Info: calendars_add_day.png used on input line 2211.
 (pdftex.def)             Requested size: 741.76945pt x 343.28165pt.
 File: calendars_add_day.png Graphic file (type png)
  <use calendars_add_day.png>
-Package pdftex.def Info: calendars_add_day.png used on input line 2203.
+Package pdftex.def Info: calendars_add_day.png used on input line 2211.
 (pdftex.def)             Requested size: 469.755pt x 217.40053pt.
- [72 <./timetables_add4.png> <./calendars_list.png> <./calendars_add_day.png>]
-<external_call_filter.png, id=701, 799.98875pt x 697.60625pt>
+ [74 <./timetables_add4.png> <./calendars_list.png> <./calendars_add_day.png>]
+<external_call_filter.png, id=709, 799.98875pt x 697.60625pt>
 File: external_call_filter.png Graphic file (type png)
 
 <use external_call_filter.png>
-Package pdftex.def Info: external_call_filter.png used on input line 2220.
+Package pdftex.def Info: external_call_filter.png used on input line 2228.
 (pdftex.def)             Requested size: 799.9868pt x 697.60454pt.
 File: external_call_filter.png Graphic file (type png)
  <use external_call_filter.png>
-Package pdftex.def Info: external_call_filter.png used on input line 2220.
+Package pdftex.def Info: external_call_filter.png used on input line 2228.
 (pdftex.def)             Requested size: 469.755pt x 409.63615pt.
- [73 <./external_call_filter.png>]
+ [75 <./external_call_filter.png>]
 
 LaTeX Warning: Hyper reference `pbx_features/external_ddis:external-ddis' on pa
-ge 74 undefined on input line 2252.
+ge 76 undefined on input line 2260.
 
-<huntgroup_add.png, id=710, 749.80125pt x 260.975pt>
+<huntgroup_add.png, id=718, 749.80125pt x 260.975pt>
 File: huntgroup_add.png Graphic file (type png)
  <use huntgroup_add.png>
-Package pdftex.def Info: huntgroup_add.png used on input line 2278.
+Package pdftex.def Info: huntgroup_add.png used on input line 2286.
 (pdftex.def)             Requested size: 749.79942pt x 260.97437pt.
 File: huntgroup_add.png Graphic file (type png)
 
 <use huntgroup_add.png>
-Package pdftex.def Info: huntgroup_add.png used on input line 2278.
+Package pdftex.def Info: huntgroup_add.png used on input line 2286.
 (pdftex.def)             Requested size: 469.755pt x 163.5032pt.
- [74]
-<huntgroup_add2.png, id=727, 813.0375pt x 88.33pt>
+ [76]
+<huntgroup_add2.png, id=734, 813.0375pt x 88.33pt>
 File: huntgroup_add2.png Graphic file (type png)
  <use huntgroup_add2.png>
-Package pdftex.def Info: huntgroup_add2.png used on input line 2282.
+Package pdftex.def Info: huntgroup_add2.png used on input line 2290.
 (pdftex.def)             Requested size: 813.03552pt x 88.32977pt.
 File: huntgroup_add2.png Graphic file (type png)
 
 <use huntgroup_add2.png>
-Package pdftex.def Info: huntgroup_add2.png used on input line 2282.
+Package pdftex.def Info: huntgroup_add2.png used on input line 2290.
 (pdftex.def)             Requested size: 469.755pt x 51.03464pt.
- <huntgroup_add3.png, id=728, 738.76pt x 256.96pt>
+ <huntgroup_add3.png, id=735, 738.76pt x 256.96pt>
 File: huntgroup_add3.png Graphic file (type png)
 
 <use huntgroup_add3.png>
-Package pdftex.def Info: huntgroup_add3.png used on input line 2287.
+Package pdftex.def Info: huntgroup_add3.png used on input line 2295.
 (pdftex.def)             Requested size: 738.75818pt x 256.95937pt.
 File: huntgroup_add3.png Graphic file (type png)
  <use huntgroup_add3.png>
-Package pdftex.def Info: huntgroup_add3.png used on input line 2287.
+Package pdftex.def Info: huntgroup_add3.png used on input line 2295.
 (pdftex.def)             Requested size: 469.755pt x 163.39127pt.
 
-<huntgroup_add4.png, id=729, 813.0375pt x 114.4275pt>
+<huntgroup_add4.png, id=736, 813.0375pt x 114.4275pt>
 File: huntgroup_add4.png Graphic file (type png)
  <use huntgroup_add4.png>
-Package pdftex.def Info: huntgroup_add4.png used on input line 2291.
+Package pdftex.def Info: huntgroup_add4.png used on input line 2299.
 (pdftex.def)             Requested size: 813.03552pt x 114.42722pt.
 File: huntgroup_add4.png Graphic file (type png)
 
 <use huntgroup_add4.png>
-Package pdftex.def Info: huntgroup_add4.png used on input line 2291.
+Package pdftex.def Info: huntgroup_add4.png used on input line 2299.
 (pdftex.def)             Requested size: 469.755pt x 66.11307pt.
- [75 <./huntgroup_add.png> <./huntgroup_add2.png> <./huntgroup_add3.png> <./hun
+ [77 <./huntgroup_add.png> <./huntgroup_add2.png> <./huntgroup_add3.png> <./hun
 tgroup_add4.png>]
-<huntgroup_extension.png, id=735, 747.79375pt x 296.10625pt>
+<huntgroup_extension.png, id=742, 747.79375pt x 296.10625pt>
 File: huntgroup_extension.png Graphic file (type png)
 
 <use huntgroup_extension.png>
-Package pdftex.def Info: huntgroup_extension.png used on input line 2299.
+Package pdftex.def Info: huntgroup_extension.png used on input line 2307.
 (pdftex.def)             Requested size: 747.79192pt x 296.10551pt.
 File: huntgroup_extension.png Graphic file (type png)
  <use huntgroup_extension.png>
-Package pdftex.def Info: huntgroup_extension.png used on input line 2299.
+Package pdftex.def Info: huntgroup_extension.png used on input line 2307.
 (pdftex.def)             Requested size: 469.755pt x 186.01024pt.
 
-<ivr_generic.png, id=736, 795.97375pt x 717.68124pt>
+<ivr_generic.png, id=743, 795.97375pt x 717.68124pt>
 File: ivr_generic.png Graphic file (type png)
  <use ivr_generic.png>
-Package pdftex.def Info: ivr_generic.png used on input line 2311.
+Package pdftex.def Info: ivr_generic.png used on input line 2319.
 (pdftex.def)             Requested size: 795.97182pt x 717.67949pt.
 File: ivr_generic.png Graphic file (type png)
 
 <use ivr_generic.png>
-Package pdftex.def Info: ivr_generic.png used on input line 2311.
+Package pdftex.def Info: ivr_generic.png used on input line 2319.
 (pdftex.def)             Requested size: 469.755pt x 423.54872pt.
- [76 <./huntgroup_extension.png>] [77 <./ivr_generic.png>] <ivr_custom.png, id=
-754, 794.97pt x 650.43pt>
+ [78 <./huntgroup_extension.png>] [79 <./ivr_generic.png>] <ivr_custom.png, id=
+761, 794.97pt x 650.43pt>
 File: ivr_custom.png Graphic file (type png)
  <use ivr_custom.png>
-Package pdftex.def Info: ivr_custom.png used on input line 2349.
+Package pdftex.def Info: ivr_custom.png used on input line 2357.
 (pdftex.def)             Requested size: 794.96806pt x 650.4284pt.
 File: ivr_custom.png Graphic file (type png)
 
 <use ivr_custom.png>
-Package pdftex.def Info: ivr_custom.png used on input line 2349.
+Package pdftex.def Info: ivr_custom.png used on input line 2357.
 (pdftex.def)             Requested size: 469.755pt x 384.35577pt.
- <ivr_custom2.png, id=755, 1079.03125pt x 159.59625pt>
+ <ivr_custom2.png, id=762, 1079.03125pt x 159.59625pt>
 File: ivr_custom2.png Graphic file (type png)
 
 <use ivr_custom2.png>
-Package pdftex.def Info: ivr_custom2.png used on input line 2355.
+Package pdftex.def Info: ivr_custom2.png used on input line 2363.
 (pdftex.def)             Requested size: 1079.02863pt x 159.59584pt.
 File: ivr_custom2.png Graphic file (type png)
  <use ivr_custom2.png>
-Package pdftex.def Info: ivr_custom2.png used on input line 2355.
+Package pdftex.def Info: ivr_custom2.png used on input line 2363.
 (pdftex.def)             Requested size: 469.755pt x 69.4798pt.
- [78 <./ivr_custom.png>]
-<ivr_custom3.png, id=761, 1049.9225pt x 139.52126pt>
+ [80 <./ivr_custom.png>]
+<ivr_custom3.png, id=769, 1049.9225pt x 139.52126pt>
 File: ivr_custom3.png Graphic file (type png)
  <use ivr_custom3.png>
-Package pdftex.def Info: ivr_custom3.png used on input line 2359.
+Package pdftex.def Info: ivr_custom3.png used on input line 2367.
 (pdftex.def)             Requested size: 1049.91994pt x 139.5209pt.
 File: ivr_custom3.png Graphic file (type png)
 
 <use ivr_custom3.png>
-Package pdftex.def Info: ivr_custom3.png used on input line 2359.
+Package pdftex.def Info: ivr_custom3.png used on input line 2367.
 (pdftex.def)             Requested size: 469.755pt x 62.42418pt.
 
 
-LaTeX Warning: Hyper reference `pbx_features/huntgroups:huntgroups' on page 79 
-undefined on input line 2362.
+LaTeX Warning: Hyper reference `pbx_features/huntgroups:huntgroups' on page 81 
+undefined on input line 2370.
 
-<conference_room.png, id=762, 801.99625pt x 316.18124pt>
+<conference_room.png, id=770, 801.99625pt x 316.18124pt>
 File: conference_room.png Graphic file (type png)
 
 <use conference_room.png>
-Package pdftex.def Info: conference_room.png used on input line 2384.
+Package pdftex.def Info: conference_room.png used on input line 2392.
 (pdftex.def)             Requested size: 801.99428pt x 316.18047pt.
 File: conference_room.png Graphic file (type png)
  <use conference_room.png>
-Package pdftex.def Info: conference_room.png used on input line 2384.
+Package pdftex.def Info: conference_room.png used on input line 2392.
 (pdftex.def)             Requested size: 469.755pt x 185.19926pt.
- [79 <./ivr_custom2.png> <./ivr_custom3.png> <./conference_room.png>]
-<conference_room_ext.png, id=772, 803.0pt x 298.11375pt>
+ [81 <./ivr_custom2.png> <./ivr_custom3.png> <./conference_room.png>]
+<conference_room_ext.png, id=780, 803.0pt x 298.11375pt>
 File: conference_room_ext.png Graphic file (type png)
 
 <use conference_room_ext.png>
-Package pdftex.def Info: conference_room_ext.png used on input line 2406.
+Package pdftex.def Info: conference_room_ext.png used on input line 2414.
 (pdftex.def)             Requested size: 802.99805pt x 298.11302pt.
 File: conference_room_ext.png Graphic file (type png)
  <use conference_room_ext.png>
-Package pdftex.def Info: conference_room_ext.png used on input line 2406.
+Package pdftex.def Info: conference_room_ext.png used on input line 2414.
 (pdftex.def)             Requested size: 469.755pt x 174.40266pt.
 
 
 LaTeX Warning: Hyper reference `pbx_features/external_ddis:external-ddis' on pa
-ge 80 undefined on input line 2408.
+ge 82 undefined on input line 2416.
 
 
 LaTeX Warning: Hyper reference `external_incoming_calls/configure_ddi:settingup
--ddi' on page 80 undefined on input line 2417.
+-ddi' on page 82 undefined on input line 2425.
 
 
 LaTeX Warning: Hyper reference `pbx_features/external_filters:external-filters'
- on page 80 undefined on input line 2424.
+ on page 82 undefined on input line 2432.
 
-<ddi_edit.png, id=773, 764.8575pt x 110.4125pt>
+<ddi_edit.png, id=781, 764.8575pt x 110.4125pt>
 File: ddi_edit.png Graphic file (type png)
  <use ddi_edit.png>
-Package pdftex.def Info: ddi_edit.png used on input line 2426.
+Package pdftex.def Info: ddi_edit.png used on input line 2434.
 (pdftex.def)             Requested size: 764.85562pt x 110.41222pt.
 File: ddi_edit.png Graphic file (type png)
 
 <use ddi_edit.png>
-Package pdftex.def Info: ddi_edit.png used on input line 2426.
+Package pdftex.def Info: ddi_edit.png used on input line 2434.
 (pdftex.def)             Requested size: 469.755pt x 67.81314pt.
- [80 <./conference_room_ext.png>]
+ [82 <./conference_room_ext.png>]
 
-LaTeX Warning: Hyper reference `pbx_features/huntgroups:huntgroups' on page 81 
-undefined on input line 2434.
+LaTeX Warning: Hyper reference `pbx_features/huntgroups:huntgroups' on page 83 
+undefined on input line 2442.
 
-<ddi_edit2.png, id=784, 770.88pt x 115.43124pt>
+<ddi_edit2.png, id=792, 770.88pt x 115.43124pt>
 File: ddi_edit2.png Graphic file (type png)
  <use ddi_edit2.png>
-Package pdftex.def Info: ddi_edit2.png used on input line 2438.
+Package pdftex.def Info: ddi_edit2.png used on input line 2446.
 (pdftex.def)             Requested size: 770.87813pt x 115.43095pt.
 File: ddi_edit2.png Graphic file (type png)
 
 <use ddi_edit2.png>
-Package pdftex.def Info: ddi_edit2.png used on input line 2438.
+Package pdftex.def Info: ddi_edit2.png used on input line 2446.
 (pdftex.def)             Requested size: 469.755pt x 70.34073pt.
 
 
-LaTeX Warning: Hyper reference `pbx_features/ivrs:generic-ivrs' on page 81 unde
-fined on input line 2441.
+LaTeX Warning: Hyper reference `pbx_features/ivrs:generic-ivrs' on page 83 unde
+fined on input line 2449.
 
-<ddi_edit3.png, id=785, 764.8575pt x 117.43875pt>
+<ddi_edit3.png, id=793, 764.8575pt x 117.43875pt>
 File: ddi_edit3.png Graphic file (type png)
  <use ddi_edit3.png>
-Package pdftex.def Info: ddi_edit3.png used on input line 2445.
+Package pdftex.def Info: ddi_edit3.png used on input line 2453.
 (pdftex.def)             Requested size: 764.85562pt x 117.43845pt.
 File: ddi_edit3.png Graphic file (type png)
 
 <use ddi_edit3.png>
-Package pdftex.def Info: ddi_edit3.png used on input line 2445.
+Package pdftex.def Info: ddi_edit3.png used on input line 2453.
 (pdftex.def)             Requested size: 469.755pt x 72.12851pt.
 
 
-LaTeX Warning: Hyper reference `pbx_features/ivrs:custom-ivrs' on page 81 undef
-ined on input line 2448.
+LaTeX Warning: Hyper reference `pbx_features/ivrs:custom-ivrs' on page 83 undef
+ined on input line 2456.
 
-<ddi_edit4.png, id=786, 765.86125pt x 113.42375pt>
+<ddi_edit4.png, id=794, 765.86125pt x 113.42375pt>
 File: ddi_edit4.png Graphic file (type png)
  <use ddi_edit4.png>
-Package pdftex.def Info: ddi_edit4.png used on input line 2452.
+Package pdftex.def Info: ddi_edit4.png used on input line 2460.
 (pdftex.def)             Requested size: 765.85938pt x 113.42346pt.
 File: ddi_edit4.png Graphic file (type png)
 
 <use ddi_edit4.png>
-Package pdftex.def Info: ddi_edit4.png used on input line 2452.
+Package pdftex.def Info: ddi_edit4.png used on input line 2460.
 (pdftex.def)             Requested size: 469.755pt x 69.57086pt.
 
 
 LaTeX Warning: Hyper reference `pbx_features/conference_rooms:conference-rooms'
- on page 81 undefined on input line 2455.
+ on page 83 undefined on input line 2463.
 
-<ddi_edit5.png, id=787, 763.85374pt x 114.4275pt>
+<ddi_edit5.png, id=795, 763.85374pt x 114.4275pt>
 File: ddi_edit5.png Graphic file (type png)
  <use ddi_edit5.png>
-Package pdftex.def Info: ddi_edit5.png used on input line 2459.
+Package pdftex.def Info: ddi_edit5.png used on input line 2467.
 (pdftex.def)             Requested size: 763.85187pt x 114.42722pt.
 File: ddi_edit5.png Graphic file (type png)
 
 <use ddi_edit5.png>
-Package pdftex.def Info: ddi_edit5.png used on input line 2459.
+Package pdftex.def Info: ddi_edit5.png used on input line 2467.
 (pdftex.def)             Requested size: 469.755pt x 70.36987pt.
 
 
-LaTeX Warning: Hyper reference `faxing/index:faxing-system' on page 81 undefine
-d on input line 2462.
+LaTeX Warning: Hyper reference `faxing/index:faxing-system' on page 83 undefine
+d on input line 2470.
 
-[81 <./ddi_edit.png> <./ddi_edit2.png> <./ddi_edit3.png> <./ddi_edit4.png> <./d
-di_edit5.png>] <capture_groups.png, id=795, 797.98125pt x 209.78375pt>
+[83 <./ddi_edit.png> <./ddi_edit2.png> <./ddi_edit3.png> <./ddi_edit4.png> <./d
+di_edit5.png>] <capture_groups.png, id=802, 797.98125pt x 209.78375pt>
 File: capture_groups.png Graphic file (type png)
 
 <use capture_groups.png>
-Package pdftex.def Info: capture_groups.png used on input line 2487.
+Package pdftex.def Info: capture_groups.png used on input line 2495.
 (pdftex.def)             Requested size: 797.9793pt x 209.78322pt.
 File: capture_groups.png Graphic file (type png)
  <use capture_groups.png>
-Package pdftex.def Info: capture_groups.png used on input line 2487.
+Package pdftex.def Info: capture_groups.png used on input line 2495.
 (pdftex.def)             Requested size: 469.755pt x 123.49603pt.
 
 
-LaTeX Warning: Hyper reference `pbx_features/users:users' on page 82 undefined 
-on input line 2489.
+LaTeX Warning: Hyper reference `pbx_features/users:users' on page 84 undefined 
+on input line 2497.
 
 
-LaTeX Warning: Hyper reference `pbx_features/services:services' on page 82 unde
-fined on input line 2512.
+LaTeX Warning: Hyper reference `pbx_features/services:services' on page 84 unde
+fined on input line 2520.
 
-[82 <./capture_groups.png>]
-<services_god.png, id=805, 912.40875pt x 178.6675pt>
+[84 <./capture_groups.png>]
+<services_god.png, id=812, 912.40875pt x 178.6675pt>
 File: services_god.png Graphic file (type png)
  <use services_god.png>
-Package pdftex.def Info: services_god.png used on input line 2528.
+Package pdftex.def Info: services_god.png used on input line 2536.
 (pdftex.def)             Requested size: 912.40652pt x 178.66705pt.
 File: services_god.png Graphic file (type png)
 
 <use services_god.png>
-Package pdftex.def Info: services_god.png used on input line 2528.
+Package pdftex.def Info: services_god.png used on input line 2536.
 (pdftex.def)             Requested size: 469.755pt x 91.98616pt.
 
-<services_brand_list.png, id=806, 912.40875pt x 152.57pt>
+<services_brand_list.png, id=813, 912.40875pt x 152.57pt>
 File: services_brand_list.png Graphic file (type png)
 
 <use services_brand_list.png>
-Package pdftex.def Info: services_brand_list.png used on input line 2566.
+Package pdftex.def Info: services_brand_list.png used on input line 2574.
 (pdftex.def)             Requested size: 912.40652pt x 152.56963pt.
 File: services_brand_list.png Graphic file (type png)
  <use services_brand_list.png>
-Package pdftex.def Info: services_brand_list.png used on input line 2566.
+Package pdftex.def Info: services_brand_list.png used on input line 2574.
 (pdftex.def)             Requested size: 469.755pt x 78.54997pt.
- [83 <./services_god.png> <./services_brand_list.png>]
-<services_company_edit.png, id=816, 764.8575pt x 176.66pt>
+ [85 <./services_god.png> <./services_brand_list.png>]
+<services_company_edit.png, id=823, 764.8575pt x 176.66pt>
 File: services_company_edit.png Graphic file (type png)
 
 <use services_company_edit.png>
-Package pdftex.def Info: services_company_edit.png used on input line 2582.
+Package pdftex.def Info: services_company_edit.png used on input line 2590.
 (pdftex.def)             Requested size: 764.85562pt x 176.65956pt.
 File: services_company_edit.png Graphic file (type png)
  <use services_company_edit.png>
-Package pdftex.def Info: services_company_edit.png used on input line 2582.
+Package pdftex.def Info: services_company_edit.png used on input line 2590.
 (pdftex.def)             Requested size: 469.755pt x 108.50102pt.
 
 
 LaTeX Warning: Hyper reference `pbx_features/external_ddis:external-ddis' on pa
-ge 84 undefined on input line 2594.
+ge 86 undefined on input line 2602.
 
 
 LaTeX Warning: Hyper reference `pbx_features/external_ddis:external-ddis' on pa
-ge 84 undefined on input line 2612.
+ge 86 undefined on input line 2620.
 
-[84 <./services_company_edit.png>]
-<recordings_ddi.png, id=825, 421.575pt x 279.0425pt>
+[86 <./services_company_edit.png>]
+<recordings_ddi.png, id=833, 421.575pt x 279.0425pt>
 File: recordings_ddi.png Graphic file (type png)
  <use recordings_ddi.png>
-Package pdftex.def Info: recordings_ddi.png used on input line 2623.
+Package pdftex.def Info: recordings_ddi.png used on input line 2631.
 (pdftex.def)             Requested size: 421.57396pt x 279.04181pt.
 
-<recordings_ondemand.png, id=826, 762.85pt x 124.465pt>
+<recordings_ondemand.png, id=834, 762.85pt x 124.465pt>
 File: recordings_ondemand.png Graphic file (type png)
 
 <use recordings_ondemand.png>
-Package pdftex.def Info: recordings_ondemand.png used on input line 2646.
+Package pdftex.def Info: recordings_ondemand.png used on input line 2654.
 (pdftex.def)             Requested size: 762.84814pt x 124.46469pt.
 File: recordings_ondemand.png Graphic file (type png)
  <use recordings_ondemand.png>
-Package pdftex.def Info: recordings_ondemand.png used on input line 2646.
+Package pdftex.def Info: recordings_ondemand.png used on input line 2654.
 (pdftex.def)             Requested size: 469.755pt x 76.64333pt.
- [85 <./recordings_ddi.png> <./recordings_ondemand.png>]
+ [87 <./recordings_ddi.png> <./recordings_ondemand.png>]
 
-LaTeX Warning: Hyper reference `pbx_features/services:services' on page 86 unde
-fined on input line 2649.
-
-
-LaTeX Warning: Hyper reference `architecture/index:architecture' on page 86 und
-efined on input line 2689.
+LaTeX Warning: Hyper reference `pbx_features/services:services' on page 88 unde
+fined on input line 2657.
 
 
-LaTeX Warning: Hyper reference `architecture/index:audioflow' on page 86 undefi
-ned on input line 2689.
+LaTeX Warning: Hyper reference `architecture/index:architecture' on page 88 und
+efined on input line 2697.
 
-[86] <recordings_list.png, id=849, 1049.9225pt x 136.51pt>
+
+LaTeX Warning: Hyper reference `architecture/index:audioflow' on page 88 undefi
+ned on input line 2697.
+
+[88] <recordings_list.png, id=856, 1049.9225pt x 136.51pt>
 File: recordings_list.png Graphic file (type png)
 
 <use recordings_list.png>
-Package pdftex.def Info: recordings_list.png used on input line 2714.
+Package pdftex.def Info: recordings_list.png used on input line 2722.
 (pdftex.def)             Requested size: 1049.91994pt x 136.50966pt.
 File: recordings_list.png Graphic file (type png)
  <use recordings_list.png>
-Package pdftex.def Info: recordings_list.png used on input line 2714.
+Package pdftex.def Info: recordings_list.png used on input line 2722.
 (pdftex.def)             Requested size: 469.755pt x 61.0769pt.
 
-<recordings_list2.png, id=850, 741.77126pt x 436.63126pt>
+<recordings_list2.png, id=857, 741.77126pt x 436.63126pt>
 File: recordings_list2.png Graphic file (type png)
 
 <use recordings_list2.png>
-Package pdftex.def Info: recordings_list2.png used on input line 2718.
+Package pdftex.def Info: recordings_list2.png used on input line 2726.
 (pdftex.def)             Requested size: 741.76945pt x 436.63019pt.
 File: recordings_list2.png Graphic file (type png)
  <use recordings_list2.png>
-Package pdftex.def Info: recordings_list2.png used on input line 2718.
+Package pdftex.def Info: recordings_list2.png used on input line 2726.
 (pdftex.def)             Requested size: 469.755pt x 276.51823pt.
 
-<recordings_list3.png, id=851, 740.7675pt x 437.635pt>
+<recordings_list3.png, id=858, 740.7675pt x 437.635pt>
 File: recordings_list3.png Graphic file (type png)
 
 <use recordings_list3.png>
-Package pdftex.def Info: recordings_list3.png used on input line 2722.
+Package pdftex.def Info: recordings_list3.png used on input line 2730.
 (pdftex.def)             Requested size: 740.76569pt x 437.63393pt.
 File: recordings_list3.png Graphic file (type png)
  <use recordings_list3.png>
-Package pdftex.def Info: recordings_list3.png used on input line 2722.
+Package pdftex.def Info: recordings_list3.png used on input line 2730.
 (pdftex.def)             Requested size: 469.755pt x 277.52785pt.
- [87 <./recordings_list.png> <./recordings_list2.png>] [88 <./recordings_list3.
+ [89 <./recordings_list.png> <./recordings_list2.png>] [90 <./recordings_list3.
 png>]
 Chapter 9.
-<call_registry_god.png, id=861, 1050.92625pt x 335.2525pt>
+<call_registry_god.png, id=868, 1050.92625pt x 335.2525pt>
 File: call_registry_god.png Graphic file (type png)
 
 <use call_registry_god.png>
-Package pdftex.def Info: call_registry_god.png used on input line 2760.
+Package pdftex.def Info: call_registry_god.png used on input line 2768.
 (pdftex.def)             Requested size: 1050.9237pt x 335.25168pt.
 File: call_registry_god.png Graphic file (type png)
  <use call_registry_god.png>
-Package pdftex.def Info: call_registry_god.png used on input line 2760.
+Package pdftex.def Info: call_registry_god.png used on input line 2768.
 (pdftex.def)             Requested size: 469.755pt x 149.85446pt.
- [89
+ [91
 
- <./call_registry_god.png>] <call_registry_brand.png, id=870, 1046.91125pt x 26
+ <./call_registry_god.png>] <call_registry_brand.png, id=877, 1046.91125pt x 26
 0.975pt>
 File: call_registry_brand.png Graphic file (type png)
 
 <use call_registry_brand.png>
-Package pdftex.def Info: call_registry_brand.png used on input line 2765.
+Package pdftex.def Info: call_registry_brand.png used on input line 2773.
 (pdftex.def)             Requested size: 1046.9087pt x 260.97437pt.
 File: call_registry_brand.png Graphic file (type png)
  <use call_registry_brand.png>
-Package pdftex.def Info: call_registry_brand.png used on input line 2765.
+Package pdftex.def Info: call_registry_brand.png used on input line 2773.
 (pdftex.def)             Requested size: 469.755pt x 117.09918pt.
 
-<call_registry_company.png, id=871, 1045.9075pt x 262.9825pt>
+<call_registry_company.png, id=878, 1045.9075pt x 262.9825pt>
 File: call_registry_company.png Graphic file (type png)
 
 <use call_registry_company.png>
-Package pdftex.def Info: call_registry_company.png used on input line 2770.
+Package pdftex.def Info: call_registry_company.png used on input line 2778.
 (pdftex.def)             Requested size: 1045.90495pt x 262.98184pt.
 File: call_registry_company.png Graphic file (type png)
  <use call_registry_company.png>
-Package pdftex.def Info: call_registry_company.png used on input line 2770.
+Package pdftex.def Info: call_registry_company.png used on input line 2778.
 (pdftex.def)             Requested size: 469.755pt x 118.1163pt.
 
 
 LaTeX Warning: Hyper reference `billing_and_invoices/call_registry:call-registr
-y' on page 90 undefined on input line 2786.
+y' on page 92 undefined on input line 2794.
 
-[90 <./call_registry_brand.png> <./call_registry_company.png>]
+[92 <./call_registry_brand.png> <./call_registry_company.png>]
 
 LaTeX Warning: Hyper reference `external_outgoing_calls/noplan_nocall:price-pat
-tern' on page 91 undefined on input line 2814.
+tern' on page 93 undefined on input line 2822.
 
 
 LaTeX Warning: Hyper reference `external_outgoing_calls/noplan_nocall:price-pla
-n' on page 91 undefined on input line 2826.
+n' on page 93 undefined on input line 2834.
 
 
 LaTeX Warning: Hyper reference `external_incoming_calls/peering_contracts:peeri
-ng-contracts' on page 91 undefined on input line 2829.
+ng-contracts' on page 93 undefined on input line 2837.
 
 
 LaTeX Warning: Hyper reference `billing_and_invoices/invoices:invoices' on page
- 91 undefined on input line 2832.
+ 93 undefined on input line 2840.
 
 
 LaTeX Warning: Hyper reference `external_incoming_calls/configure_ddi:bill-inbo
-und' on page 91 undefined on input line 2835.
+und' on page 93 undefined on input line 2843.
 
 
 LaTeX Warning: Hyper reference `external_outgoing_calls/noplan_nocall:noplan-no
-call' on page 91 undefined on input line 2846.
+call' on page 93 undefined on input line 2854.
 
 
 LaTeX Warning: Hyper reference `external_outgoing_calls/noplan_nocall:price-pla
-n' on page 91 undefined on input line 2876.
+n' on page 93 undefined on input line 2884.
 
 
 LaTeX Warning: Hyper reference `external_outgoing_calls/noplan_nocall:price-pat
-tern' on page 91 undefined on input line 2876.
+tern' on page 93 undefined on input line 2884.
 
-[91] <pricing_plans_add.png, id=899, 808.01875pt x 430.60875pt>
+[93] <pricing_plans_add.png, id=907, 808.01875pt x 430.60875pt>
 File: pricing_plans_add.png Graphic file (type png)
 
 <use pricing_plans_add.png>
-Package pdftex.def Info: pricing_plans_add.png used on input line 2887.
+Package pdftex.def Info: pricing_plans_add.png used on input line 2895.
 (pdftex.def)             Requested size: 808.01678pt x 430.60768pt.
 File: pricing_plans_add.png Graphic file (type png)
  <use pricing_plans_add.png>
-Package pdftex.def Info: pricing_plans_add.png used on input line 2887.
+Package pdftex.def Info: pricing_plans_add.png used on input line 2895.
 (pdftex.def)             Requested size: 469.755pt x 250.34459pt.
 
-<pricing_plans_add_price.png, id=900, 1045.9075pt x 144.54pt>
+<pricing_plans_add_price.png, id=908, 1045.9075pt x 144.54pt>
 File: pricing_plans_add_price.png Graphic file (type png)
 
 <use pricing_plans_add_price.png>
-Package pdftex.def Info: pricing_plans_add_price.png used on input line 2891.
+Package pdftex.def Info: pricing_plans_add_price.png used on input line 2899.
 (pdftex.def)             Requested size: 1045.90495pt x 144.53963pt.
 File: pricing_plans_add_price.png Graphic file (type png)
  <use pricing_plans_add_price.png>
-Package pdftex.def Info: pricing_plans_add_price.png used on input line 2891.
+Package pdftex.def Info: pricing_plans_add_price.png used on input line 2899.
 (pdftex.def)             Requested size: 469.755pt x 64.91887pt.
 
-<pricing_plan_csv.png, id=901, 742.775pt x 284.06125pt>
+<pricing_plan_csv.png, id=909, 742.775pt x 284.06125pt>
 File: pricing_plan_csv.png Graphic file (type png)
 
 <use pricing_plan_csv.png>
-Package pdftex.def Info: pricing_plan_csv.png used on input line 2895.
+Package pdftex.def Info: pricing_plan_csv.png used on input line 2903.
 (pdftex.def)             Requested size: 742.77318pt x 284.06053pt.
 File: pricing_plan_csv.png Graphic file (type png)
  <use pricing_plan_csv.png>
-Package pdftex.def Info: pricing_plan_csv.png used on input line 2895.
+Package pdftex.def Info: pricing_plan_csv.png used on input line 2903.
 (pdftex.def)             Requested size: 469.755pt x 179.65302pt.
 
-<pricing_plan_csv3.png, id=902, 784.9325pt x 416.55624pt>
+<pricing_plan_csv3.png, id=910, 784.9325pt x 416.55624pt>
 File: pricing_plan_csv3.png Graphic file (type png)
 
 <use pricing_plan_csv3.png>
-Package pdftex.def Info: pricing_plan_csv3.png used on input line 2899.
+Package pdftex.def Info: pricing_plan_csv3.png used on input line 2907.
 (pdftex.def)             Requested size: 784.93057pt x 416.55522pt.
 File: pricing_plan_csv3.png Graphic file (type png)
  <use pricing_plan_csv3.png>
-Package pdftex.def Info: pricing_plan_csv3.png used on input line 2899.
+Package pdftex.def Info: pricing_plan_csv3.png used on input line 2907.
 (pdftex.def)             Requested size: 469.755pt x 249.30005pt.
- [92 <./pricing_plans_add.png> <./pricing_plans_add_price.png> <./pricing_plan_
+ [94 <./pricing_plans_add.png> <./pricing_plans_add_price.png> <./pricing_plan_
 csv.png>]
-<pricing_plan_csv2.png, id=915, 638.385pt x 245.91875pt>
+<pricing_plan_csv2.png, id=922, 638.385pt x 245.91875pt>
 File: pricing_plan_csv2.png Graphic file (type png)
 
 <use pricing_plan_csv2.png>
-Package pdftex.def Info: pricing_plan_csv2.png used on input line 2914.
+Package pdftex.def Info: pricing_plan_csv2.png used on input line 2922.
 (pdftex.def)             Requested size: 638.38342pt x 245.91814pt.
 File: pricing_plan_csv2.png Graphic file (type png)
  <use pricing_plan_csv2.png>
-Package pdftex.def Info: pricing_plan_csv2.png used on input line 2914.
+Package pdftex.def Info: pricing_plan_csv2.png used on input line 2922.
 (pdftex.def)             Requested size: 469.755pt x 180.96011pt.
- [93 <./pricing_plan_csv3.png> <./pricing_plan_csv2.png (PNG copy)>]
+ [95 <./pricing_plan_csv3.png> <./pricing_plan_csv2.png (PNG copy)>]
 
 LaTeX Warning: Hyper reference `external_outgoing_calls/noplan_nocall:pricing-p
-lan-to-company' on page 94 undefined on input line 2958.
+lan-to-company' on page 96 undefined on input line 2966.
 
 
 LaTeX Warning: Hyper reference `billing_and_invoices/billable_calls:billable-ca
-lls' on page 94 undefined on input line 2979.
+lls' on page 96 undefined on input line 2987.
 
-[94] <retarificate.png, id=928, 1045.9075pt x 160.6pt>
+[96] <retarificate.png, id=936, 1045.9075pt x 160.6pt>
 File: retarificate.png Graphic file (type png)
  <use retarificate.png>
-Package pdftex.def Info: retarificate.png used on input line 3027.
+Package pdftex.def Info: retarificate.png used on input line 3035.
 (pdftex.def)             Requested size: 1045.90495pt x 160.5996pt.
 File: retarificate.png Graphic file (type png)
 
 <use retarificate.png>
-Package pdftex.def Info: retarificate.png used on input line 3027.
+Package pdftex.def Info: retarificate.png used on input line 3035.
 (pdftex.def)             Requested size: 469.755pt x 72.1321pt.
- [95 <./retarificate.png (PNG copy)>]
-<invoices_templates.png, id=939, 1048.91875pt x 163.61125pt>
+ [97 <./retarificate.png (PNG copy)>]
+<invoices_templates.png, id=946, 1048.91875pt x 163.61125pt>
 File: invoices_templates.png Graphic file (type png)
 
 <use invoices_templates.png>
-Package pdftex.def Info: invoices_templates.png used on input line 3053.
+Package pdftex.def Info: invoices_templates.png used on input line 3061.
 (pdftex.def)             Requested size: 1048.91618pt x 163.61084pt.
 File: invoices_templates.png Graphic file (type png)
  <use invoices_templates.png>
-Package pdftex.def Info: invoices_templates.png used on input line 3053.
+Package pdftex.def Info: invoices_templates.png used on input line 3061.
 (pdftex.def)             Requested size: 469.755pt x 73.27237pt.
 
-<fixed_costs.png, id=940, 1052.93375pt x 138.5175pt>
+<fixed_costs.png, id=947, 1052.93375pt x 138.5175pt>
 File: fixed_costs.png Graphic file (type png)
  <use fixed_costs.png>
-Package pdftex.def Info: fixed_costs.png used on input line 3062.
+Package pdftex.def Info: fixed_costs.png used on input line 3070.
 (pdftex.def)             Requested size: 1052.93118pt x 138.51715pt.
 File: fixed_costs.png Graphic file (type png)
 
 <use fixed_costs.png>
-Package pdftex.def Info: fixed_costs.png used on input line 3062.
+Package pdftex.def Info: fixed_costs.png used on input line 3070.
 (pdftex.def)             Requested size: 469.755pt x 61.79755pt.
- <invoice_add.png, id=941, 810.02625pt x 481.8pt>
+ <invoice_add.png, id=948, 810.02625pt x 481.8pt>
 File: invoice_add.png Graphic file (type png)
 
 <use invoice_add.png>
-Package pdftex.def Info: invoice_add.png used on input line 3073.
+Package pdftex.def Info: invoice_add.png used on input line 3081.
 (pdftex.def)             Requested size: 810.02426pt x 481.79881pt.
 File: invoice_add.png Graphic file (type png)
  <use invoice_add.png>
-Package pdftex.def Info: invoice_add.png used on input line 3073.
+Package pdftex.def Info: invoice_add.png used on input line 3081.
 (pdftex.def)             Requested size: 469.755pt x 279.41478pt.
- [96 <./invoices_templates.png> <./fixed_costs.png>] <invoice_add2.png, id=948,
+ [98 <./invoices_templates.png> <./fixed_costs.png>] <invoice_add2.png, id=956,
  1076.02pt x 75.28125pt>
 File: invoice_add2.png Graphic file (type png)
 
 <use invoice_add2.png>
-Package pdftex.def Info: invoice_add2.png used on input line 3094.
+Package pdftex.def Info: invoice_add2.png used on input line 3102.
 (pdftex.def)             Requested size: 1076.0174pt x 75.28105pt.
 File: invoice_add2.png Graphic file (type png)
  <use invoice_add2.png>
-Package pdftex.def Info: invoice_add2.png used on input line 3094.
+Package pdftex.def Info: invoice_add2.png used on input line 3102.
 (pdftex.def)             Requested size: 469.755pt x 32.86539pt.
 
-<invoice_add3.png, id=949, 670.505pt x 136.51pt>
+<invoice_add3.png, id=957, 670.505pt x 136.51pt>
 File: invoice_add3.png Graphic file (type png)
  <use invoice_add3.png>
-Package pdftex.def Info: invoice_add3.png used on input line 3098.
+Package pdftex.def Info: invoice_add3.png used on input line 3106.
 (pdftex.def)             Requested size: 670.50337pt x 136.50966pt.
 File: invoice_add3.png Graphic file (type png)
 
 <use invoice_add3.png>
-Package pdftex.def Info: invoice_add3.png used on input line 3098.
+Package pdftex.def Info: invoice_add3.png used on input line 3106.
 (pdftex.def)             Requested size: 469.755pt x 95.63757pt.
- <invoice_add4.png, id=950, 212.795pt x 69.25874pt>
+ <invoice_add4.png, id=958, 212.795pt x 69.25874pt>
 File: invoice_add4.png Graphic file (type png)
 
 <use invoice_add4.png>
-Package pdftex.def Info: invoice_add4.png used on input line 3102.
+Package pdftex.def Info: invoice_add4.png used on input line 3110.
 (pdftex.def)             Requested size: 212.79446pt x 69.25856pt.
- [97 <./invoice_add.png> <./invoice_add2.png> <./invoice_add3.png> <./invoice_a
+ [99 <./invoice_add.png> <./invoice_add2.png> <./invoice_add3.png> <./invoice_a
 dd4.png>]
-<invoice_add5.png, id=962, 252.945pt x 90.3375pt>
+<invoice_add5.png, id=970, 252.945pt x 90.3375pt>
 File: invoice_add5.png Graphic file (type png)
  <use invoice_add5.png>
-Package pdftex.def Info: invoice_add5.png used on input line 3106.
+Package pdftex.def Info: invoice_add5.png used on input line 3114.
 (pdftex.def)             Requested size: 252.94438pt x 90.33727pt.
 
-<invoice_add6.png, id=963, 155.58125pt x 50.1875pt>
+<invoice_add6.png, id=971, 155.58125pt x 50.1875pt>
 File: invoice_add6.png Graphic file (type png)
  <use invoice_add6.png>
-Package pdftex.def Info: invoice_add6.png used on input line 3110.
+Package pdftex.def Info: invoice_add6.png used on input line 3118.
 (pdftex.def)             Requested size: 155.58086pt x 50.18736pt.
 
-[98 <./invoice_add5.png> <./invoice_add6.png>]
+[100 <./invoice_add5.png> <./invoice_add6.png>]
 Chapter 10.
-[99
+[101
 
-] [100
+] [102
 
 ]
 Chapter 11.
-<fax_add.png, id=984, 797.98125pt x 315.1775pt>
+<fax_add.png, id=991, 797.98125pt x 315.1775pt>
 File: fax_add.png Graphic file (type png)
  <use fax_add.png>
-Package pdftex.def Info: fax_add.png used on input line 3154.
+Package pdftex.def Info: fax_add.png used on input line 3162.
 (pdftex.def)             Requested size: 797.9793pt x 315.17673pt.
 File: fax_add.png Graphic file (type png)
 
 <use fax_add.png>
-Package pdftex.def Info: fax_add.png used on input line 3154.
+Package pdftex.def Info: fax_add.png used on input line 3162.
 (pdftex.def)             Requested size: 469.755pt x 185.53952pt.
- [101 <./fax_add.png>]
-<fax_ddi.png, id=995, 794.97pt x 526.96875pt>
+ [103 <./fax_add.png>]
+<fax_ddi.png, id=1002, 794.97pt x 526.96875pt>
 File: fax_ddi.png Graphic file (type png)
  <use fax_ddi.png>
-Package pdftex.def Info: fax_ddi.png used on input line 3171.
+Package pdftex.def Info: fax_ddi.png used on input line 3179.
 (pdftex.def)             Requested size: 794.96806pt x 526.96745pt.
 File: fax_ddi.png Graphic file (type png)
 
 <use fax_ddi.png>
-Package pdftex.def Info: fax_ddi.png used on input line 3171.
+Package pdftex.def Info: fax_ddi.png used on input line 3179.
 (pdftex.def)             Requested size: 469.755pt x 311.39935pt.
- <fax_routes.png, id=996, 807.015pt x 520.94624pt>
+ <fax_routes.png, id=1003, 807.015pt x 520.94624pt>
 File: fax_routes.png Graphic file (type png)
 
 <use fax_routes.png>
-Package pdftex.def Info: fax_routes.png used on input line 3175.
+Package pdftex.def Info: fax_routes.png used on input line 3183.
 (pdftex.def)             Requested size: 807.01303pt x 520.94498pt.
 File: fax_routes.png Graphic file (type png)
  <use fax_routes.png>
-Package pdftex.def Info: fax_routes.png used on input line 3175.
+Package pdftex.def Info: fax_routes.png used on input line 3183.
 (pdftex.def)             Requested size: 469.755pt x 303.23804pt.
- [102 <./fax_ddi.png>]
+ [104 <./fax_ddi.png>]
 
 LaTeX Warning: Hyper reference `external_outgoing_calls/call_routing:routes-met
-rics' on page 103 undefined on input line 3180.
+rics' on page 105 undefined on input line 3188.
 
-<fax_send2.png, id=1001, 841.1425pt x 91.34125pt>
+<fax_send2.png, id=1009, 841.1425pt x 91.34125pt>
 File: fax_send2.png Graphic file (type png)
  <use fax_send2.png>
-Package pdftex.def Info: fax_send2.png used on input line 3190.
+Package pdftex.def Info: fax_send2.png used on input line 3198.
 (pdftex.def)             Requested size: 841.14046pt x 91.34102pt.
 File: fax_send2.png Graphic file (type png)
 
 <use fax_send2.png>
-Package pdftex.def Info: fax_send2.png used on input line 3190.
+Package pdftex.def Info: fax_send2.png used on input line 3198.
 (pdftex.def)             Requested size: 469.755pt x 51.01137pt.
- <fax_send.png, id=1002, 789.95125pt x 335.2525pt>
+ <fax_send.png, id=1010, 789.95125pt x 335.2525pt>
 File: fax_send.png Graphic file (type png)
 
 <use fax_send.png>
-Package pdftex.def Info: fax_send.png used on input line 3192.
+Package pdftex.def Info: fax_send.png used on input line 3200.
 (pdftex.def)             Requested size: 789.94931pt x 335.25168pt.
 File: fax_send.png Graphic file (type png)
  <use fax_send.png>
-Package pdftex.def Info: fax_send.png used on input line 3192.
+Package pdftex.def Info: fax_send.png used on input line 3200.
 (pdftex.def)             Requested size: 469.755pt x 199.36261pt.
- [103 <./fax_routes.png> <./fax_send2.png>] <fax_list.png, id=1009, 873.2625pt 
+ [105 <./fax_routes.png> <./fax_send2.png>] <fax_list.png, id=1017, 873.2625pt 
 x 131.49126pt>
 File: fax_list.png Graphic file (type png)
  <use fax_list.png>
-Package pdftex.def Info: fax_list.png used on input line 3199.
+Package pdftex.def Info: fax_list.png used on input line 3207.
 (pdftex.def)             Requested size: 873.26036pt x 131.49092pt.
 File: fax_list.png Graphic file (type png)
 
 <use fax_list.png>
-Package pdftex.def Info: fax_list.png used on input line 3199.
+Package pdftex.def Info: fax_list.png used on input line 3207.
 (pdftex.def)             Requested size: 469.755pt x 70.73334pt.
- [104 <./fax_send.png> <./fax_list.png>]
+ [106 <./fax_send.png> <./fax_list.png>]
 Chapter 12.
-[105
+[107
 
-] [106
+] [108
 
 ]
 Chapter 13.
-<authorized_ips2.png, id=1032, 291.0875pt x 80.3pt>
+<authorized_ips2.png, id=1039, 291.0875pt x 80.3pt>
 File: authorized_ips2.png Graphic file (type png)
  <use authorized_ips2.png>
-Package pdftex.def Info: authorized_ips2.png used on input line 3232.
+Package pdftex.def Info: authorized_ips2.png used on input line 3240.
 (pdftex.def)             Requested size: 291.08678pt x 80.29979pt.
 
-<authorized_ips.png, id=1033, 939.51pt x 145.54375pt>
+<authorized_ips.png, id=1040, 939.51pt x 145.54375pt>
 File: authorized_ips.png Graphic file (type png)
  <use authorized_ips.png>
-Package pdftex.def Info: authorized_ips.png used on input line 3240.
+Package pdftex.def Info: authorized_ips.png used on input line 3248.
 (pdftex.def)             Requested size: 939.5077pt x 145.54338pt.
 File: authorized_ips.png Graphic file (type png)
 
 <use authorized_ips.png>
-Package pdftex.def Info: authorized_ips.png used on input line 3240.
+Package pdftex.def Info: authorized_ips.png used on input line 3248.
 (pdftex.def)             Requested size: 469.755pt x 72.77168pt.
 
-<authorized_ips3.png, id=1034, 911.405pt x 113.42375pt>
+<authorized_ips3.png, id=1041, 911.405pt x 113.42375pt>
 File: authorized_ips3.png Graphic file (type png)
 
 <use authorized_ips3.png>
-Package pdftex.def Info: authorized_ips3.png used on input line 3244.
+Package pdftex.def Info: authorized_ips3.png used on input line 3252.
 (pdftex.def)             Requested size: 911.40277pt x 113.42346pt.
 File: authorized_ips3.png Graphic file (type png)
  <use authorized_ips3.png>
-Package pdftex.def Info: authorized_ips3.png used on input line 3244.
+Package pdftex.def Info: authorized_ips3.png used on input line 3252.
 (pdftex.def)             Requested size: 469.755pt x 58.46147pt.
- [107 <./authorized_ips2.png> <./authorized_ips.png> <./authorized_ips3.png>]
-<trusted_ips.png, id=1043, 912.40875pt x 91.34125pt>
+ [109 <./authorized_ips2.png> <./authorized_ips.png> <./authorized_ips3.png>]
+<trusted_ips.png, id=1050, 912.40875pt x 91.34125pt>
 File: trusted_ips.png Graphic file (type png)
  <use trusted_ips.png>
-Package pdftex.def Info: trusted_ips.png used on input line 3271.
+Package pdftex.def Info: trusted_ips.png used on input line 3279.
 (pdftex.def)             Requested size: 912.40652pt x 91.34102pt.
 File: trusted_ips.png Graphic file (type png)
 
 <use trusted_ips.png>
-Package pdftex.def Info: trusted_ips.png used on input line 3271.
+Package pdftex.def Info: trusted_ips.png used on input line 3279.
 (pdftex.def)             Requested size: 469.755pt x 47.02663pt.
- <call_limit.png, id=1044, 190.7125pt x 52.195pt>
+ <call_limit.png, id=1051, 190.7125pt x 52.195pt>
 File: call_limit.png Graphic file (type png)
 
 <use call_limit.png>
-Package pdftex.def Info: call_limit.png used on input line 3284.
+Package pdftex.def Info: call_limit.png used on input line 3292.
 (pdftex.def)             Requested size: 190.71202pt x 52.19487pt.
- [108 <./trusted_ips.png> <./call_limit.png>]
+ [110 <./trusted_ips.png> <./call_limit.png>]
 Chapter 14.
 No file IvozProvider.ind.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3308.
-[109
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3316.
+[111
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 3308.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 3316.
  (./IvozProvider.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3308.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3308.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3316.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3316.
 
 
 
@@ -3110,13 +3114,13 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 3308.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 3316.
  ) 
 Here is how much of TeX's memory you used:
- 14508 strings out of 495020
- 216792 string characters out of 6181323
+ 14514 strings out of 495020
+ 216976 string characters out of 6181323
  256316 words of memory out of 5000000
- 16853 multiletter control sequences out of 15000+600000
+ 16857 multiletter control sequences out of 15000+600000
  73623 words of font info for 92 fonts, out of 8000000 for 9000
  15 hyphenation exceptions out of 8191
  36i,12n,49p,581b,465s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3127,10 +3131,10 @@ urw/helvetic/uhvbo8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/u
 tmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on IvozProvider.pdf (114 pages, 6019643 bytes).
+Output written on IvozProvider.pdf (116 pages, 6021617 bytes).
 PDF statistics:
- 1174 PDF objects out of 1200 (max. 8388607)
- 815 compressed objects within 9 object streams
- 408 named destinations out of 1000 (max. 500000)
- 761 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1183 PDF objects out of 1200 (max. 8388607)
+ 821 compressed objects within 9 object streams
+ 409 named destinations out of 1000 (max. 500000)
+ 766 words of extra memory for PDF output out of 10000 (max. 10000000)
 

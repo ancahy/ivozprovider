@@ -33,7 +33,7 @@
 
 
 \title{IvozProvider 1.0 Documentation}
-\date{oct 18, 2016}
+\date{oct 24, 2016}
 \release{Oasis}
 \author{Irontec}
 \newcommand{\sphinxlogo}{}
@@ -1095,7 +1095,7 @@ Para ello, seguiremos los siguientes pasos:
 \label{external_incoming_calls/numeric_transformations:concepto}
 \textbf{IvozProvider} está diseñado con la intención de \textbf{poder dar servicio en cualquier lugar del planeta}, no solamente en el país originario de la solución.
 
-Un concepto muy importante para conseguir este objetivo es el de las transformaciones númericas, que consisten en la adaptación de los distintos sistemas de numeración de los países del mundo definidos en \href{https://www.itu.int/rec/T-REC-E.164/es}{E.164} a un formato neutro.
+Un concepto muy importante para conseguir este objetivo es el de las transformaciones númericas, que consisten en la \textbf{adaptación de los distintos sistemas de numeración de los países del mundo} definidos en \href{https://www.itu.int/rec/T-REC-E.164/es}{E.164} \textbf{a un formato neutro}.
 
 La sección que le permite configurar al operador de marca todo lo relativo a \textbf{Transformaciones numéricas} es:
 
@@ -1165,15 +1165,19 @@ En resumen, consiste en entregar origen y destino en el formato en el que el ope
 \end{notice}
 
 \begin{notice}{tip}{Truco:}
-Las transformaciones numéricas utilizan \textbf{expresiones regulares} \footnote[*]{\sphinxAtStartFootnote%
-\url{https://es.wikipedia.org/wiki/Expresi\%C3\%B3n\_regular}
-} muy simples para describir los cambios a realizar en las numeraciones. En Internet se pueden encontrar múltiples tutoriales sobre el uso básico de expresiones regulares.
+Las transformaciones numéricas utilizan \href{https://es.wikipedia.org/wiki/Expresi\%C3\%B3n\_regular}{expresiones regulares} muy simples para describir los cambios a realizar en las numeraciones. En Internet se pueden encontrar múltiples tutoriales sobre el uso básico de expresiones regulares.
 \end{notice}
 
 
 \subsection{Transformación `Operador Nacional'}
 \label{external_incoming_calls/numeric_transformations:transformacion-operador-nacional}
-IvozProvider incluye un \emph{set} de transformaciones denominado \textbf{Operador nacional} que realiza las modificaciones adecuadas para operadores nacionales que muestren las numeraciones siguiendo estas reglas:
+IvozProvider permite crear automáticamente las reglas de transformación típicas de la mayoría de países.
+
+Para crear el set de reglas necesarias para los operadores españoles, basta con:
+
+\noindent{\hspace*{\fill}\sphinxincludegraphics{{numeric_transformations_auto}.png}\hspace*{\fill}}
+
+Las reglas que se han autocreado realizan las modificaciones adecuadas para operadores nacionales que muestren las numeraciones siguiendo estas reglas:
 \begin{itemize}
 \item {} 
 Número español: se muestra sin código internacional y sin el 34.
@@ -1189,9 +1193,13 @@ Analicemos el \emph{set} para entender lo que hace cada regla de transformación
 
 \noindent\sphinxincludegraphics{{numeric_transformations}.png}
 
+\begin{notice}{attention}{Atención:}
+La creación automática genera las 8 reglas habituales en función de los parámetros especificados. Estas reglas se pueden editar después, el proceso de automatización termina una vez creado el set.
+\end{notice}
+
 
 \subsubsection{Adaptación en entrada}
-\label{external_incoming_calls/numeric_transformations:id2}
+\label{external_incoming_calls/numeric_transformations:id1}
 Aparece en azul en la imagen anterior:
 \begin{itemize}
 \item {} 
@@ -1258,7 +1266,7 @@ Métrica 2: Añadir 34 a los números españoles mostrados sin prefijo de país 
 
 
 \subsubsection{Adaptación en salida}
-\label{external_incoming_calls/numeric_transformations:id3}
+\label{external_incoming_calls/numeric_transformations:id2}
 \noindent\sphinxincludegraphics{{numeric_transformations3}.png}
 
 Siguiendo la misma lógica, estas 2 reglas realizan los siguientes cambos sobre el destino en llamadas salientes:

@@ -106,8 +106,8 @@
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="#transformacion-operador-nacional">Transformación &#8216;Operador Nacional&#8217;</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#id2">Adaptación en entrada</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#id3">Adaptación en salida</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id1">Adaptación en entrada</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id2">Adaptación en salida</a></li>
 </ul>
 </li>
 </ul>
@@ -184,7 +184,7 @@
 <div class="section" id="concepto">
 <h2>Concepto<a class="headerlink" href="#concepto" title="Enlazar permanentemente con este título">¶</a></h2>
 <p><strong>IvozProvider</strong> está diseñado con la intención de <strong>poder dar servicio en cualquier lugar del planeta</strong>, no solamente en el país originario de la solución.</p>
-<p>Un concepto muy importante para conseguir este objetivo es el de las transformaciones númericas, que consisten en la adaptación de los distintos sistemas de numeración de los países del mundo definidos en <a class="reference external" href="https://www.itu.int/rec/T-REC-E.164/es">E.164</a> a un formato neutro.</p>
+<p>Un concepto muy importante para conseguir este objetivo es el de las transformaciones númericas, que consisten en la <strong>adaptación de los distintos sistemas de numeración de los países del mundo</strong> definidos en <a class="reference external" href="https://www.itu.int/rec/T-REC-E.164/es">E.164</a> <strong>a un formato neutro</strong>.</p>
 <p>La sección que le permite configurar al operador de marca todo lo relativo a <strong>Transformaciones numéricas</strong> es:</p>
 <img alt="../_images/numeric_transformations_section.png" class="align-center" src="../_images/numeric_transformations_section.png" />
 <p>En concreto, se distinguen 2 casos:</p>
@@ -226,13 +226,16 @@
 </div>
 <div class="admonition tip">
 <p class="first admonition-title">Truco</p>
-<p class="last">Las transformaciones numéricas utilizan <strong>expresiones regulares</strong> <a class="footnote-reference" href="#id4" id="id1">[*]</a> muy simples para describir los cambios a realizar en las numeraciones. En Internet se pueden encontrar múltiples tutoriales sobre el uso básico de expresiones regulares.</p>
+<p class="last">Las transformaciones numéricas utilizan <a class="reference external" href="https://es.wikipedia.org/wiki/Expresi%C3%B3n_regular">expresiones regulares</a> muy simples para describir los cambios a realizar en las numeraciones. En Internet se pueden encontrar múltiples tutoriales sobre el uso básico de expresiones regulares.</p>
 </div>
 </div>
 </div>
 <div class="section" id="transformacion-operador-nacional">
 <h2>Transformación &#8216;Operador Nacional&#8217;<a class="headerlink" href="#transformacion-operador-nacional" title="Enlazar permanentemente con este título">¶</a></h2>
-<p>IvozProvider incluye un <em>set</em> de transformaciones denominado <strong>Operador nacional</strong> que realiza las modificaciones adecuadas para operadores nacionales que muestren las numeraciones siguiendo estas reglas:</p>
+<p>IvozProvider permite crear automáticamente las reglas de transformación típicas de la mayoría de países.</p>
+<p>Para crear el set de reglas necesarias para los operadores españoles, basta con:</p>
+<img alt="../_images/numeric_transformations_auto.png" class="align-center" src="../_images/numeric_transformations_auto.png" />
+<p>Las reglas que se han autocreado realizan las modificaciones adecuadas para operadores nacionales que muestren las numeraciones siguiendo estas reglas:</p>
 <ul class="simple">
 <li>Número español: se muestra sin código internacional y sin el 34.</li>
 <li>Número internacional: se precede de 00 y del código del país.</li>
@@ -240,8 +243,12 @@
 <p>Los <em>sets</em> de transformaciones numéricas se asignan a <strong>PeeringContracts</strong>, tal y como veremos en la siguiente sección. Este <em>set</em> será el adecuado para la mayoría de operadores españoles.</p>
 <p>Analicemos el <em>set</em> para entender lo que hace cada regla de transformación:</p>
 <img alt="../_images/numeric_transformations.png" src="../_images/numeric_transformations.png" />
-<div class="section" id="id2">
-<h3>Adaptación en entrada<a class="headerlink" href="#id2" title="Enlazar permanentemente con este título">¶</a></h3>
+<div class="admonition attention">
+<p class="first admonition-title">Atención</p>
+<p class="last">La creación automática genera las 8 reglas habituales en función de los parámetros especificados. Estas reglas se pueden editar después, el proceso de automatización termina una vez creado el set.</p>
+</div>
+<div class="section" id="id1">
+<h3>Adaptación en entrada<a class="headerlink" href="#id1" title="Enlazar permanentemente con este título">¶</a></h3>
 <p>Aparece en azul en la imagen anterior:</p>
 <ul class="simple">
 <li>Izquierda llamado/destino</li>
@@ -286,8 +293,8 @@
 </li>
 </ul>
 </div>
-<div class="section" id="id3">
-<h3>Adaptación en salida<a class="headerlink" href="#id3" title="Enlazar permanentemente con este título">¶</a></h3>
+<div class="section" id="id2">
+<h3>Adaptación en salida<a class="headerlink" href="#id2" title="Enlazar permanentemente con este título">¶</a></h3>
 <img alt="../_images/numeric_transformations3.png" src="../_images/numeric_transformations3.png" />
 <p>Siguiendo la misma lógica, estas 2 reglas realizan los siguientes cambos sobre el destino en llamadas salientes:</p>
 <ul class="simple">
@@ -298,12 +305,6 @@
 <p class="first admonition-title">Atención</p>
 <p class="last"><strong>En resumen</strong>: las transformaciones numéricas adaptan orígenes y destinos, a E.164 en entrada y a los formatos que los operadores esperan en salida, utilizando reglas con expresiones regulares y métricas agrupadas en <em>sets</em> que se asocian a <strong>PeeringContracts</strong>.</p>
 </div>
-<table class="docutils footnote" frame="void" id="id4" rules="none">
-<colgroup><col class="label" /><col /></colgroup>
-<tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id1">[*]</a></td><td><a class="reference external" href="https://es.wikipedia.org/wiki/Expresi%C3%B3n_regular">https://es.wikipedia.org/wiki/Expresi%C3%B3n_regular</a></td></tr>
-</tbody>
-</table>
 </div>
 </div>
 </div>
