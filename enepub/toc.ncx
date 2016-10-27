@@ -41,12 +41,12 @@
       </navPoint>
       <navPoint id="navPoint6" playOrder="5">
         <navLabel>
-          <text>What is IvoProvider?</text>
+          <text>What is IvozProvider?</text>
         </navLabel>
         <content src="intro/what_is_ivozprovider.xhtml" />
         <navPoint id="navPoint7" playOrder="5">
           <navLabel>
-            <text>What is IvoProvider?</text>
+            <text>What is IvozProvider?</text>
           </navLabel>
           <content src="intro/what_is_ivozprovider.xhtml" />
         </navPoint>
@@ -90,48 +90,48 @@
     </navPoint>
     <navPoint id="navPoint14" playOrder="12">
       <navLabel>
-        <text>[P] Arquitectura general de la plataforma</text>
+        <text>[P] Platform general architecture</text>
       </navLabel>
       <content src="architecture/index.xhtml" />
       <navPoint id="navPoint15" playOrder="12">
         <navLabel>
-          <text>[P] Arquitectura general de la plataforma</text>
+          <text>[P] Platform general architecture</text>
         </navLabel>
         <content src="architecture/index.xhtml" />
       </navPoint>
       <navPoint id="navPoint16" playOrder="13">
         <navLabel>
-          <text>Esquema general</text>
+          <text>General diagram</text>
         </navLabel>
         <content src="architecture/index.xhtml#esquema-general" />
       </navPoint>
       <navPoint id="navPoint17" playOrder="14">
         <navLabel>
-          <text>Flujo señalización SIP</text>
+          <text>SIP signaling flow</text>
         </navLabel>
         <content src="architecture/index.xhtml#flujo-senalizacion-sip" />
       </navPoint>
       <navPoint id="navPoint18" playOrder="15">
         <navLabel>
-          <text>Flujo audio RTP</text>
+          <text>RTP audio flow</text>
         </navLabel>
         <content src="architecture/index.xhtml#flujo-audio-rtp" />
       </navPoint>
       <navPoint id="navPoint19" playOrder="16">
         <navLabel>
-          <text>Tráfico HTTPS</text>
+          <text>HTTPS traffic</text>
         </navLabel>
         <content src="architecture/index.xhtml#trafico-https" />
       </navPoint>
       <navPoint id="navPoint20" playOrder="17">
         <navLabel>
-          <text>Elementos adicionales</text>
+          <text>Additional elements</text>
         </navLabel>
         <content src="architecture/index.xhtml#elementos-adicionales" />
       </navPoint>
       <navPoint id="navPoint21" playOrder="18">
         <navLabel>
-          <text>Elementos auxiliares</text>
+          <text>Auxiliar elements</text>
         </navLabel>
         <content src="architecture/index.xhtml#elementos-auxiliares" />
       </navPoint>

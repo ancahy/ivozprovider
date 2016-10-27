@@ -77,7 +77,7 @@
 <li class="toctree-l1"><a class="reference internal" href="index.html#document-intro/index">Introduction to IvozProvider</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="index.html#document-architecture/index">[P] Arquitectura general de la plataforma</a></li>
+<li class="toctree-l1"><a class="reference internal" href="index.html#document-architecture/index">[P] Platform general architecture</a></li>
 </ul>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="index.html#document-operation_roles/index">Platform roles</a></li>
@@ -182,7 +182,7 @@
 </div>
 <span id="document-intro/getting_help"></span><div class="section" id="obtener-ayuda">
 <span id="getting-help"></span><h3>Getting help<a class="headerlink" href="#obtener-ayuda" title="Permalink to this headline">¶</a></h3>
-<p>IvozProvider is an alive and highliy developed project. There aremultiple channels to get information or report bugs:</p>
+<p>IvozProvider is an alive and highliy developed project. There are multiple channels to get information or report bugs:</p>
 <ul class="simple">
 <li>GitHub: <a class="reference external" href="https://github.com/irontec/ivozprovider">https://github.com/irontec/ivozprovider</a></li>
 <li><p class="first">Users mailing list: <a class="reference external" href="mailto:users&#37;&#52;&#48;lists-ivozprovider&#46;irontec&#46;com">users<span>&#64;</span>lists-ivozprovider<span>&#46;</span>irontec<span>&#46;</span>com</a></p>
@@ -198,13 +198,13 @@
 <p>Don&#8217;t hesitate to contact us for any kind of feedback :)</p>
 </div>
 <span id="document-intro/what_is_ivozprovider"></span><div class="section" id="que-es-ivozprovider">
-<h3>What is IvoProvider?<a class="headerlink" href="#que-es-ivozprovider" title="Permalink to this headline">¶</a></h3>
+<h3>What is IvozProvider?<a class="headerlink" href="#que-es-ivozprovider" title="Permalink to this headline">¶</a></h3>
 <p>IvozProvider is a <a class="reference internal" href="#operator-oriented"><span class="std std-ref">provider oriented</span></a> <a class="reference internal" href="#multilevel"><span class="std std-ref">multilevel</span></a> <a class="reference internal" href="#voip"><span class="std std-ref">IP telephony</span></a> solution <a class="reference internal" href="#exposed"><span class="std std-ref">exposed to the public network</span></a>.</p>
 <div class="section" id="telefonia-ip">
 <span id="voip"></span><h4>IP Telephony<a class="headerlink" href="#telefonia-ip" title="Permalink to this headline">¶</a></h4>
 <p>IvozProvider supports telephony systems that use <em>Session Initialitation Protocol</em>, <strong>SIP</strong>, described in <a class="reference external" href="https://tools.ietf.org/html/rfc3261">RFC 3261</a> and any <a class="reference external" href="https://www.packetizer.com/ipmc/sip/standards.html">related RFCs</a> independent of manufacturers.</p>
-<p>This allows total freedom to chose <em>softphones</em>, <em>hardphones</em> and the rest of elements that interact with IvozProvider, without any kind of binding with a manufacturer.</p>
-<p>The supported <strong>transport protocols</strong> for SIP, right now IvozProvider supports:</p>
+<p>This allows total freedom to choose <em>softphones</em>, <em>hardphones</em> and the rest of elements that interact with IvozProvider, without any kind of binding with a manufacturer.</p>
+<p>Right now, IvozProvider supports the following <strong>transport protocols</strong> for SIP:</p>
 <ul class="simple">
 <li>UDP</li>
 <li>TCP</li>
@@ -216,7 +216,12 @@
 <ul class="simple">
 <li>PCMA (<em>alaw</em>)</li>
 <li>PCMU (<em>ulaw</em>)</li>
+<li>GSM</li>
+<li>SpeeX</li>
+<li>G.722</li>
+<li>G.726</li>
 <li>G.729</li>
+<li>iLBC</li>
 <li><a class="reference external" href="http://opus-codec.org/">OPUS</a></li>
 </ul>
 </div>
@@ -228,14 +233,14 @@
 <ul class="simple">
 <li><p class="first"><strong>God Admin</strong>: The administrator and maintainer of the solution. Provides access to multiple brand operators.</p>
 </li>
-<li><p class="first"><strong>Brand Operator</strong>: Responsible of giving access, tarificate and bill to multiplecompany operators.</p>
+<li><p class="first"><strong>Brand Operator</strong>: Responsible of giving access, tarificate and bill to multiple company operators.</p>
 </li>
-<li><p class="first"><strong>Company Operator</strong>: Responsible of its own PBX configuration and to managethe final platform users.</p>
+<li><p class="first"><strong>Company Operator</strong>: Responsible of its own PBX configuration and to manage the final platform users.</p>
 </li>
-<li><p class="first"><strong>Users</strong>: The last link of the chain, it has SIP credentials and can access its own portal for custom configurations.</p>
+<li><p class="first"><strong>Users</strong>: The last link of the chain, has SIP credentials and can access its own portal for custom configurations.</p>
 </li>
 </ul>
-<p><strong>Each one</strong> of this roles <strong>has its own portal</strong> that allows them to manage their tasks. portal can be customized in the following ways:</p>
+<p><strong>Each one</strong> of this roles <strong>has its own portal</strong> that allows them to fullfill their tasks. Each portal can be customized in the following ways:</p>
 <ul class="simple">
 <li><p class="first">Themes and <em>skins</em> for corporative colours.</p>
 </li>
@@ -288,7 +293,7 @@
 </ul>
 </div></blockquote>
 </li>
-<li><p class="first"><strong>Application serves</strong> are in charge of processing the configurad logi</p>
+<li><p class="first"><strong>Application servers</strong> are in charge of processing the configurad logi</p>
 <blockquote>
 <div><ul class="simple">
 <li><p class="first">They scale horizontally: new Application Serves can be installed and added to the pool if you feel the need.</p>
@@ -340,7 +345,7 @@
 <p class="first admonition-title">Note</p>
 <p class="last">We can not stress enough our gratitude to the developers and communities of this projects.</p>
 </div>
-<p>The task of each of this software will be deeply detailed in the block <a class="reference internal" href="index.html#architecture"><span class="std std-ref">[P] Arquitectura general de la plataforma</span></a>.</p>
+<p>The task of each of this software will be deeply detailed in the block <a class="reference internal" href="index.html#architecture"><span class="std std-ref">[P] Platform general architecture</span></a>.</p>
 </div>
 <span id="document-intro/use_cases"></span><div class="section" id="quien-deberia-de-usar-ivozprovider">
 <h3>Who should use IvozProvider?<a class="headerlink" href="#quien-deberia-de-usar-ivozprovider" title="Permalink to this headline">¶</a></h3>
@@ -365,28 +370,28 @@
 </div>
 <div class="toctree-wrapper compound">
 <span id="document-architecture/index"></span><div class="section" id="p-arquitectura-general-de-la-plataforma">
-<span id="architecture"></span><h2>[P] Arquitectura general de la plataforma<a class="headerlink" href="#p-arquitectura-general-de-la-plataforma" title="Permalink to this headline">¶</a></h2>
+<span id="architecture"></span><h2>[P] Platform general architecture<a class="headerlink" href="#p-arquitectura-general-de-la-plataforma" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="esquema-general">
-<h3>Esquema general<a class="headerlink" href="#esquema-general" title="Permalink to this headline">¶</a></h3>
-<p>Este esquema refleja la arquitectura global de la solución IvozProvider, con todos los elementos que la componen.</p>
+<h3>General diagram<a class="headerlink" href="#esquema-general" title="Permalink to this headline">¶</a></h3>
+<p>Following diagram shows the global architecture of IvozProvider solution, with all its components:</p>
 <img alt="_images/ivozprovider_flows.png" src="_images/ivozprovider_flows.png" />
-<p>Este es otro esquema más conceptual:</p>
+<p>This is a more conceptual diagram:</p>
 <img alt="_images/ivozprovider_esquema_conceptual.png" src="_images/ivozprovider_esquema_conceptual.png" />
 </div>
 <div class="section" id="flujo-senalizacion-sip">
-<span id="signallingflow"></span><h3>Flujo señalización SIP<a class="headerlink" href="#flujo-senalizacion-sip" title="Permalink to this headline">¶</a></h3>
+<span id="signallingflow"></span><h3>SIP signaling flow<a class="headerlink" href="#flujo-senalizacion-sip" title="Permalink to this headline">¶</a></h3>
 </div>
 <div class="section" id="flujo-audio-rtp">
-<span id="audioflow"></span><h3>Flujo audio RTP<a class="headerlink" href="#flujo-audio-rtp" title="Permalink to this headline">¶</a></h3>
+<span id="audioflow"></span><h3>RTP audio flow<a class="headerlink" href="#flujo-audio-rtp" title="Permalink to this headline">¶</a></h3>
 </div>
 <div class="section" id="trafico-https">
-<h3>Tráfico HTTPS<a class="headerlink" href="#trafico-https" title="Permalink to this headline">¶</a></h3>
+<h3>HTTPS traffic<a class="headerlink" href="#trafico-https" title="Permalink to this headline">¶</a></h3>
 </div>
 <div class="section" id="elementos-adicionales">
-<h3>Elementos adicionales<a class="headerlink" href="#elementos-adicionales" title="Permalink to this headline">¶</a></h3>
+<h3>Additional elements<a class="headerlink" href="#elementos-adicionales" title="Permalink to this headline">¶</a></h3>
 </div>
 <div class="section" id="elementos-auxiliares">
-<h3>Elementos auxiliares<a class="headerlink" href="#elementos-auxiliares" title="Permalink to this headline">¶</a></h3>
+<h3>Auxiliar elements<a class="headerlink" href="#elementos-auxiliares" title="Permalink to this headline">¶</a></h3>
 </div>
 </div>
 </div>
@@ -1997,7 +2002,7 @@
 <li>El usuario podrá volver a la conversación que tenía (si es que su terminal no ha vuelto solo) y seguir hablando.</li>
 </ul>
 <p class="rubric">¿Por qué esta forma tan <em>peculiar</em> de activar la grabación y no por medio de tonos normales?</p>
-<p>El motivo de activar la grabación por medio de una transferencia ciega frustrada se debe a la <a class="reference internal" href="index.html#architecture"><span class="std std-ref">[P] Arquitectura general de la plataforma</span></a> y, más concretamente, al <a class="reference internal" href="index.html#audioflow"><span class="std std-ref">flujo de audio RTP</span></a>.</p>
+<p>El motivo de activar la grabación por medio de una transferencia ciega frustrada se debe a la <a class="reference internal" href="index.html#architecture"><span class="std std-ref">[P] Platform general architecture</span></a> y, más concretamente, al <a class="reference internal" href="index.html#audioflow"><span class="std std-ref">flujo de audio RTP</span></a>.</p>
 <p>Lo habitual suele ser activar servicios por medio de pulsaciones en medio de la llamada (lo que se conoce por <a class="reference external" href="https://es.wikipedia.org/wiki/Marcaci%C3%B3n_por_tonos">tonos DTMF</a>). Estos tonos suelen viajar por el mismo camino del audio (siguiendo el <a class="reference external" href="https://tools.ietf.org/html/rfc4733">RFC 4733</a> o como sonido audible).</p>
 <p>IvozProvider utiliza la transmisión de estos tonos siguiendo el <a class="reference external" href="https://tools.ietf.org/html/rfc4733">RFC 4733</a> y, por tanto, dichos paquetes de audio pasan por los <em>media-relays</em>, que se limitan a reenviar el audio sin analizar su contenido. Al no analizar su contenido, no pueden detectar las pulsaciones y activar lógicas.</p>
 <div class="admonition note">

@@ -33,7 +33,7 @@
 
 
 \title{IvozProvider 1.0 Documentation}
-\date{Oct 24, 2016}
+\date{Oct 27, 2016}
 \release{Oasis}
 \author{Irontec}
 \newcommand{\sphinxlogo}{}
@@ -186,7 +186,7 @@ The fourth and last block describes the {\hyperref[index:security]{\sphinxcrossr
 
 \section{Getting help}
 \label{intro/getting_help:getting-help}\label{intro/getting_help::doc}\label{intro/getting_help:obtener-ayuda}
-IvozProvider is an alive and highliy developed project. There aremultiple channels to get information or report bugs:
+IvozProvider is an alive and highliy developed project. There are multiple channels to get information or report bugs:
 \begin{itemize}
 \item {} 
 GitHub: \url{https://github.com/irontec/ivozprovider}
@@ -211,7 +211,7 @@ IRC Channel \href{https://webchat.freenode.net/?channels=ivozprovider}{\#ivozpro
 Don't hesitate to contact us for any kind of feedback :)
 
 
-\section{What is IvoProvider?}
+\section{What is IvozProvider?}
 \label{intro/what_is_ivozprovider::doc}\label{intro/what_is_ivozprovider:que-es-ivozprovider}
 IvozProvider is a {\hyperref[intro/what_is_ivozprovider:operator\string-oriented]{\sphinxcrossref{\DUrole{std,std-ref}{provider oriented}}}} {\hyperref[intro/what_is_ivozprovider:multilevel]{\sphinxcrossref{\DUrole{std,std-ref}{multilevel}}}} {\hyperref[intro/what_is_ivozprovider:voip]{\sphinxcrossref{\DUrole{std,std-ref}{IP telephony}}}} solution {\hyperref[intro/what_is_ivozprovider:exposed]{\sphinxcrossref{\DUrole{std,std-ref}{exposed to the public network}}}}.
 
@@ -220,9 +220,9 @@ IvozProvider is a {\hyperref[intro/what_is_ivozprovider:operator\string-oriented
 \label{intro/what_is_ivozprovider:voip}\label{intro/what_is_ivozprovider:telefonia-ip}
 IvozProvider supports telephony systems that use \emph{Session Initialitation Protocol}, \textbf{SIP}, described in \href{https://tools.ietf.org/html/rfc3261}{RFC 3261} and any \href{https://www.packetizer.com/ipmc/sip/standards.html}{related RFCs} independent of manufacturers.
 
-This allows total freedom to chose \emph{softphones}, \emph{hardphones} and the rest of elements that interact with IvozProvider, without any kind of binding with a manufacturer.
+This allows total freedom to choose \emph{softphones}, \emph{hardphones} and the rest of elements that interact with IvozProvider, without any kind of binding with a manufacturer.
 
-The supported \textbf{transport protocols} for SIP, right now IvozProvider supports:
+Right now, IvozProvider supports the following \textbf{transport protocols} for SIP:
 \begin{itemize}
 \item {} 
 UDP
@@ -249,7 +249,22 @@ PCMA (\emph{alaw})
 PCMU (\emph{ulaw})
 
 \item {} 
+GSM
+
+\item {} 
+SpeeX
+
+\item {} 
+G.722
+
+\item {} 
+G.726
+
+\item {} 
 G.729
+
+\item {} 
+iLBC
 
 \item {} 
 \href{http://opus-codec.org/}{OPUS}
@@ -269,17 +284,17 @@ In {\hyperref[operation_roles/index:operation\string-roles]{\sphinxcrossref{\DUr
 \textbf{God Admin}: The administrator and maintainer of the solution. Provides access to multiple brand operators.
 
 \item {} 
-\textbf{Brand Operator}: Responsible of giving access, tarificate and bill to multiplecompany operators.
+\textbf{Brand Operator}: Responsible of giving access, tarificate and bill to multiple company operators.
 
 \item {} 
-\textbf{Company Operator}: Responsible of its own PBX configuration and to managethe final platform users.
+\textbf{Company Operator}: Responsible of its own PBX configuration and to manage the final platform users.
 
 \item {} 
-\textbf{Users}: The last link of the chain, it has SIP credentials and can access its own portal for custom configurations.
+\textbf{Users}: The last link of the chain, has SIP credentials and can access its own portal for custom configurations.
 
 \end{itemize}
 
-\textbf{Each one} of this roles \textbf{has its own portal} that allows them to manage their tasks. portal can be customized in the following ways:
+\textbf{Each one} of this roles \textbf{has its own portal} that allows them to fullfill their tasks. Each portal can be customized in the following ways:
 \begin{itemize}
 \item {} 
 Themes and \emph{skins} for corporative colours.
@@ -348,7 +363,7 @@ You can setup media-relays near the final users, to minimize network latencies i
 \end{itemize}
 
 \item {} 
-\textbf{Application serves} are in charge of processing the configurad logi
+\textbf{Application servers} are in charge of processing the configurad logi
 \begin{itemize}
 \item {} 
 They scale horizontally: new Application Serves can be installed and added to the pool if you feel the need.
@@ -406,7 +421,7 @@ Nothing better than an image to show all the software that its integrated into I
 We can not stress enough our gratitude to the developers and communities of this projects.
 \end{notice}
 
-The task of each of this software will be deeply detailed in the block {\hyperref[architecture/index:architecture]{\sphinxcrossref{\DUrole{std,std-ref}{{[}P{]} Arquitectura general de la plataforma}}}}.
+The task of each of this software will be deeply detailed in the block {\hyperref[architecture/index:architecture]{\sphinxcrossref{\DUrole{std,std-ref}{{[}P{]} Platform general architecture}}}}.
 
 
 \section{Who should use IvozProvider?}
@@ -435,33 +450,33 @@ PBX Features
 The installation process is so simple, that the best way to test if IvozProvider fullfills yout needs is to test it!
 
 
-\chapter{{[}P{]} Arquitectura general de la plataforma}
+\chapter{{[}P{]} Platform general architecture}
 \label{architecture/index:p-arquitectura-general-de-la-plataforma}\label{architecture/index::doc}\label{architecture/index:architecture}
 
-\section{Esquema general}
+\section{General diagram}
 \label{architecture/index:esquema-general}
-Este esquema refleja la arquitectura global de la solución IvozProvider, con todos los elementos que la componen.
+Following diagram shows the global architecture of IvozProvider solution, with all its components:
 
 \noindent\sphinxincludegraphics{{ivozprovider_flows}.png}
 
-Este es otro esquema más conceptual:
+This is a more conceptual diagram:
 
 \noindent\sphinxincludegraphics{{ivozprovider_esquema_conceptual}.png}
 
 
-\section{Flujo señalización SIP}
+\section{SIP signaling flow}
 \label{architecture/index:flujo-senalizacion-sip}\label{architecture/index:signallingflow}
 
-\section{Flujo audio RTP}
+\section{RTP audio flow}
 \label{architecture/index:flujo-audio-rtp}\label{architecture/index:audioflow}
 
-\section{Tráfico HTTPS}
+\section{HTTPS traffic}
 \label{architecture/index:trafico-https}
 
-\section{Elementos adicionales}
+\section{Additional elements}
 \label{architecture/index:elementos-adicionales}
 
-\section{Elementos auxiliares}
+\section{Auxiliar elements}
 \label{architecture/index:elementos-auxiliares}
 
 \chapter{Platform roles}
@@ -2692,7 +2707,7 @@ El usuario podrá volver a la conversación que tenía (si es que su terminal no
 \end{itemize}
 \paragraph{¿Por qué esta forma tan \emph{peculiar} de activar la grabación y no por medio de tonos normales?}
 
-El motivo de activar la grabación por medio de una transferencia ciega frustrada se debe a la {\hyperref[architecture/index:architecture]{\sphinxcrossref{\DUrole{std,std-ref}{{[}P{]} Arquitectura general de la plataforma}}}} y, más concretamente, al {\hyperref[architecture/index:audioflow]{\sphinxcrossref{\DUrole{std,std-ref}{flujo de audio RTP}}}}.
+El motivo de activar la grabación por medio de una transferencia ciega frustrada se debe a la {\hyperref[architecture/index:architecture]{\sphinxcrossref{\DUrole{std,std-ref}{{[}P{]} Platform general architecture}}}} y, más concretamente, al {\hyperref[architecture/index:audioflow]{\sphinxcrossref{\DUrole{std,std-ref}{flujo de audio RTP}}}}.
 
 Lo habitual suele ser activar servicios por medio de pulsaciones en medio de la llamada (lo que se conoce por \href{https://es.wikipedia.org/wiki/Marcaci\%C3\%B3n\_por\_tonos}{tonos DTMF}). Estos tonos suelen viajar por el mismo camino del audio (siguiendo el \href{https://tools.ietf.org/html/rfc4733}{RFC 4733} o como sonido audible).
 

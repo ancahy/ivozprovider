@@ -87,7 +87,7 @@
 <li class="toctree-l1"><a class="reference internal" href="../intro/index.html">Introduction to IvozProvider</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../architecture/index.html">[P] Arquitectura general de la plataforma</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../architecture/index.html">[P] Platform general architecture</a></li>
 </ul>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../operation_roles/index.html">Platform roles</a></li>
@@ -248,7 +248,7 @@
 <li>El usuario podrá volver a la conversación que tenía (si es que su terminal no ha vuelto solo) y seguir hablando.</li>
 </ul>
 <p class="rubric">¿Por qué esta forma tan <em>peculiar</em> de activar la grabación y no por medio de tonos normales?</p>
-<p>El motivo de activar la grabación por medio de una transferencia ciega frustrada se debe a la <a class="reference internal" href="../architecture/index.html#architecture"><span class="std std-ref">[P] Arquitectura general de la plataforma</span></a> y, más concretamente, al <a class="reference internal" href="../architecture/index.html#audioflow"><span class="std std-ref">flujo de audio RTP</span></a>.</p>
+<p>El motivo de activar la grabación por medio de una transferencia ciega frustrada se debe a la <a class="reference internal" href="../architecture/index.html#architecture"><span class="std std-ref">[P] Platform general architecture</span></a> y, más concretamente, al <a class="reference internal" href="../architecture/index.html#audioflow"><span class="std std-ref">flujo de audio RTP</span></a>.</p>
 <p>Lo habitual suele ser activar servicios por medio de pulsaciones en medio de la llamada (lo que se conoce por <a class="reference external" href="https://es.wikipedia.org/wiki/Marcaci%C3%B3n_por_tonos">tonos DTMF</a>). Estos tonos suelen viajar por el mismo camino del audio (siguiendo el <a class="reference external" href="https://tools.ietf.org/html/rfc4733">RFC 4733</a> o como sonido audible).</p>
 <p>IvozProvider utiliza la transmisión de estos tonos siguiendo el <a class="reference external" href="https://tools.ietf.org/html/rfc4733">RFC 4733</a> y, por tanto, dichos paquetes de audio pasan por los <em>media-relays</em>, que se limitan a reenviar el audio sin analizar su contenido. Al no analizar su contenido, no pueden detectar las pulsaciones y activar lógicas.</p>
 <div class="admonition note">
