@@ -84,7 +84,7 @@
 </ul>
 <p class="caption"><span class="caption-text">Instalación y configuración mínima</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="index.html#document-installation/index">[S] Instalación inicial</a></li>
+<li class="toctree-l1"><a class="reference internal" href="index.html#document-installation/index">Instalación inicial</a></li>
 </ul>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="index.html#document-internal_calls/index">Realizar llamadas internas</a></li>
@@ -475,28 +475,57 @@
 </div>
 </div>
 <div class="toctree-wrapper compound" id="installation">
-<span id="document-installation/index"></span><div class="section" id="s-instalacion-inicial">
-<h2>[S] Instalación inicial<a class="headerlink" href="#s-instalacion-inicial" title="Enlazar permanentemente con este título">¶</a></h2>
+<span id="document-installation/index"></span><div class="section" id="instalacion-inicial">
+<h2>Instalación inicial<a class="headerlink" href="#instalacion-inicial" title="Enlazar permanentemente con este título">¶</a></h2>
 <div class="toctree-wrapper compound">
 <span id="document-installation/install_types"></span><div class="section" id="tipos-de-instalacion">
 <h3>Tipos de instalación<a class="headerlink" href="#tipos-de-instalacion" title="Enlazar permanentemente con este título">¶</a></h3>
-<div class="section" id="instalacion-standalone">
-<span id="id1"></span><h4>Instalación standalone<a class="headerlink" href="#instalacion-standalone" title="Enlazar permanentemente con este título">¶</a></h4>
-</div>
 <div class="section" id="instalacion-distribuida">
-<span id="id2"></span><h4>Instalación distribuida<a class="headerlink" href="#instalacion-distribuida" title="Enlazar permanentemente con este título">¶</a></h4>
+<span id="id1"></span><h4>Instalación distribuida<a class="headerlink" href="#instalacion-distribuida" title="Enlazar permanentemente con este título">¶</a></h4>
+<p>IvozProvider está diseñado para que la mayor parte del software trabaje de manera distribuida en lo que llamamos perfiles.</p>
+<p>Cada perfil es encargado de realizar una de las funciones de la plataforma:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Data storage</li>
+<li>SIP Proxy</li>
+<li>Application Server</li>
+<li>Web portal</li>
+</ul>
+</div></blockquote>
+<p>Para cada uno de estos perfiles existe un paquete virtual que instalará todas las dependencias necesarias (ver <a class="reference internal" href="index.html#instalando-paquete-virtual"><span class="std std-ref">Instalar el paquete del rol</span></a>).</p>
+<p>Puedes instalar cuantas instancias desees de cada perfil, pero ten en cuenta que, mientras algunos estan pensados para escalar horizontalmente de manera nativa (por ejemplo: asterisk o media-relays) otros requerirán software adicional para que las máquinas del mismo perfil esten coordinadas (por ejemplo: replicación de bases de datos o balanceo de peticiones web).</p>
+</div>
+<div class="section" id="instalacion-standalone">
+<span id="id2"></span><h4>Instalación standalone<a class="headerlink" href="#instalacion-standalone" title="Enlazar permanentemente con este título">¶</a></h4>
+<p>Pero si lo que deseas es tener una plataforma pequeña para realizar tus pruebas o dar un servicio básico, hemos diseñado todas las configuraciones para que puedan convivir en una sola máquina.</p>
+<p>Hemos bautizado este tipo de instalaciones como <strong>StandAlone</strong> y hemos creado <a class="reference external" href="https://github.com/irontec/ivozprovider">CDs automáticos de instalación</a> para que puedas instalarlos en un par de minutos (ver <a class="reference internal" href="index.html#instalacion-cd"><span class="std std-ref">Instalación por CD automático</span></a>).</p>
 </div>
 </div>
 <span id="document-installation/requirements"></span><div class="section" id="requisitos-minimos">
 <h3>Requisitos mínimos<a class="headerlink" href="#requisitos-minimos" title="Enlazar permanentemente con este título">¶</a></h3>
 <div class="section" id="requerimientos-del-sistema">
 <h4>Requerimientos del sistema<a class="headerlink" href="#requerimientos-del-sistema" title="Enlazar permanentemente con este título">¶</a></h4>
+<p>IvozProvider está diseñado para funcionar e instalarse a través del sistema de paquetes APT de Debian GNU/Linux.</p>
+<div class="admonition important">
+<p class="first admonition-title">Importante</p>
+<p class="last">Es recomendable instalar IvozProvider en una máquina dedicada para la plataforma. Muchos de los software instalados podrían hacer malfuncionar otros software pre-instalados (por ejemplo MySQL o servidores DNS).</p>
 </div>
-<div class="section" id="configuracion-de-red">
-<h4>Configuración de red<a class="headerlink" href="#configuracion-de-red" title="Enlazar permanentemente con este título">¶</a></h4>
-</div>
-<div class="section" id="configuracion-dns">
-<h4>Configuración DNS<a class="headerlink" href="#configuracion-dns" title="Enlazar permanentemente con este título">¶</a></h4>
+<p>Para una instalación standalone, se requiere al menos:</p>
+<blockquote>
+<div><ul class="simple">
+<li>4 CPUs (preferentemente x86_64)</li>
+<li>4 Gb Memoria RAM</li>
+<li>30GB HDD</li>
+<li>2 Direcciones IPs (preferentemente públicas)</li>
+</ul>
+</div></blockquote>
+<p>Si no está empleando la <a class="reference internal" href="index.html#instalacion-cd"><span class="std std-ref">Instalación por CD automático</span></a> también será necesario:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Instalacion base de Debian Jessie 8.0</li>
+<li>Acceso a Internet</li>
+</ul>
+</div></blockquote>
 </div>
 </div>
 <span id="document-installation/debian_install"></span><div class="section" id="instalacion-por-paquetes-debian">
@@ -518,7 +547,7 @@
 </div>
 </div>
 <div class="section" id="instalar-el-paquete-del-rol">
-<h4>Instalar el paquete del rol<a class="headerlink" href="#instalar-el-paquete-del-rol" title="Enlazar permanentemente con este título">¶</a></h4>
+<span id="instalando-paquete-virtual"></span><h4>Instalar el paquete del rol<a class="headerlink" href="#instalar-el-paquete-del-rol" title="Enlazar permanentemente con este título">¶</a></h4>
 <p>Una vez configurados los repositorios será preciso seleccionar el paquete acorde al perfil que queramos instalar:</p>
 <ul>
 <li><dl class="first docutils">
@@ -562,8 +591,56 @@
 </div>
 </div>
 </div>
-<span id="document-installation/docker_install"></span><div class="section" id="instalacion-desde-dockerhub">
-<h3>Instalación desde DockerHub<a class="headerlink" href="#instalacion-desde-dockerhub" title="Enlazar permanentemente con este título">¶</a></h3>
+<span id="document-installation/cd_install"></span><div class="section" id="instalacion-por-cd-automatico">
+<span id="instalacion-cd"></span><h3>Instalación por CD automático<a class="headerlink" href="#instalacion-por-cd-automatico" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>Puedes descargar uno de los <a class="reference external" href="https://github.com/irontec/ivozprovider">CDs automáticos de instalacion de IvozProvider</a> (generados mediante <a class="reference external" href="https://wiki.debian.org/Simple-CDD">simplecdd</a>) en su versión estable o en una de las builds nocturnas:</p>
+<div class="admonition important">
+<p class="first admonition-title">Importante</p>
+<p class="last">IMPORTANTE: Los CDs de instalación formatearán automáticamente el disco de la máquina.</p>
+</div>
+<ul class="simple">
+<li>Configure la máquina para iniciar desde CD, mostrará el menún de instalación de Debian GNU/Linux.</li>
+</ul>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p class="last">Si lo desea puede emplear la instalación gráfica del CD, pero los pantallazos a continuación se muestran con la instalación estándar.</p>
+</div>
+<img alt="_images/installcd-intro.png" src="_images/installcd-intro.png" />
+<ul class="simple">
+<li>Seleccione el idioma de la instalación:</li>
+</ul>
+<img alt="_images/installcd-language.png" src="_images/installcd-language.png" />
+<ul class="simple">
+<li>Seleccione la ubicación:</li>
+</ul>
+<img alt="_images/installcd-location.png" src="_images/installcd-location.png" />
+<ul class="simple">
+<li>Seleccione la configuración de hora:</li>
+</ul>
+<img alt="_images/installcd-clock.png" src="_images/installcd-clock.png" />
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p class="last">En este punto se realizará la configuración automática de red y particionado de disco, así como la instalación del sistema base.</p>
+</div>
+<ul class="simple">
+<li>Configure IvozProvider:</li>
+</ul>
+<img alt="_images/installcd-ivozmenu.png" src="_images/installcd-ivozmenu.png" />
+<p>Como hemos mencionado en los <span class="xref std std-ref">requisitos-minimos</span> es necesario dos direcciones IPs para los proxies SIP de usuarios y proveedores.</p>
+<p>Puede asignar sus valores ahora y configurar sus interfaces mas tarde, o bien puede mostar el siguiente menu para configurar estos valores más adelante.</p>
+<img alt="_images/installcd-proxyaddr.png" src="_images/installcd-proxyaddr.png" />
+<p>También puede configurar el valor por defecto para acceder a MySQL en este momento.</p>
+<img alt="_images/installcd-mysql.png" src="_images/installcd-mysql.png" />
+<p>Y el idioma por defecto de los portales web:</p>
+<img alt="_images/installcd-portallang.png" src="_images/installcd-portallang.png" />
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p class="last">No es preciso configurar todas estas cosas durante la instalación. En caso de que algún dato esté sin configurar se mostará un dialogo de aviso:</p>
+</div>
+<img alt="_images/installcd-warning.png" src="_images/installcd-warning.png" />
+<p>Por último, seleccione el disco donde se instalará el cargador de arranque GRUB.</p>
+<img alt="_images/installcd-grub.png" src="_images/installcd-grub.png" />
+<p>Una vez reiniciada la máquina podrá entrar y acceder a través de los portales web!</p>
 </div>
 </div>
 </div>

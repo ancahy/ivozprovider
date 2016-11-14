@@ -33,7 +33,7 @@
 
 
 \title{IvozProvider 1.0 Documentation}
-\date{Oct 28, 2016}
+\date{Nov 14, 2016}
 \release{Oasis}
 \author{Irontec}
 \newcommand{\sphinxlogo}{}
@@ -657,29 +657,81 @@ Final users are the ones that use and enjoy all the feature of IvozProvider
 \end{notice}
 
 
-\chapter{{[}S{]} Instalación inicial}
-\label{installation/index:s-instalacion-inicial}\label{installation/index::doc}
+\chapter{Instalación inicial}
+\label{installation/index:instalacion-inicial}\label{installation/index::doc}
 
 \section{Tipos de instalación}
 \label{installation/install_types::doc}\label{installation/install_types:tipos-de-instalacion}
 
-\subsection{Instalación standalone}
-\label{installation/install_types:instalacion-standalone}\label{installation/install_types:id1}
-
 \subsection{Instalación distribuida}
-\label{installation/install_types:instalacion-distribuida}\label{installation/install_types:id2}
+\label{installation/install_types:instalacion-distribuida}\label{installation/install_types:id1}
+IvozProvider está diseñado para que la mayor parte del software trabaje de manera distribuida en lo que llamamos perfiles.
+
+Cada perfil es encargado de realizar una de las funciones de la plataforma:
+\begin{itemize}
+\item {} 
+Data storage
+
+\item {} 
+SIP Proxy
+
+\item {} 
+Application Server
+
+\item {} 
+Web portal
+
+\end{itemize}
+
+Para cada uno de estos perfiles existe un paquete virtual que instalará todas las dependencias necesarias (ver {\hyperref[installation/debian_install:instalando\string-paquete\string-virtual]{\sphinxcrossref{\DUrole{std,std-ref}{Instalar el paquete del rol}}}}).
+
+Puedes instalar cuantas instancias desees de cada perfil, pero ten en cuenta que, mientras algunos estan pensados para escalar horizontalmente de manera nativa (por ejemplo: asterisk o media-relays) otros requerirán software adicional para que las máquinas del mismo perfil esten coordinadas (por ejemplo: replicación de bases de datos o balanceo de peticiones web).
+
+
+\subsection{Instalación standalone}
+\label{installation/install_types:instalacion-standalone}\label{installation/install_types:id2}
+Pero si lo que deseas es tener una plataforma pequeña para realizar tus pruebas o dar un servicio básico, hemos diseñado todas las configuraciones para que puedan convivir en una sola máquina.
+
+Hemos bautizado este tipo de instalaciones como \textbf{StandAlone} y hemos creado \href{https://github.com/irontec/ivozprovider}{CDs automáticos de instalación} para que puedas instalarlos en un par de minutos (ver {\hyperref[installation/cd_install:instalacion\string-cd]{\sphinxcrossref{\DUrole{std,std-ref}{Instalación por CD automático}}}}).
+
 
 \section{Requisitos mínimos}
 \label{installation/requirements:requisitos-minimos}\label{installation/requirements::doc}
 
 \subsection{Requerimientos del sistema}
 \label{installation/requirements:requerimientos-del-sistema}
+IvozProvider está diseñado para funcionar e instalarse a través del sistema de paquetes APT de Debian GNU/Linux.
 
-\subsection{Configuración de red}
-\label{installation/requirements:configuracion-de-red}
+\begin{notice}{important}{Important:}
+Es recomendable instalar IvozProvider en una máquina dedicada para la plataforma. Muchos de los software instalados podrían hacer malfuncionar otros software pre-instalados (por ejemplo MySQL o servidores DNS).
+\end{notice}
 
-\subsection{Configuración DNS}
-\label{installation/requirements:configuracion-dns}
+Para una instalación standalone, se requiere al menos:
+\begin{itemize}
+\item {} 
+4 CPUs (preferentemente x86\_64)
+
+\item {} 
+4 Gb Memoria RAM
+
+\item {} 
+30GB HDD
+
+\item {} 
+2 Direcciones IPs (preferentemente públicas)
+
+\end{itemize}
+
+Si no está empleando la {\hyperref[installation/cd_install:instalacion\string-cd]{\sphinxcrossref{\DUrole{std,std-ref}{Instalación por CD automático}}}} también será necesario:
+\begin{itemize}
+\item {} 
+Instalacion base de Debian Jessie 8.0
+
+\item {} 
+Acceso a Internet
+
+\end{itemize}
+
 
 \section{Instalación por paquetes Debian}
 \label{installation/debian_install::doc}\label{installation/debian_install:instalacion-por-paquetes-debian}
@@ -708,7 +760,7 @@ Añadimos la clave publica del repositorio:
 
 
 \subsection{Instalar el paquete del rol}
-\label{installation/debian_install:instalar-el-paquete-del-rol}
+\label{installation/debian_install:instalar-el-paquete-del-rol}\label{installation/debian_install:instalando-paquete-virtual}
 Una vez configurados los repositorios será preciso seleccionar el paquete acorde al perfil que queramos instalar:
 \begin{itemize}
 \item {} \begin{description}
@@ -772,8 +824,83 @@ Es posible cambiar cualquiera de estos valores una vez instalado IvozProvider vo
 \end{Verbatim}
 
 
-\section{Instalación desde DockerHub}
-\label{installation/docker_install:instalacion-desde-dockerhub}\label{installation/docker_install::doc}
+\section{Instalación por CD automático}
+\label{installation/cd_install:instalacion-cd}\label{installation/cd_install::doc}\label{installation/cd_install:instalacion-por-cd-automatico}
+Puedes descargar uno de los \href{https://github.com/irontec/ivozprovider}{CDs automáticos de instalacion de IvozProvider} (generados mediante \href{https://wiki.debian.org/Simple-CDD}{simplecdd}) en su versión estable o en una de las builds nocturnas:
+
+\begin{notice}{important}{Important:}
+IMPORTANTE: Los CDs de instalación formatearán automáticamente el disco de la máquina.
+\end{notice}
+\begin{itemize}
+\item {} 
+Configure la máquina para iniciar desde CD, mostrará el menún de instalación de Debian GNU/Linux.
+
+\end{itemize}
+
+\begin{notice}{note}{Note:}
+Si lo desea puede emplear la instalación gráfica del CD, pero los pantallazos a continuación se muestran con la instalación estándar.
+\end{notice}
+
+\noindent\sphinxincludegraphics{{installcd-intro}.png}
+\begin{itemize}
+\item {} 
+Seleccione el idioma de la instalación:
+
+\end{itemize}
+
+\noindent\sphinxincludegraphics{{installcd-language}.png}
+\begin{itemize}
+\item {} 
+Seleccione la ubicación:
+
+\end{itemize}
+
+\noindent\sphinxincludegraphics{{installcd-location}.png}
+\begin{itemize}
+\item {} 
+Seleccione la configuración de hora:
+
+\end{itemize}
+
+\noindent\sphinxincludegraphics{{installcd-clock}.png}
+
+\begin{notice}{note}{Note:}
+En este punto se realizará la configuración automática de red y particionado de disco, así como la instalación del sistema base.
+\end{notice}
+\begin{itemize}
+\item {} 
+Configure IvozProvider:
+
+\end{itemize}
+
+\noindent\sphinxincludegraphics{{installcd-ivozmenu}.png}
+
+Como hemos mencionado en los \DUrole{xref,std,std-ref}{requisitos-minimos} es necesario dos direcciones IPs para los proxies SIP de usuarios y proveedores.
+
+Puede asignar sus valores ahora y configurar sus interfaces mas tarde, o bien puede mostar el siguiente menu para configurar estos valores más adelante.
+
+\noindent\sphinxincludegraphics{{installcd-proxyaddr}.png}
+
+También puede configurar el valor por defecto para acceder a MySQL en este momento.
+
+\noindent\sphinxincludegraphics{{installcd-mysql}.png}
+
+Y el idioma por defecto de los portales web:
+
+\noindent\sphinxincludegraphics{{installcd-portallang}.png}
+
+\begin{notice}{note}{Note:}
+No es preciso configurar todas estas cosas durante la instalación. En caso de que algún dato esté sin configurar se mostará un dialogo de aviso:
+\end{notice}
+
+\noindent\sphinxincludegraphics{{installcd-warning}.png}
+
+Por último, seleccione el disco donde se instalará el cargador de arranque GRUB.
+
+\noindent\sphinxincludegraphics{{installcd-grub}.png}
+
+Una vez reiniciada la máquina podrá entrar y acceder a través de los portales web!
+
 
 \chapter{Making internal calls}
 \label{internal_calls/index::doc}\label{internal_calls/index:realizar-llamadas-internas}

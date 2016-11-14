@@ -31,7 +31,7 @@
 
   
     <link rel="top" title="IvozProvider Oasis documentation" href="../index.html"/>
-        <link rel="up" title="[S] Instalación inicial" href="index.html"/>
+        <link rel="up" title="Instalación inicial" href="index.html"/>
         <link rel="next" title="Instalación por paquetes Debian" href="debian_install.html"/>
         <link rel="prev" title="Tipos de instalación" href="install_types.html"/> 
 
@@ -94,16 +94,14 @@
 </ul>
 <p class="caption"><span class="caption-text">Instalación y configuración mínima</span></p>
 <ul class="current">
-<li class="toctree-l1 current"><a class="reference internal" href="index.html">[S] Instalación inicial</a><ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Instalación inicial</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="install_types.html">Tipos de instalación</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Requisitos mínimos</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#requerimientos-del-sistema">Requerimientos del sistema</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#configuracion-de-red">Configuración de red</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#configuracion-dns">Configuración DNS</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="debian_install.html">Instalación por paquetes Debian</a></li>
-<li class="toctree-l2"><a class="reference internal" href="docker_install.html">Instalación desde DockerHub</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cd_install.html">Instalación por CD automático</a></li>
 </ul>
 </li>
 </ul>
@@ -156,7 +154,7 @@
   <ul class="wy-breadcrumbs">
     <li><a href="../index.html">Docs</a> &raquo;</li>
       
-          <li><a href="index.html">[S] Instalación inicial</a> &raquo;</li>
+          <li><a href="index.html">Instalación inicial</a> &raquo;</li>
       
     <li>Requisitos mínimos</li>
       <li class="wy-breadcrumbs-aside">
@@ -176,12 +174,27 @@
 <h1>Requisitos mínimos<a class="headerlink" href="#requisitos-minimos" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="requerimientos-del-sistema">
 <h2>Requerimientos del sistema<a class="headerlink" href="#requerimientos-del-sistema" title="Permalink to this headline">¶</a></h2>
+<p>IvozProvider está diseñado para funcionar e instalarse a través del sistema de paquetes APT de Debian GNU/Linux.</p>
+<div class="admonition important">
+<p class="first admonition-title">Important</p>
+<p class="last">Es recomendable instalar IvozProvider en una máquina dedicada para la plataforma. Muchos de los software instalados podrían hacer malfuncionar otros software pre-instalados (por ejemplo MySQL o servidores DNS).</p>
 </div>
-<div class="section" id="configuracion-de-red">
-<h2>Configuración de red<a class="headerlink" href="#configuracion-de-red" title="Permalink to this headline">¶</a></h2>
-</div>
-<div class="section" id="configuracion-dns">
-<h2>Configuración DNS<a class="headerlink" href="#configuracion-dns" title="Permalink to this headline">¶</a></h2>
+<p>Para una instalación standalone, se requiere al menos:</p>
+<blockquote>
+<div><ul class="simple">
+<li>4 CPUs (preferentemente x86_64)</li>
+<li>4 Gb Memoria RAM</li>
+<li>30GB HDD</li>
+<li>2 Direcciones IPs (preferentemente públicas)</li>
+</ul>
+</div></blockquote>
+<p>Si no está empleando la <a class="reference internal" href="cd_install.html#instalacion-cd"><span class="std std-ref">Instalación por CD automático</span></a> también será necesario:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Instalacion base de Debian Jessie 8.0</li>
+<li>Acceso a Internet</li>
+</ul>
+</div></blockquote>
 </div>
 </div>
 

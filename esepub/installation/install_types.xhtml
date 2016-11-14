@@ -23,10 +23,10 @@
           <a href="requirements.xhtml" title="Requisitos mínimos"
              accesskey="N">siguiente</a> |</li>
         <li class="right" >
-          <a href="index.xhtml" title="[S] Instalación inicial"
+          <a href="index.xhtml" title="Instalación inicial"
              accesskey="P">anterior</a> |</li>
         <li class="nav-item nav-item-0"><a href="../index.xhtml">documentación de IvozProvider - Oasis</a> &#187;</li>
-          <li class="nav-item nav-item-1"><a href="index.xhtml" accesskey="U">[S] Instalación inicial</a> &#187;</li> 
+          <li class="nav-item nav-item-1"><a href="index.xhtml" accesskey="U">Instalación inicial</a> &#187;</li> 
       </ul>
     </div>
 
@@ -36,11 +36,25 @@
             
   <div class="section" id="tipos-de-instalacion">
 <h1>Tipos de instalación</h1>
-<div class="section" id="instalacion-standalone">
-<span id="id1"></span><h2>Instalación standalone</h2>
-</div>
 <div class="section" id="instalacion-distribuida">
-<span id="id2"></span><h2>Instalación distribuida</h2>
+<span id="id1"></span><h2>Instalación distribuida</h2>
+<p>IvozProvider está diseñado para que la mayor parte del software trabaje de manera distribuida en lo que llamamos perfiles.</p>
+<p>Cada perfil es encargado de realizar una de las funciones de la plataforma:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Data storage</li>
+<li>SIP Proxy</li>
+<li>Application Server</li>
+<li>Web portal</li>
+</ul>
+</div></blockquote>
+<p>Para cada uno de estos perfiles existe un paquete virtual que instalará todas las dependencias necesarias (ver <a class="reference internal" href="debian_install.xhtml#instalando-paquete-virtual"><span class="std std-ref">Instalar el paquete del rol</span></a>).</p>
+<p>Puedes instalar cuantas instancias desees de cada perfil, pero ten en cuenta que, mientras algunos estan pensados para escalar horizontalmente de manera nativa (por ejemplo: asterisk o media-relays) otros requerirán software adicional para que las máquinas del mismo perfil esten coordinadas (por ejemplo: replicación de bases de datos o balanceo de peticiones web).</p>
+</div>
+<div class="section" id="instalacion-standalone">
+<span id="id2"></span><h2>Instalación standalone</h2>
+<p>Pero si lo que deseas es tener una plataforma pequeña para realizar tus pruebas o dar un servicio básico, hemos diseñado todas las configuraciones para que puedan convivir en una sola máquina.</p>
+<p>Hemos bautizado este tipo de instalaciones como <strong>StandAlone</strong> y hemos creado <a class="reference external" href="https://github.com/irontec/ivozprovider">CDs automáticos de instalación</a><span class="link-target"> [https://github.com/irontec/ivozprovider]</span> para que puedas instalarlos en un par de minutos (ver <a class="reference internal" href="cd_install.xhtml#instalacion-cd"><span class="std std-ref">Instalación por CD automático</span></a>).</p>
 </div>
 </div>
 

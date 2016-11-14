@@ -174,12 +174,12 @@
     </navPoint>
     <navPoint id="navPoint28" playOrder="24">
       <navLabel>
-        <text>[S] Instalación inicial</text>
+        <text>Instalación inicial</text>
       </navLabel>
       <content src="installation/index.xhtml" />
       <navPoint id="navPoint29" playOrder="24">
         <navLabel>
-          <text>[S] Instalación inicial</text>
+          <text>Instalación inicial</text>
         </navLabel>
         <content src="installation/index.xhtml" />
       </navPoint>
@@ -196,15 +196,15 @@
         </navPoint>
         <navPoint id="navPoint32" playOrder="26">
           <navLabel>
-            <text>Instalación standalone</text>
-          </navLabel>
-          <content src="installation/install_types.xhtml#instalacion-standalone" />
-        </navPoint>
-        <navPoint id="navPoint33" playOrder="27">
-          <navLabel>
             <text>Instalación distribuida</text>
           </navLabel>
           <content src="installation/install_types.xhtml#instalacion-distribuida" />
+        </navPoint>
+        <navPoint id="navPoint33" playOrder="27">
+          <navLabel>
+            <text>Instalación standalone</text>
+          </navLabel>
+          <content src="installation/install_types.xhtml#instalacion-standalone" />
         </navPoint>
       </navPoint>
       <navPoint id="navPoint34" playOrder="28">
@@ -224,325 +224,313 @@
           </navLabel>
           <content src="installation/requirements.xhtml#requerimientos-del-sistema" />
         </navPoint>
-        <navPoint id="navPoint37" playOrder="30">
-          <navLabel>
-            <text>Configuración de red</text>
-          </navLabel>
-          <content src="installation/requirements.xhtml#configuracion-de-red" />
-        </navPoint>
-        <navPoint id="navPoint38" playOrder="31">
-          <navLabel>
-            <text>Configuración DNS</text>
-          </navLabel>
-          <content src="installation/requirements.xhtml#configuracion-dns" />
-        </navPoint>
       </navPoint>
-      <navPoint id="navPoint39" playOrder="32">
+      <navPoint id="navPoint37" playOrder="30">
         <navLabel>
           <text>Instalación por paquetes Debian</text>
         </navLabel>
         <content src="installation/debian_install.xhtml" />
-        <navPoint id="navPoint40" playOrder="32">
+        <navPoint id="navPoint38" playOrder="30">
           <navLabel>
             <text>Instalación por paquetes Debian</text>
           </navLabel>
           <content src="installation/debian_install.xhtml" />
         </navPoint>
-        <navPoint id="navPoint41" playOrder="33">
+        <navPoint id="navPoint39" playOrder="31">
           <navLabel>
             <text>Configurar repositorios APT</text>
           </navLabel>
           <content src="installation/debian_install.xhtml#configurar-repositorios-apt" />
         </navPoint>
-        <navPoint id="navPoint42" playOrder="34">
+        <navPoint id="navPoint40" playOrder="32">
           <navLabel>
             <text>Instalar el paquete del rol</text>
           </navLabel>
           <content src="installation/debian_install.xhtml#instalar-el-paquete-del-rol" />
         </navPoint>
-        <navPoint id="navPoint43" playOrder="35">
+        <navPoint id="navPoint41" playOrder="33">
           <navLabel>
             <text>Completar instalación</text>
           </navLabel>
           <content src="installation/debian_install.xhtml#completar-instalacion" />
         </navPoint>
       </navPoint>
-      <navPoint id="navPoint44" playOrder="36">
+      <navPoint id="navPoint42" playOrder="34">
         <navLabel>
-          <text>Instalación desde DockerHub</text>
+          <text>Instalación por CD automático</text>
         </navLabel>
-        <content src="installation/docker_install.xhtml" />
+        <content src="installation/cd_install.xhtml" />
       </navPoint>
     </navPoint>
-    <navPoint id="navPoint45" playOrder="37">
+    <navPoint id="navPoint43" playOrder="35">
       <navLabel>
         <text>Realizar llamadas internas</text>
       </navLabel>
       <content src="internal_calls/index.xhtml" />
-      <navPoint id="navPoint46" playOrder="37">
+      <navPoint id="navPoint44" playOrder="35">
         <navLabel>
           <text>Realizar llamadas internas</text>
         </navLabel>
         <content src="internal_calls/index.xhtml" />
       </navPoint>
-      <navPoint id="navPoint47" playOrder="38">
+      <navPoint id="navPoint45" playOrder="36">
         <navLabel>
           <text>Bloque &#39;Gestión General&#39;</text>
         </navLabel>
         <content src="internal_calls/god_portal.xhtml" />
-        <navPoint id="navPoint48" playOrder="38">
+        <navPoint id="navPoint46" playOrder="36">
           <navLabel>
             <text>Bloque &#39;Gestión General&#39;</text>
           </navLabel>
           <content src="internal_calls/god_portal.xhtml" />
         </navPoint>
-        <navPoint id="navPoint49" playOrder="39">
+        <navPoint id="navPoint47" playOrder="37">
           <navLabel>
             <text>Configuración personalizada en la instalación</text>
           </navLabel>
           <content src="internal_calls/god_portal.xhtml#configuracion-personalizada-en-la-instalacion" />
         </navPoint>
-        <navPoint id="navPoint50" playOrder="40">
+        <navPoint id="navPoint48" playOrder="38">
           <navLabel>
             <text>Configuración global estándar</text>
           </navLabel>
           <content src="internal_calls/god_portal.xhtml#configuracion-global-estandar" />
         </navPoint>
-        <navPoint id="navPoint51" playOrder="41">
+        <navPoint id="navPoint49" playOrder="39">
           <navLabel>
             <text>Emular la marca Demo</text>
           </navLabel>
           <content src="internal_calls/god_portal.xhtml#emular-la-marca-demo" />
         </navPoint>
       </navPoint>
-      <navPoint id="navPoint52" playOrder="42">
+      <navPoint id="navPoint50" playOrder="40">
         <navLabel>
           <text>Bloque &#39;Configuración de Marca&#39;</text>
         </navLabel>
         <content src="internal_calls/brand_portal.xhtml" />
-        <navPoint id="navPoint53" playOrder="42">
+        <navPoint id="navPoint51" playOrder="40">
           <navLabel>
             <text>Bloque &#39;Configuración de Marca&#39;</text>
           </navLabel>
           <content src="internal_calls/brand_portal.xhtml" />
         </navPoint>
-        <navPoint id="navPoint54" playOrder="43">
+        <navPoint id="navPoint52" playOrder="41">
           <navLabel>
             <text>Dominio SIP de la compañía</text>
           </navLabel>
           <content src="internal_calls/brand_portal.xhtml#dominio-sip-de-la-compania" />
         </navPoint>
-        <navPoint id="navPoint55" playOrder="44">
+        <navPoint id="navPoint53" playOrder="42">
           <navLabel>
             <text>Emular la empresa Demo</text>
           </navLabel>
           <content src="internal_calls/brand_portal.xhtml#emular-la-empresa-demo" />
         </navPoint>
       </navPoint>
-      <navPoint id="navPoint56" playOrder="45">
+      <navPoint id="navPoint54" playOrder="43">
         <navLabel>
           <text>Bloque &#39;Configuración de Empresa&#39;</text>
         </navLabel>
         <content src="internal_calls/company_portal.xhtml" />
-        <navPoint id="navPoint57" playOrder="45">
+        <navPoint id="navPoint55" playOrder="43">
           <navLabel>
             <text>Bloque &#39;Configuración de Empresa&#39;</text>
           </navLabel>
           <content src="internal_calls/company_portal.xhtml" />
         </navPoint>
-        <navPoint id="navPoint58" playOrder="46">
+        <navPoint id="navPoint56" playOrder="44">
           <navLabel>
             <text>Terminales</text>
           </navLabel>
           <content src="internal_calls/company_portal.xhtml#terminales" />
         </navPoint>
-        <navPoint id="navPoint59" playOrder="47">
+        <navPoint id="navPoint57" playOrder="45">
           <navLabel>
             <text>Extensiones</text>
           </navLabel>
           <content src="internal_calls/company_portal.xhtml#extensiones" />
         </navPoint>
-        <navPoint id="navPoint60" playOrder="48">
+        <navPoint id="navPoint58" playOrder="46">
           <navLabel>
             <text>Usuarios</text>
           </navLabel>
           <content src="internal_calls/company_portal.xhtml#usuarios" />
         </navPoint>
       </navPoint>
-      <navPoint id="navPoint61" playOrder="49">
+      <navPoint id="navPoint59" playOrder="47">
         <navLabel>
           <text>Configurar terminales SIP</text>
         </navLabel>
         <content src="internal_calls/configure_sipuacs.xhtml" />
       </navPoint>
     </navPoint>
-    <navPoint id="navPoint62" playOrder="50">
+    <navPoint id="navPoint60" playOrder="48">
       <navLabel>
         <text>Recibir llamadas externas</text>
       </navLabel>
       <content src="external_incoming_calls/index.xhtml" />
-      <navPoint id="navPoint63" playOrder="50">
+      <navPoint id="navPoint61" playOrder="48">
         <navLabel>
           <text>Recibir llamadas externas</text>
         </navLabel>
         <content src="external_incoming_calls/index.xhtml" />
       </navPoint>
-      <navPoint id="navPoint64" playOrder="51">
+      <navPoint id="navPoint62" playOrder="49">
         <navLabel>
           <text>Transformaciones numéricas</text>
         </navLabel>
         <content src="external_incoming_calls/numeric_transformations.xhtml" />
-        <navPoint id="navPoint65" playOrder="51">
+        <navPoint id="navPoint63" playOrder="49">
           <navLabel>
             <text>Transformaciones numéricas</text>
           </navLabel>
           <content src="external_incoming_calls/numeric_transformations.xhtml" />
         </navPoint>
-        <navPoint id="navPoint66" playOrder="52">
+        <navPoint id="navPoint64" playOrder="50">
           <navLabel>
             <text>Concepto</text>
           </navLabel>
           <content src="external_incoming_calls/numeric_transformations.xhtml#concepto" />
         </navPoint>
-        <navPoint id="navPoint67" playOrder="53">
+        <navPoint id="navPoint65" playOrder="51">
           <navLabel>
             <text>Transformación &#39;Operador Nacional&#39;</text>
           </navLabel>
           <content src="external_incoming_calls/numeric_transformations.xhtml#transformacion-operador-nacional" />
         </navPoint>
       </navPoint>
-      <navPoint id="navPoint68" playOrder="54">
+      <navPoint id="navPoint66" playOrder="52">
         <navLabel>
           <text>Configurar Contrato de Peering</text>
         </navLabel>
         <content src="external_incoming_calls/peering_contracts.xhtml" />
-        <navPoint id="navPoint69" playOrder="54">
+        <navPoint id="navPoint67" playOrder="52">
           <navLabel>
             <text>Configurar Contrato de Peering</text>
           </navLabel>
           <content src="external_incoming_calls/peering_contracts.xhtml" />
         </navPoint>
-        <navPoint id="navPoint70" playOrder="55">
+        <navPoint id="navPoint68" playOrder="53">
           <navLabel>
             <text>Datos básicos</text>
           </navLabel>
           <content src="external_incoming_calls/peering_contracts.xhtml#datos-basicos" />
         </navPoint>
-        <navPoint id="navPoint71" playOrder="56">
+        <navPoint id="navPoint69" playOrder="54">
           <navLabel>
             <text>PeerServers</text>
           </navLabel>
           <content src="external_incoming_calls/peering_contracts.xhtml#peerservers" />
         </navPoint>
-        <navPoint id="navPoint72" playOrder="57">
+        <navPoint id="navPoint70" playOrder="55">
           <navLabel>
             <text>Registro SIP</text>
           </navLabel>
           <content src="external_incoming_calls/peering_contracts.xhtml#registro-sip" />
         </navPoint>
       </navPoint>
-      <navPoint id="navPoint73" playOrder="58">
+      <navPoint id="navPoint71" playOrder="56">
         <navLabel>
           <text>Dar de alta un DDI externo</text>
         </navLabel>
         <content src="external_incoming_calls/configure_ddi.xhtml" />
       </navPoint>
-      <navPoint id="navPoint74" playOrder="59">
+      <navPoint id="navPoint72" playOrder="57">
         <navLabel>
           <text>Configurar tratamiento en entrada</text>
         </navLabel>
         <content src="external_incoming_calls/configure_ddi.xhtml#configurar-tratamiento-en-entrada" />
       </navPoint>
     </navPoint>
-    <navPoint id="navPoint75" playOrder="60">
+    <navPoint id="navPoint73" playOrder="58">
       <navLabel>
         <text>Realizar llamadas externas</text>
       </navLabel>
       <content src="external_outgoing_calls/index.xhtml" />
-      <navPoint id="navPoint76" playOrder="60">
+      <navPoint id="navPoint74" playOrder="58">
         <navLabel>
           <text>Realizar llamadas externas</text>
         </navLabel>
         <content src="external_outgoing_calls/index.xhtml" />
       </navPoint>
-      <navPoint id="navPoint77" playOrder="61">
+      <navPoint id="navPoint75" playOrder="59">
         <navLabel>
           <text>¿A dónde llamo?</text>
         </navLabel>
         <content src="external_outgoing_calls/call_types.xhtml" />
-        <navPoint id="navPoint78" playOrder="61">
+        <navPoint id="navPoint76" playOrder="59">
           <navLabel>
             <text>¿A dónde llamo?</text>
           </navLabel>
           <content src="external_outgoing_calls/call_types.xhtml" />
         </navPoint>
-        <navPoint id="navPoint79" playOrder="62">
+        <navPoint id="navPoint77" playOrder="60">
           <navLabel>
             <text>Patrones de destino</text>
           </navLabel>
           <content src="external_outgoing_calls/call_types.xhtml#patrones-de-destino" />
         </navPoint>
-        <navPoint id="navPoint80" playOrder="63">
+        <navPoint id="navPoint78" playOrder="61">
           <navLabel>
             <text>Grupos de patrones</text>
           </navLabel>
           <content src="external_outgoing_calls/call_types.xhtml#grupos-de-patrones" />
         </navPoint>
       </navPoint>
-      <navPoint id="navPoint81" playOrder="64">
+      <navPoint id="navPoint79" playOrder="62">
         <navLabel>
           <text>Rutas salientes</text>
         </navLabel>
         <content src="external_outgoing_calls/call_routing.xhtml" />
-        <navPoint id="navPoint82" playOrder="64">
+        <navPoint id="navPoint80" playOrder="62">
           <navLabel>
             <text>Rutas salientes</text>
           </navLabel>
           <content src="external_outgoing_calls/call_routing.xhtml" />
         </navPoint>
-        <navPoint id="navPoint83" playOrder="65">
+        <navPoint id="navPoint81" playOrder="63">
           <navLabel>
             <text>Balanceo de carga</text>
           </navLabel>
           <content src="external_outgoing_calls/call_routing.xhtml#balanceo-de-carga" />
         </navPoint>
-        <navPoint id="navPoint84" playOrder="66">
+        <navPoint id="navPoint82" playOrder="64">
           <navLabel>
             <text>Conmutación por error</text>
           </navLabel>
           <content src="external_outgoing_calls/call_routing.xhtml#conmutacion-por-error" />
         </navPoint>
       </navPoint>
-      <navPoint id="navPoint85" playOrder="67">
+      <navPoint id="navPoint83" playOrder="65">
         <navLabel>
           <text>Configurar DDI saliente</text>
         </navLabel>
         <content src="external_outgoing_calls/external_ddi.xhtml" />
       </navPoint>
-      <navPoint id="navPoint86" playOrder="68">
+      <navPoint id="navPoint84" playOrder="66">
         <navLabel>
           <text>Sin plan de precio, no hay llamada</text>
         </navLabel>
         <content src="external_outgoing_calls/noplan_nocall.xhtml" />
-        <navPoint id="navPoint87" playOrder="68">
+        <navPoint id="navPoint85" playOrder="66">
           <navLabel>
             <text>Sin plan de precio, no hay llamada</text>
           </navLabel>
           <content src="external_outgoing_calls/noplan_nocall.xhtml" />
         </navPoint>
-        <navPoint id="navPoint88" playOrder="69">
+        <navPoint id="navPoint86" playOrder="67">
           <navLabel>
             <text>Crear un patrón de precio</text>
           </navLabel>
           <content src="external_outgoing_calls/noplan_nocall.xhtml#crear-un-patron-de-precio" />
         </navPoint>
-        <navPoint id="navPoint89" playOrder="70">
+        <navPoint id="navPoint87" playOrder="68">
           <navLabel>
             <text>Crear un plan de precio</text>
           </navLabel>
           <content src="external_outgoing_calls/noplan_nocall.xhtml#crear-un-plan-de-precio" />
         </navPoint>
-        <navPoint id="navPoint90" playOrder="71">
+        <navPoint id="navPoint88" playOrder="69">
           <navLabel>
             <text>Vincular plan de precio a empresa</text>
           </navLabel>
@@ -550,263 +538,263 @@
         </navPoint>
       </navPoint>
     </navPoint>
-    <navPoint id="navPoint91" playOrder="72">
+    <navPoint id="navPoint89" playOrder="70">
       <navLabel>
         <text>Funcionalidades de PBX</text>
       </navLabel>
       <content src="pbx_features/index.xhtml" />
-      <navPoint id="navPoint92" playOrder="72">
+      <navPoint id="navPoint90" playOrder="70">
         <navLabel>
           <text>Funcionalidades de PBX</text>
         </navLabel>
         <content src="pbx_features/index.xhtml" />
       </navPoint>
-      <navPoint id="navPoint93" playOrder="73">
+      <navPoint id="navPoint91" playOrder="71">
         <navLabel>
           <text>Extensiones</text>
         </navLabel>
         <content src="pbx_features/extensions.xhtml" />
       </navPoint>
-      <navPoint id="navPoint94" playOrder="74">
+      <navPoint id="navPoint92" playOrder="72">
         <navLabel>
           <text>Terminales</text>
         </navLabel>
         <content src="pbx_features/terminals.xhtml" />
       </navPoint>
-      <navPoint id="navPoint95" playOrder="75">
+      <navPoint id="navPoint93" playOrder="73">
         <navLabel>
           <text>Permisos de llamada</text>
         </navLabel>
         <content src="pbx_features/call_permissions.xhtml" />
-        <navPoint id="navPoint96" playOrder="75">
+        <navPoint id="navPoint94" playOrder="73">
           <navLabel>
             <text>Permisos de llamada</text>
           </navLabel>
           <content src="pbx_features/call_permissions.xhtml" />
         </navPoint>
-        <navPoint id="navPoint97" playOrder="76">
+        <navPoint id="navPoint95" playOrder="74">
           <navLabel>
             <text>Patrones de permiso</text>
           </navLabel>
           <content src="pbx_features/call_permissions.xhtml#patrones-de-permiso" />
         </navPoint>
-        <navPoint id="navPoint98" playOrder="77">
+        <navPoint id="navPoint96" playOrder="75">
           <navLabel>
             <text>Permisos de llamada</text>
           </navLabel>
           <content src="pbx_features/call_permissions.xhtml#id2" />
         </navPoint>
       </navPoint>
-      <navPoint id="navPoint99" playOrder="78">
+      <navPoint id="navPoint97" playOrder="76">
         <navLabel>
           <text>Usuarios</text>
         </navLabel>
         <content src="pbx_features/users.xhtml" />
-        <navPoint id="navPoint100" playOrder="78">
+        <navPoint id="navPoint98" playOrder="76">
           <navLabel>
             <text>Usuarios</text>
           </navLabel>
           <content src="pbx_features/users.xhtml" />
         </navPoint>
-        <navPoint id="navPoint101" playOrder="79">
+        <navPoint id="navPoint99" playOrder="77">
           <navLabel>
             <text>Datos personales</text>
           </navLabel>
           <content src="pbx_features/users.xhtml#datos-personales" />
         </navPoint>
-        <navPoint id="navPoint102" playOrder="80">
+        <navPoint id="navPoint100" playOrder="78">
           <navLabel>
             <text>Credenciales portal de usuario</text>
           </navLabel>
           <content src="pbx_features/users.xhtml#credenciales-portal-de-usuario" />
         </navPoint>
-        <navPoint id="navPoint103" playOrder="81">
+        <navPoint id="navPoint101" playOrder="79">
           <navLabel>
             <text>Configuración básica</text>
           </navLabel>
           <content src="pbx_features/users.xhtml#configuracion-basica" />
         </navPoint>
-        <navPoint id="navPoint104" playOrder="82">
+        <navPoint id="navPoint102" playOrder="80">
           <navLabel>
             <text>Buzón de voz</text>
           </navLabel>
           <content src="pbx_features/users.xhtml#buzon-de-voz" />
         </navPoint>
-        <navPoint id="navPoint105" playOrder="83">
+        <navPoint id="navPoint103" playOrder="81">
           <navLabel>
             <text>Jefe-Asistente</text>
           </navLabel>
           <content src="pbx_features/users.xhtml#jefe-asistente" />
         </navPoint>
-        <navPoint id="navPoint106" playOrder="84">
+        <navPoint id="navPoint104" playOrder="82">
           <navLabel>
             <text>Pertenencia a grupos</text>
           </navLabel>
           <content src="pbx_features/users.xhtml#pertenencia-a-grupos" />
         </navPoint>
-        <navPoint id="navPoint107" playOrder="85">
+        <navPoint id="navPoint105" playOrder="83">
           <navLabel>
             <text>Desvíos de llamada</text>
           </navLabel>
           <content src="pbx_features/users.xhtml#desvios-de-llamada" />
         </navPoint>
       </navPoint>
-      <navPoint id="navPoint108" playOrder="86">
+      <navPoint id="navPoint106" playOrder="84">
         <navLabel>
           <text>Música en espera</text>
         </navLabel>
         <content src="pbx_features/music_on_hold.xhtml" />
       </navPoint>
-      <navPoint id="navPoint109" playOrder="87">
+      <navPoint id="navPoint107" playOrder="85">
         <navLabel>
           <text>Locuciones</text>
         </navLabel>
         <content src="pbx_features/sounds.xhtml" />
       </navPoint>
-      <navPoint id="navPoint110" playOrder="88">
+      <navPoint id="navPoint108" playOrder="86">
         <navLabel>
           <text>Filtros de entrada externo</text>
         </navLabel>
         <content src="pbx_features/external_filters.xhtml" />
       </navPoint>
-      <navPoint id="navPoint111" playOrder="89">
+      <navPoint id="navPoint109" playOrder="87">
         <navLabel>
           <text>Grupos de salto</text>
         </navLabel>
         <content src="pbx_features/huntgroups.xhtml" />
       </navPoint>
-      <navPoint id="navPoint112" playOrder="90">
+      <navPoint id="navPoint110" playOrder="88">
         <navLabel>
           <text>Interactive Voice Response (IVR)</text>
         </navLabel>
         <content src="pbx_features/ivrs.xhtml" />
-        <navPoint id="navPoint113" playOrder="90">
+        <navPoint id="navPoint111" playOrder="88">
           <navLabel>
             <text>Interactive Voice Response (IVR)</text>
           </navLabel>
           <content src="pbx_features/ivrs.xhtml" />
         </navPoint>
-        <navPoint id="navPoint114" playOrder="91">
+        <navPoint id="navPoint112" playOrder="89">
           <navLabel>
             <text>IVRs genéricos</text>
           </navLabel>
           <content src="pbx_features/ivrs.xhtml#ivrs-genericos" />
         </navPoint>
-        <navPoint id="navPoint115" playOrder="92">
+        <navPoint id="navPoint113" playOrder="90">
           <navLabel>
             <text>IVRs a medida</text>
           </navLabel>
           <content src="pbx_features/ivrs.xhtml#ivrs-a-medida" />
         </navPoint>
       </navPoint>
-      <navPoint id="navPoint116" playOrder="93">
+      <navPoint id="navPoint114" playOrder="91">
         <navLabel>
           <text>Salas de audioconferencias</text>
         </navLabel>
         <content src="pbx_features/conference_rooms.xhtml" />
       </navPoint>
-      <navPoint id="navPoint117" playOrder="94">
+      <navPoint id="navPoint115" playOrder="92">
         <navLabel>
           <text>DDIs externos</text>
         </navLabel>
         <content src="pbx_features/external_ddis.xhtml" />
-        <navPoint id="navPoint118" playOrder="94">
+        <navPoint id="navPoint116" playOrder="92">
           <navLabel>
             <text>DDIs externos</text>
           </navLabel>
           <content src="pbx_features/external_ddis.xhtml" />
         </navPoint>
-        <navPoint id="navPoint119" playOrder="95">
+        <navPoint id="navPoint117" playOrder="93">
           <navLabel>
             <text>Filtro de entrada</text>
           </navLabel>
           <content src="pbx_features/external_ddis.xhtml#filtro-de-entrada" />
         </navPoint>
-        <navPoint id="navPoint120" playOrder="96">
+        <navPoint id="navPoint118" playOrder="94">
           <navLabel>
             <text>Tratamientos</text>
           </navLabel>
           <content src="pbx_features/external_ddis.xhtml#tratamientos" />
         </navPoint>
       </navPoint>
-      <navPoint id="navPoint121" playOrder="97">
+      <navPoint id="navPoint119" playOrder="95">
         <navLabel>
           <text>Capturas de llamada</text>
         </navLabel>
         <content src="pbx_features/call_captures.xhtml" />
-        <navPoint id="navPoint122" playOrder="97">
+        <navPoint id="navPoint120" playOrder="95">
           <navLabel>
             <text>Capturas de llamada</text>
           </navLabel>
           <content src="pbx_features/call_captures.xhtml" />
         </navPoint>
-        <navPoint id="navPoint123" playOrder="98">
+        <navPoint id="navPoint121" playOrder="96">
           <navLabel>
             <text>Grupos de captura de llamada</text>
           </navLabel>
           <content src="pbx_features/call_captures.xhtml#grupos-de-captura-de-llamada" />
         </navPoint>
-        <navPoint id="navPoint124" playOrder="99">
+        <navPoint id="navPoint122" playOrder="97">
           <navLabel>
             <text>Código de captura de llamada</text>
           </navLabel>
           <content src="pbx_features/call_captures.xhtml#codigo-de-captura-de-llamada" />
         </navPoint>
       </navPoint>
-      <navPoint id="navPoint125" playOrder="100">
+      <navPoint id="navPoint123" playOrder="98">
         <navLabel>
           <text>Servicios adicionales</text>
         </navLabel>
         <content src="pbx_features/services.xhtml" />
-        <navPoint id="navPoint126" playOrder="100">
+        <navPoint id="navPoint124" playOrder="98">
           <navLabel>
             <text>Servicios adicionales</text>
           </navLabel>
           <content src="pbx_features/services.xhtml" />
         </navPoint>
-        <navPoint id="navPoint127" playOrder="101">
+        <navPoint id="navPoint125" playOrder="99">
           <navLabel>
             <text>Listado de códigos a nivel global</text>
           </navLabel>
           <content src="pbx_features/services.xhtml#listado-de-codigos-a-nivel-global" />
         </navPoint>
-        <navPoint id="navPoint128" playOrder="102">
+        <navPoint id="navPoint126" playOrder="100">
           <navLabel>
             <text>Definición de servicios y códigos a nivel de marca</text>
           </navLabel>
           <content src="pbx_features/services.xhtml#definicion-de-servicios-y-codigos-a-nivel-de-marca" />
         </navPoint>
-        <navPoint id="navPoint129" playOrder="103">
+        <navPoint id="navPoint127" playOrder="101">
           <navLabel>
             <text>Definición de códigos a nivel de empresa</text>
           </navLabel>
           <content src="pbx_features/services.xhtml#definicion-de-codigos-a-nivel-de-empresa" />
         </navPoint>
       </navPoint>
-      <navPoint id="navPoint130" playOrder="104">
+      <navPoint id="navPoint128" playOrder="102">
         <navLabel>
           <text>Grabación de llamadas</text>
         </navLabel>
         <content src="pbx_features/call_recording.xhtml" />
-        <navPoint id="navPoint131" playOrder="104">
+        <navPoint id="navPoint129" playOrder="102">
           <navLabel>
             <text>Grabación de llamadas</text>
           </navLabel>
           <content src="pbx_features/call_recording.xhtml" />
         </navPoint>
-        <navPoint id="navPoint132" playOrder="105">
+        <navPoint id="navPoint130" playOrder="103">
           <navLabel>
             <text>Grabación automática por DDI</text>
           </navLabel>
           <content src="pbx_features/call_recording.xhtml#grabacion-automatica-por-ddi" />
         </navPoint>
-        <navPoint id="navPoint133" playOrder="106">
+        <navPoint id="navPoint131" playOrder="104">
           <navLabel>
             <text>Grabación bajo demanda</text>
           </navLabel>
           <content src="pbx_features/call_recording.xhtml#grabacion-bajo-demanda" />
         </navPoint>
-        <navPoint id="navPoint134" playOrder="107">
+        <navPoint id="navPoint132" playOrder="105">
           <navLabel>
             <text>Listado de grabaciones</text>
           </navLabel>
@@ -814,101 +802,101 @@
         </navPoint>
       </navPoint>
     </navPoint>
-    <navPoint id="navPoint135" playOrder="108">
+    <navPoint id="navPoint133" playOrder="106">
       <navLabel>
         <text>Tarificación y facturación</text>
       </navLabel>
       <content src="billing_and_invoices/index.xhtml" />
-      <navPoint id="navPoint136" playOrder="108">
+      <navPoint id="navPoint134" playOrder="106">
         <navLabel>
           <text>Tarificación y facturación</text>
         </navLabel>
         <content src="billing_and_invoices/index.xhtml" />
       </navPoint>
-      <navPoint id="navPoint137" playOrder="109">
+      <navPoint id="navPoint135" playOrder="107">
         <navLabel>
           <text>Histórico de llamadas</text>
         </navLabel>
         <content src="billing_and_invoices/call_registry.xhtml" />
       </navPoint>
-      <navPoint id="navPoint138" playOrder="110">
+      <navPoint id="navPoint136" playOrder="108">
         <navLabel>
           <text>Llamadas facturables</text>
         </navLabel>
         <content src="billing_and_invoices/billable_calls.xhtml" />
       </navPoint>
-      <navPoint id="navPoint139" playOrder="111">
+      <navPoint id="navPoint137" playOrder="109">
         <navLabel>
           <text>Planes de precio</text>
         </navLabel>
         <content src="billing_and_invoices/pricing_plans.xhtml" />
-        <navPoint id="navPoint140" playOrder="111">
+        <navPoint id="navPoint138" playOrder="109">
           <navLabel>
             <text>Planes de precio</text>
           </navLabel>
           <content src="billing_and_invoices/pricing_plans.xhtml" />
         </navPoint>
-        <navPoint id="navPoint141" playOrder="112">
+        <navPoint id="navPoint139" playOrder="110">
           <navLabel>
             <text>Creación manual</text>
           </navLabel>
           <content src="billing_and_invoices/pricing_plans.xhtml#creacion-manual" />
         </navPoint>
-        <navPoint id="navPoint142" playOrder="113">
+        <navPoint id="navPoint140" playOrder="111">
           <navLabel>
             <text>Importación vía CSV</text>
           </navLabel>
           <content src="billing_and_invoices/pricing_plans.xhtml#importacion-via-csv" />
         </navPoint>
       </navPoint>
-      <navPoint id="navPoint143" playOrder="114">
+      <navPoint id="navPoint141" playOrder="112">
         <navLabel>
           <text>Tarificación de llamadas</text>
         </navLabel>
         <content src="billing_and_invoices/bill_a_call.xhtml" />
-        <navPoint id="navPoint144" playOrder="114">
+        <navPoint id="navPoint142" playOrder="112">
           <navLabel>
             <text>Tarificación de llamadas</text>
           </navLabel>
           <content src="billing_and_invoices/bill_a_call.xhtml" />
         </navPoint>
-        <navPoint id="navPoint145" playOrder="115">
+        <navPoint id="navPoint143" playOrder="113">
           <navLabel>
             <text>Tarificación automática</text>
           </navLabel>
           <content src="billing_and_invoices/bill_a_call.xhtml#tarificacion-automatica" />
         </navPoint>
-        <navPoint id="navPoint146" playOrder="116">
+        <navPoint id="navPoint144" playOrder="114">
           <navLabel>
             <text>Retarificación manual</text>
           </navLabel>
           <content src="billing_and_invoices/bill_a_call.xhtml#retarificacion-manual" />
         </navPoint>
       </navPoint>
-      <navPoint id="navPoint147" playOrder="117">
+      <navPoint id="navPoint145" playOrder="115">
         <navLabel>
           <text>Generación de facturas</text>
         </navLabel>
         <content src="billing_and_invoices/invoices.xhtml" />
-        <navPoint id="navPoint148" playOrder="117">
+        <navPoint id="navPoint146" playOrder="115">
           <navLabel>
             <text>Generación de facturas</text>
           </navLabel>
           <content src="billing_and_invoices/invoices.xhtml" />
         </navPoint>
-        <navPoint id="navPoint149" playOrder="118">
+        <navPoint id="navPoint147" playOrder="116">
           <navLabel>
             <text>Plantillas de facturas</text>
           </navLabel>
           <content src="billing_and_invoices/invoices.xhtml#plantillas-de-facturas" />
         </navPoint>
-        <navPoint id="navPoint150" playOrder="119">
+        <navPoint id="navPoint148" playOrder="117">
           <navLabel>
             <text>Costes fijos</text>
           </navLabel>
           <content src="billing_and_invoices/invoices.xhtml#costes-fijos" />
         </navPoint>
-        <navPoint id="navPoint151" playOrder="120">
+        <navPoint id="navPoint149" playOrder="118">
           <navLabel>
             <text>Creacion de una factura</text>
           </navLabel>
@@ -916,107 +904,107 @@
         </navPoint>
       </navPoint>
     </navPoint>
-    <navPoint id="navPoint152" playOrder="121">
+    <navPoint id="navPoint150" playOrder="119">
       <navLabel>
         <text>[P] Provisión de terminales</text>
       </navLabel>
       <content src="provisioning/index.xhtml" />
-      <navPoint id="navPoint153" playOrder="121">
+      <navPoint id="navPoint151" playOrder="119">
         <navLabel>
           <text>[P] Provisión de terminales</text>
         </navLabel>
         <content src="provisioning/index.xhtml" />
       </navPoint>
-      <navPoint id="navPoint154" playOrder="122">
+      <navPoint id="navPoint152" playOrder="120">
         <navLabel>
           <text>Esquema de provisión</text>
         </navLabel>
         <content src="provisioning/index.xhtml#esquema-de-provision" />
       </navPoint>
-      <navPoint id="navPoint155" playOrder="123">
+      <navPoint id="navPoint153" playOrder="121">
         <navLabel>
           <text>Terminales soportados</text>
         </navLabel>
         <content src="provisioning/index.xhtml#terminales-soportados" />
       </navPoint>
-      <navPoint id="navPoint156" playOrder="124">
+      <navPoint id="navPoint154" playOrder="122">
         <navLabel>
           <text>Sistema de plantillas</text>
         </navLabel>
         <content src="provisioning/index.xhtml#sistema-de-plantillas" />
       </navPoint>
     </navPoint>
-    <navPoint id="navPoint157" playOrder="125">
+    <navPoint id="navPoint155" playOrder="123">
       <navLabel>
         <text>Faxing Virtual</text>
       </navLabel>
       <content src="faxing/index.xhtml" />
-      <navPoint id="navPoint158" playOrder="125">
+      <navPoint id="navPoint156" playOrder="123">
         <navLabel>
           <text>Faxing Virtual</text>
         </navLabel>
         <content src="faxing/index.xhtml" />
       </navPoint>
-      <navPoint id="navPoint159" playOrder="126">
+      <navPoint id="navPoint157" playOrder="124">
         <navLabel>
           <text>Creación de un fax virtual</text>
         </navLabel>
         <content src="faxing/index.xhtml#creacion-de-un-fax-virtual" />
       </navPoint>
-      <navPoint id="navPoint160" playOrder="127">
+      <navPoint id="navPoint158" playOrder="125">
         <navLabel>
           <text>Emitir un fax</text>
         </navLabel>
         <content src="faxing/index.xhtml#emitir-un-fax" />
       </navPoint>
-      <navPoint id="navPoint161" playOrder="128">
+      <navPoint id="navPoint159" playOrder="126">
         <navLabel>
           <text>Visualización de faxes entrantes</text>
         </navLabel>
         <content src="faxing/index.xhtml#visualizacion-de-faxes-entrantes" />
       </navPoint>
     </navPoint>
-    <navPoint id="navPoint162" playOrder="129">
+    <navPoint id="navPoint160" playOrder="127">
       <navLabel>
         <text>[P] Portal de Usuario</text>
       </navLabel>
       <content src="userportal/index.xhtml" />
-      <navPoint id="navPoint163" playOrder="129">
+      <navPoint id="navPoint161" playOrder="127">
         <navLabel>
           <text>[P] Portal de Usuario</text>
         </navLabel>
         <content src="userportal/index.xhtml" />
       </navPoint>
-      <navPoint id="navPoint164" playOrder="130">
+      <navPoint id="navPoint162" playOrder="128">
         <navLabel>
           <text>Credenciales de acceso</text>
         </navLabel>
         <content src="userportal/index.xhtml#credenciales-de-acceso" />
       </navPoint>
-      <navPoint id="navPoint165" playOrder="131">
+      <navPoint id="navPoint163" playOrder="129">
         <navLabel>
           <text>URLs de acceso</text>
         </navLabel>
         <content src="userportal/index.xhtml#urls-de-acceso" />
       </navPoint>
-      <navPoint id="navPoint166" playOrder="132">
+      <navPoint id="navPoint164" playOrder="130">
         <navLabel>
           <text>Funcionalidades</text>
         </navLabel>
         <content src="userportal/index.xhtml#funcionalidades" />
-        <navPoint id="navPoint167" playOrder="132">
+        <navPoint id="navPoint165" playOrder="130">
           <navLabel>
             <text>Funcionalidades</text>
           </navLabel>
           <content src="userportal/index.xhtml#funcionalidades" />
         </navPoint>
-        <navPoint id="navPoint168" playOrder="133">
+        <navPoint id="navPoint166" playOrder="131">
           <navLabel>
             <text>Estado del registro SIP</text>
           </navLabel>
           <content src="userportal/index.xhtml#estado-del-registro-sip" />
         </navPoint>
-        <navPoint id="navPoint169" playOrder="134">
+        <navPoint id="navPoint167" playOrder="132">
           <navLabel>
             <text>Configuración básica a nivel de usuario</text>
           </navLabel>
@@ -1024,66 +1012,66 @@
         </navPoint>
       </navPoint>
     </navPoint>
-    <navPoint id="navPoint170" playOrder="135">
+    <navPoint id="navPoint168" playOrder="133">
       <navLabel>
         <text>[S] Elementos de seguridad</text>
       </navLabel>
       <content src="security/index.xhtml" />
-      <navPoint id="navPoint171" playOrder="135">
+      <navPoint id="navPoint169" playOrder="133">
         <navLabel>
           <text>[S] Elementos de seguridad</text>
         </navLabel>
         <content src="security/index.xhtml" />
       </navPoint>
-      <navPoint id="navPoint172" playOrder="136">
+      <navPoint id="navPoint170" playOrder="134">
         <navLabel>
           <text>Firewall con geoIP</text>
         </navLabel>
         <content src="security/index.xhtml#firewall-con-geoip" />
       </navPoint>
-      <navPoint id="navPoint173" playOrder="137">
+      <navPoint id="navPoint171" playOrder="135">
         <navLabel>
           <text>Rangos de IP autorizados por empresa</text>
         </navLabel>
         <content src="security/index.xhtml#rangos-de-ip-autorizados-por-empresa" />
       </navPoint>
-      <navPoint id="navPoint174" playOrder="138">
+      <navPoint id="navPoint172" playOrder="136">
         <navLabel>
           <text>Anti-flooding</text>
         </navLabel>
         <content src="security/index.xhtml#anti-flooding" />
       </navPoint>
-      <navPoint id="navPoint175" playOrder="139">
+      <navPoint id="navPoint173" playOrder="137">
         <navLabel>
           <text>Límite de llamadas concurrentes</text>
         </navLabel>
         <content src="security/index.xhtml#limite-de-llamadas-concurrentes" />
       </navPoint>
     </navPoint>
-    <navPoint id="navPoint176" playOrder="140">
+    <navPoint id="navPoint174" playOrder="138">
       <navLabel>
         <text>[P] Mantenimiento de la solución</text>
       </navLabel>
       <content src="maintenance/index.xhtml" />
-      <navPoint id="navPoint177" playOrder="140">
+      <navPoint id="navPoint175" playOrder="138">
         <navLabel>
           <text>[P] Mantenimiento de la solución</text>
         </navLabel>
         <content src="maintenance/index.xhtml" />
       </navPoint>
-      <navPoint id="navPoint178" playOrder="141">
+      <navPoint id="navPoint176" playOrder="139">
         <navLabel>
           <text>Capturador de tráfico SIP: Homer</text>
         </navLabel>
         <content src="maintenance/sip_captures.xhtml" />
       </navPoint>
-      <navPoint id="navPoint179" playOrder="142">
+      <navPoint id="navPoint177" playOrder="140">
         <navLabel>
           <text>Visor de logs: Graylog</text>
         </navLabel>
         <content src="maintenance/log_viewer.xhtml" />
       </navPoint>
-      <navPoint id="navPoint180" playOrder="143">
+      <navPoint id="navPoint178" playOrder="141">
         <navLabel>
           <text>Gráficas de la plataforma: Grafana</text>
         </navLabel>

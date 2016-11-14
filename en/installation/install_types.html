@@ -31,9 +31,9 @@
 
   
     <link rel="top" title="IvozProvider Oasis documentation" href="../index.html"/>
-        <link rel="up" title="[S] Instalación inicial" href="index.html"/>
+        <link rel="up" title="Instalación inicial" href="index.html"/>
         <link rel="next" title="Requisitos mínimos" href="requirements.html"/>
-        <link rel="prev" title="[S] Instalación inicial" href="index.html"/> 
+        <link rel="prev" title="Instalación inicial" href="index.html"/> 
 
   
   <script src="../_static/js/modernizr.min.js"></script>
@@ -94,15 +94,15 @@
 </ul>
 <p class="caption"><span class="caption-text">Instalación y configuración mínima</span></p>
 <ul class="current">
-<li class="toctree-l1 current"><a class="reference internal" href="index.html">[S] Instalación inicial</a><ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Instalación inicial</a><ul class="current">
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Tipos de instalación</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#instalacion-standalone">Instalación standalone</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#instalacion-distribuida">Instalación distribuida</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#instalacion-standalone">Instalación standalone</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="requirements.html">Requisitos mínimos</a></li>
 <li class="toctree-l2"><a class="reference internal" href="debian_install.html">Instalación por paquetes Debian</a></li>
-<li class="toctree-l2"><a class="reference internal" href="docker_install.html">Instalación desde DockerHub</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cd_install.html">Instalación por CD automático</a></li>
 </ul>
 </li>
 </ul>
@@ -155,7 +155,7 @@
   <ul class="wy-breadcrumbs">
     <li><a href="../index.html">Docs</a> &raquo;</li>
       
-          <li><a href="index.html">[S] Instalación inicial</a> &raquo;</li>
+          <li><a href="index.html">Instalación inicial</a> &raquo;</li>
       
     <li>Tipos de instalación</li>
       <li class="wy-breadcrumbs-aside">
@@ -173,11 +173,25 @@
             
   <div class="section" id="tipos-de-instalacion">
 <h1>Tipos de instalación<a class="headerlink" href="#tipos-de-instalacion" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="instalacion-standalone">
-<span id="id1"></span><h2>Instalación standalone<a class="headerlink" href="#instalacion-standalone" title="Permalink to this headline">¶</a></h2>
-</div>
 <div class="section" id="instalacion-distribuida">
-<span id="id2"></span><h2>Instalación distribuida<a class="headerlink" href="#instalacion-distribuida" title="Permalink to this headline">¶</a></h2>
+<span id="id1"></span><h2>Instalación distribuida<a class="headerlink" href="#instalacion-distribuida" title="Permalink to this headline">¶</a></h2>
+<p>IvozProvider está diseñado para que la mayor parte del software trabaje de manera distribuida en lo que llamamos perfiles.</p>
+<p>Cada perfil es encargado de realizar una de las funciones de la plataforma:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Data storage</li>
+<li>SIP Proxy</li>
+<li>Application Server</li>
+<li>Web portal</li>
+</ul>
+</div></blockquote>
+<p>Para cada uno de estos perfiles existe un paquete virtual que instalará todas las dependencias necesarias (ver <a class="reference internal" href="debian_install.html#instalando-paquete-virtual"><span class="std std-ref">Instalar el paquete del rol</span></a>).</p>
+<p>Puedes instalar cuantas instancias desees de cada perfil, pero ten en cuenta que, mientras algunos estan pensados para escalar horizontalmente de manera nativa (por ejemplo: asterisk o media-relays) otros requerirán software adicional para que las máquinas del mismo perfil esten coordinadas (por ejemplo: replicación de bases de datos o balanceo de peticiones web).</p>
+</div>
+<div class="section" id="instalacion-standalone">
+<span id="id2"></span><h2>Instalación standalone<a class="headerlink" href="#instalacion-standalone" title="Permalink to this headline">¶</a></h2>
+<p>Pero si lo que deseas es tener una plataforma pequeña para realizar tus pruebas o dar un servicio básico, hemos diseñado todas las configuraciones para que puedan convivir en una sola máquina.</p>
+<p>Hemos bautizado este tipo de instalaciones como <strong>StandAlone</strong> y hemos creado <a class="reference external" href="https://github.com/irontec/ivozprovider">CDs automáticos de instalación</a> para que puedas instalarlos en un par de minutos (ver <a class="reference internal" href="cd_install.html#instalacion-cd"><span class="std std-ref">Instalación por CD automático</span></a>).</p>
 </div>
 </div>
 
@@ -191,7 +205,7 @@
         <a href="requirements.html" class="btn btn-neutral float-right" title="Requisitos mínimos" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="index.html" class="btn btn-neutral" title="[S] Instalación inicial" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="index.html" class="btn btn-neutral" title="Instalación inicial" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
